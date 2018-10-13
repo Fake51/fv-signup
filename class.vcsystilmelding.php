@@ -1,0 +1,122 @@
+<?php
+
+class VCSys_Tilmelding
+{
+    function add_template($url,$template){
+        $this->templates[$url] = $template;
+    }
+    
+	function class_init()
+	{
+    	
+    	$this->current_template_folder = null;
+		add_action('parse_request', array(&$this,'url_handler'));
+		$this->templates = array();
+		
+		
+		$tilmelding_live = get_field("tilmelding_live", 'option');
+		
+		
+		
+		if ($tilmelding_live == "ja")
+		{
+        		$this->add_template(get_field('tilmelding_url', 'option'), "templates/".get_field('tilmelding_template_navn','option')."/");
+        		$this->add_template(get_field('tilmelding_test_url', 'option'), "templates/".get_field('tilmelding_test_template_navn','option')."/");
+            $this->include_all_ajax($this->templates);
+		}
+		
+		if ($tilmelding_live == "nej")
+		{
+        		$this->add_template(get_field('tilmelding_test_url', 'option'), "templates/".get_field('tilmelding_test_template_navn','option')."/");
+            $this->include_all_ajax($this->templates);
+    		}
+		
+		/*
+        if (strtotime("03-02-2018 20:00:00") - strtotime("now") < 0)
+		{
+            if (strtotime("09-03-2017 01:00:01") - strtotime("now") < 0)
+        		{
+            		// the server is an hour behind. So.. thats why 04
+            		$this->add_template("/tilmelding/", "templates/fastaval-deltager-2018/");
+        		}
+        		else
+        		{
+            		$this->add_template("/tilmelding/", "templates/fastaval-deltager-2018/");
+        		}
+		} 
+    		$this->add_template("/tilmelding-giga-mega-secret/", "templates/fastaval-deltager-2018/");
+		*/
+     	// $this->include_all_ajax($this->templates);
+	}
+
+	function url_handler() 
+	{
+        	
+        	foreach($this->templates as $url_prefix => $template_folder)
+        	{
+        		if (substr($_SERVER['REQUEST_URI'],0,strlen($url_prefix))==$url_prefix)
+        		{
+            		
+            		$this->current_template_folder = $template_folder;
+        		    	$this->include_template_functions();
+        			add_filter('body_class',array(&$this,'add_body_class_filter'));	
+        			add_filter('wp_title', array(&$this,'set_title_filter'));
+        			add_action('wp_enqueue_scripts', array(&$this,'add_stylesheet'));
+        			handle_wp_templates();
+        			die();
+        		}
+        	}
+	}
+	
+    function get_template_folder()
+    {
+        return $this->current_template_folder;
+    }
+    
+    function include_template_functions()
+    {
+        $template_folder = $this->get_template_folder();
+        $file_functions_php = dirname(__FILE__)."/".$template_folder."functions.php";
+        if (file_exists($file_functions_php)){
+            require_once($file_functions_php);
+        }
+    }
+    
+    function include_all_ajax($templates)
+    {
+    	foreach($templates as $url_prefix => $template_folder)
+    	{
+            $file_ajax_php = dirname(__FILE__)."/".$template_folder."ajax.php";
+            if (file_exists($file_ajax_php))
+                require_once($file_ajax_php);
+    	}
+    }
+	
+	
+	function add_stylesheet() 
+	{
+        $url = plugins_url($this->get_template_folder().'tilmelding.less', __FILE__);
+        $url = str_replace("https://www.fastaval.dk","",$url);
+
+        //todo change function name
+        // load lightbox
+        wp_enqueue_script( 'vcsys-lightbox-js', plugins_url('lightbox/js/lightbox.min.js', __FILE__));
+	    wp_enqueue_style( 'vcsys-lightbox', plugins_url('lightbox/css/lightbox.css', __FILE__) );
+	    //wp_enqueue_style( 'prefix-style', plugins_url($this->get_template_folder().'tilmelding.less', __FILE__) );
+	    wp_enqueue_style( 'prefix-style', plugins_url($this->get_template_folder().'tilmelding.less', __FILE__) );
+	    wp_enqueue_style( 'signup-responsive', plugins_url($this->get_template_folder().'responsive.css', __FILE__) );
+	}
+	
+	function set_title_filter($content)
+	{
+    	if (function_exists("template_title"))
+    	    return template_title();
+		return "";
+	}
+	
+	function add_body_class_filter($classes = '') {
+		$classes[] = 'tilmelding';
+		$classes[] = 'wide';
+		return $classes;
+	}
+}

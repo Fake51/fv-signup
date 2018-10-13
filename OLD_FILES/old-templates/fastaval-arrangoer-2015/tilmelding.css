@@ -1,0 +1,119 @@
+#tilmelding-info label{
+    display:inline-block;
+    width:15%;
+    min-height:26px;
+    line-height:26px;
+}
+
+#tilmelding-info .tilmelding-input{
+    display:inline-block;
+    width:35%;
+    min-height:26px;
+    line-height:26px;
+}
+
+#tilmelding-info .caption
+{
+    font-size:10px;
+    font-style: italic;
+    height:10px;
+    line-height:10px;
+    min-height:auto;
+    display:block;
+    margin-left:15%;
+    margin-top:5px;
+}
+
+#tilmelding-info .fullsize-label label
+{
+    display:block;
+    width:100%;
+    height:auto;
+}
+#tilmelding-info .fullsize-label .caption
+{
+    margin-left:0;
+}
+
+
+#tilmelding-info textarea.tilmelding-input{
+    width:35%;
+    height: 10em;
+}
+
+
+
+
+#tilmelding-info .field-type-checkbox{
+    height:auto;
+}
+#tilmelding-info .field-type-checkbox input{
+    float:left;
+    width:2%;
+    position:relative;
+    top:4px;
+}
+#tilmelding-info .field-type-checkbox label{
+    width:48%;
+}
+
+
+#tilmelding-info .field-type-radio input{
+    float:left;
+    width:3%;
+    position:relative;
+    top:8px;
+}
+#tilmelding-info .field-type-radio label{
+    width:28%;
+}
+
+
+
+#tilmelding-info .birthday-day{
+    width:40px;
+    text-align:center;
+}
+#tilmelding-info .birthday-month{
+    width:40px;
+    text-align:center;
+}
+#tilmelding-info .birthday-year{
+    width:80px;
+    text-align:center;
+}
+
+
+#info-table{
+    width:75%;
+}
+#info-table td{
+    min-height:26px;
+    line-height: 26px;
+}
+#info-table td.text{
+    width: 15%;
+}
+#info-table td.value{
+    width: 35%;
+}
+#info-table td.headline{
+    font-weight: bold;
+    width:50%;
+    text-transform: uppercase;
+    padding-top:25px;
+}
+
+.button.next{
+    float:right;
+    margin-bottom:50px;
+}
+.button.prev{
+    float:left;
+    margin-bottom:50px;
+}
+
+
+.has-error{
+    border:1px solid red !important;
+}

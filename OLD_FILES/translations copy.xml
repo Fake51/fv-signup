@@ -1,0 +1,1590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations><translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:44:02">
+  <da><![CDATA[Næste side]]></da>
+  <en><![CDATA[Next page]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:10:38" last-miss="2015-01-26 20:44:02">
+  <da><![CDATA[Velkommen til den store tilmeldingen for Fastaval 2015]]></da>
+  <en><![CDATA[Welcome to the full signup for Fastaval 2015]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:10:38" last-miss="2015-01-26 20:44:02">
+  <da><![CDATA[Vigtigt !]]></da>
+  <en><![CDATA[Important !]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:10:38" last-miss="2015-01-26 20:44:02">
+  <da><![CDATA[Du er først registreret til fastaval når du modtager din registrerings-mail. Hvis du IKKE modtager en registreringsmail fra os, så skriv til os, så kan vi eftersende den, eller finde ud af hvad fejlen kan være. Du kan skrive til os på <a href="mailto:info@fastaval.dk">info@fastaval.dk</a>.]]></da>
+  <en><![CDATA[You are not registered for Fastaval until you receive your registration email. Hvis you do NOT receive your registration email, then write us, then we can send it to you again - or find out what the error can be. You can write us at <a href="mailto:info@fastaval.dk">info@fastaval.dk</a>!]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:42:12">
+  <da><![CDATA[Feltet må ikke være tomt]]></da>
+  <en><![CDATA[The field cannot be empty]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:42:12">
+  <da><![CDATA[Feltet skal være et tal]]></da>
+  <en><![CDATA[Field must be a number]]></en>
+</translation>
+<translation last-hit="2015-01-31 02:48:56" last-miss="2015-01-26 20:42:12">
+  <da><![CDATA[Feltet skal være mellem 1 og 31]]></da>
+  <en><![CDATA[Field must be between 1 and 31]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Forrige side]]></da>
+  <en><![CDATA[Previous page]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:10:38" last-miss="2015-01-26 20:44:02">
+  <da><![CDATA[Den store tilmelding for fastavals deltagere er nu åben. Du kan tilmelde dig hele Fastaval 2015 fra den 1. februar til og med den 8. marts]]></da>
+  <en><![CDATA[The full signup for fastaval is now open. You can signup for Fastaval 2015 in the period 1th of Februarty to the 8th of march]]></en>
+</translation>
+<translation last-hit="2015-01-28 21:32:28" last-miss="2015-01-26 20:44:02">
+  <da><![CDATA[Når du ikke denne tilmelding, kan du tilmelde dig den begrænsede tilmelding, hvor du dog ikke kan vælge mad eller aktiviteter - denne tilmelding er åben indtil d. 31 marts]]></da>
+  <en><![CDATA[If you do not make this deadline, you can signup in the limited signup where you cannot choose food or activites - this signup is active until the 31th of march.]]></en>
+</translation>
+<translation last-hit="2015-01-31 02:48:56" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Feltet skal være mellem 1 og 12]]></da>
+  <en><![CDATA[The field must be between 1 and 12]]></en>
+</translation>
+<translation last-hit="2015-01-31 02:48:56" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Feltet skal være mellem 1900 og 2014]]></da>
+  <en><![CDATA[The fields must be between 1900 and 2014]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Feltet skal være en email]]></da>
+  <en><![CDATA[The field must be an email]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[De to felter skal matche]]></da>
+  <en><![CDATA[The two fields must match]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Velkommen til fastaval-tilmeldingen]]></da>
+  <en><![CDATA[Welcome to fastaval signup]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Kontaktoplysninger]]></da>
+  <en><![CDATA[Contact information]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Fornavn:]]></da>
+  <en><![CDATA[Firstname:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Efternavn:]]></da>
+  <en><![CDATA[Lastname:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Adresse:]]></da>
+  <en><![CDATA[Address:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[&nbsp;]]></da>
+  <en><![CDATA[&nbsp;]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Postnr.:]]></da>
+  <en><![CDATA[Zipcode:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[By:]]></da>
+  <en><![CDATA[City:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Land:]]></da>
+  <en><![CDATA[Country:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Mobil:]]></da>
+  <en><![CDATA[Cellphone:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Telefonnummeret må kun indeholde tal. Udenlandske numre kan ikke indtastes]]></da>
+  <en><![CDATA[The phonenumber can only contain number. Foreign numbers cannot be entered]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Jeg medbringer mobil på Fastaval og må gerne kontaktes via opkald/SMS (fx. med spil-info og nyheder)]]></da>
+  <en><![CDATA[I will be bringing a cell phone to Fastaval and can<br> be contacted by phone<br> (unfortunately Fastaval SMS-alerts do not work with non-Danish phones)]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Køn]]></da>
+  <en><![CDATA[Sex]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Fødselsdato:]]></da>
+  <en><![CDATA[Date of birth:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[dag, måned, år - f.eks. 29,7,1980]]></da>
+  <en><![CDATA[day, month, year - e.i. 29 7 1980:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Jeg er på Fastaval med min klub/ungdomsskole]]></da>
+  <en><![CDATA[I am at Fastaval with my club/school]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Navn på klub/ungdomsskole:]]></da>
+  <en><![CDATA[Name of club/school:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Vælg din deltager-kategori]]></da>
+  <en><![CDATA[Choose your visitor-type:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[Vælg den deltager-kategori der matcher dig bedst - selvom der er flere kategorier der matcher skal du kun vælge en. Som udgangspunkt skal du vælge den nederste kategori der matcher (hvis du f.eks. både er Infonaut og Brandvagt, vælg Brandvagt).]]></da>
+  <en><![CDATA[Choose your visitor-type that matches you - even if several categories matches, only choose one. Choose the one furthest down the page of the ones that matches (if you match both Infonaut and Fireguard, choose Fireguard)]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[<strong>Er du ikke arrangør?</strong> Så marker feltet "Jeg er Deltager" og gå videre i tilmeldingen.]]></da>
+  <en><![CDATA[<strong>Are you not an organizer?</strong> Then just mark the field "I am a visitor" and press next page in the signup]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Sygdomme & helbred]]></da>
+  <en><![CDATA[Health-information:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Er der et telefonnummer vi kan ringe til i nødstilfælde (fx at du er kommmet til skade) angiv det her:]]></da>
+  <en><![CDATA[Emergency phone number (e.g. if you're hurt):]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 20:55:30">
+  <da><![CDATA[Hvis du lider af en sygdom, vi af særlige grunde skal kende til, så skriv det i nedenstående felt. Vi vil kun bruge denne information i nødstilfælde vedrørende dit helbred.:]]></da>
+  <en><![CDATA[If you suffer from a disease we need to be aware of, please note it in the field below.<br>We will only use this information in case of emergencies concerning your health.:]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Specielt for arrangører, forfattere og designere]]></da>
+  <en><![CDATA[Special information for organisers, writers and designers]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[På vegne af alle deltagerne: Tusind tak for dit engagement i Fastaval 2015! Vi elsker dig!]]></da>
+  <en><![CDATA[On behalf of the participants: Thank you so much for your hard work at Fastaval 2015!]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Hvad er dit arbejdsområde?:]]></da>
+  <en><![CDATA[What is your organisational area at Fastaval?:]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Hvis du er forfatter/brætspilsdesigner, hvad er titlen på dit scenarie/spil:]]></da>
+  <en><![CDATA[If you are a writer/boardgame designer, what is the title of your scenario/game?:]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Om rabatterne]]></da>
+  <en><![CDATA[The discounts]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Selvom Fastaval aldrig vil kunne tilbagebetale alt det fantastiske det arbejde som alle vores mange forfattere og arrangører lægger for dagen for at skabe en fed oplevelse for alle deltagerne, så har vi alligevel valgt at yde en mindre kompensation til dem der lægger rigtigt mange timer i Fastaval.]]></da>
+  <en><![CDATA[Even though Fastaval will never be able to repay all the awesome work done by our many writers and organisers, we have chosen to provide a bit of compensation for those who put in many long hours of hard work.]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[ALLE arrangører og forfattere modtager:]]></da>
+  <en><![CDATA[ALL organizers and writers receive:]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[ID kort der giver rabat i kiosk, café og bar]]></da>
+  <en><![CDATA[ID cart for discounts in kiosk, cafe and bar]]></en>
+</translation>
+<translation last-hit="2015-01-28 21:32:46" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Wear til indkøbspris]]></da>
+  <en><![CDATA[Wear at reduced prices]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Arrangører og forfattere der arbejder mere end 40 timer før/efter Fastaval og/eller 24 timer på Fastaval modtager derudover:]]></da>
+  <en><![CDATA[In addition organisers and writers who work more than 40 hours before/after Fastaval and /or 24 hours during Fastaval will receive:]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Rabat på indgang samt overnatning på Fastaval]]></da>
+  <en><![CDATA[Discount on entrance fee to Fastaval and the sleeping area]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Et scenarie, flere forfatterne?]]></da>
+  <en><![CDATA[One oroduct, more writers?]]></en>
+</translation>
+<translation last-hit="2015-01-29 19:46:28" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Vi kan desværre kun tilbyde rabat på indgang og overnatning til en person per scenarie eller brætspil, men I kan frit dele byttet mellem jer. Alle forfattere/designere får rabatkort og merchandise til indkøbspris, og megen kærlighed fra Fastaval. Det er vigtigt at I alle tilmelder jer som forfattere/designere, ellers går det i kuk. Vi skal nok efterregulere jeres pris.]]></da>
+  <en><![CDATA[Unfortunately we can only offer one free entrance/sleeping spot per scenario/board game (which you are obviously very welcome to share between you). All of you will receive ID badges, cheap FastaWear and much love from all of Fastaval. All of you need to sign up as writers/designers. Price foo regulation will happen at venue check-in. ]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Arrangørsovesalen]]></da>
+  <en><![CDATA[Dormitory for the organisers]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Vi har som altid begrænset plads i Arrangørsovesalene, og derfor fordeles pladserne efter størst behov. Sovepladserne er fortrinsvis til folk, der på grund af nattevagter eller lignende har brug for ro til at sove på vilkårlige tidspunkter af døgnet, såsom kioskpersonale, Infonauter og bar- eller cafépersonale.]]></da>
+  <en><![CDATA[As always space in the organiser dormitory is limited, and therefore the spots are  distributed on a greatest need basis. Sleeping space is intended for people who, due to night watch duty or similar, need peace and quiet at arbitrary times in the day, such as kiosk personnel, Infonauts, bartenders and the like.]]></en>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-26 20:43:03">
+  <da><![CDATA[Jeg vil gerne have en plads i arrangørsovesalen:]]></da>
+  <en><![CDATA[I would like a spot in the organiser dormitory]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:14:36" last-miss="2015-01-26 20:43:06">
+  <da><![CDATA[Meld dig ind i Alea og få rabat på indgangen]]></da>
+  <en><![CDATA[Alea]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:14:36" last-miss="2015-01-26 20:43:06">
+  <da><![CDATA[ALEA er foreningen bag Fastaval. Siden 2003 er det ALEA der har arrangeret Fastaval. Ud over det praktiske er foreningen også til for at sikre kontinuitet for Fastaval, og videregive erfaringer og ressourcer fra år til år.]]></da>
+  <en><![CDATA[ALEA is the organisation behind Fastaval. Since 2003 Fastaval has been arranged by ALEA. In addition to handling all the practical details the purpose of ALEA is to ensure continuity and pass on experience and resources from one year to the next.]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:14:36" last-miss="2015-01-26 20:43:06">
+  <da><![CDATA[Ja tak, jeg vil gerne melde mig ind i ALEA, for 75 kr. Min indgangsbillet vil derfor koste 75 + 85 = 160 kr (normalt 210 kroner). Mit medlemskab af ALEA gælder indtil dagen før Fastaval næste år.]]></da>
+  <en><![CDATA[Yes, I would like to join ALEA for the rest of 2014, for only 75 kr. My entry fee will be 75 + 85 kr. = 160 DKK. My membership is valid until the day before Fastaval next year.]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:14:36" last-miss="2015-01-26 20:43:06">
+  <da><![CDATA[Hvis du ikke ønsker at være medlem af ALEA, skal du trykke på "Næste side"]]></da>
+  <en><![CDATA[If you do not want to join ALEA, simply click [Next Page].]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:14:36" last-miss="2015-01-26 20:43:06">
+  <da><![CDATA[Hvorfor melde sig ind i Alea?]]></da>
+  <en><![CDATA[]]></en>
+</translation>
+<translation last-hit="2015-01-30 23:14:36" last-miss="2015-01-26 20:43:06">
+  <da><![CDATA[Udover den dejlige rabat, hjælper du også Fastaval på den lange bane. I år modtager Fastaval ikke kommunale støttekroner. Hvis deltagerne på Fastaval er medlemmer af foreningen som arrangerer kongressen, giver det på sigt mulighed for at søge et betragteligt kommunalt aktivitetstilskud. Med 500 medlemmer ville ALEA/Fastaval forhåbentligt også få større gennemslagskraft i forbindelse med vores samarbejde med kommunerne. Dette skulle gerne på sigt sikre dig som deltager en bedre (og måske billigere) Fastaval i fremtiden.]]></da>
+  <en><![CDATA[]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Praktisk]]></da>
+  <en><![CDATA[Practical stuff]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Entre (hvilke dage er du på Fastaval)]]></da>
+  <en><![CDATA[Entry fee (which days will you be at Fastaval)]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Partout - Alle dage. Priserne er:]]></da>
+  <en><![CDATA[5-day Pass for all of Fastaval. The prices are:]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:14:31">
+  <da><![CDATA[Almindelig billet (210 kr)<br/>Ungdomsbillet (160 kr)<br/>Arrangør (150 kr)<br/><br/><strong>OBS: Du kan spare penge på din indgangsbillet hvis du melder dig ind i ALEA. Tryk på <span class="link-previous">[Forrige side]</span> længere nede for at gå tilbage og melde dig ind.</strong>]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Onsdag (55 kr)]]></da>
+  <en><![CDATA[Wednesday (55 kr.)]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Torsdag (55 kr)]]></da>
+  <en><![CDATA[Thursday (55 kr.)]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Fredag (55 kr)]]></da>
+  <en><![CDATA[Friday (55 kr.)]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Lørdag (55 kr)]]></da>
+  <en><![CDATA[Saturday (55 kr.)]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Søndag (55 kr)]]></da>
+  <en><![CDATA[Sunday (55 kr.)]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Overnatning]]></da>
+  <en><![CDATA[Sleeping arrangements]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Jeg overnatter alle dage på Fastaval (175 kr)]]></da>
+  <en><![CDATA[I will be sleeping at Fastaval all days (175 DKK)]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Bemærk: Hvis du skal sove i arrangørsovesalen skal du også afkrydse ovenstående felt. Prisen for overnatning som arrangør er 100 kr for alle dage]]></da>
+  <en><![CDATA[Notice: If you are sleeping in the organizer dormitory, you must still check off the above field.<br>For organizers the price is 100 DKK for the entire period]]></en>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[Jeg overnatter onsdag/torsdag (50 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[Jeg overnatter torsdag/fredag (50 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[Jeg overnatter fredag/lørdag (50 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[Jeg overnatter lørdag/søndag (50 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[Jeg overnatter søndag/mandag (50 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[<strong>Madras</strong><br>Du kan reservere en madras til brug under hele Fastaval. Prisen er 100 kr i leje for hele Fastaval. <strong>Bemærk: madrassen kan ikke medtages i arrangørsovesal eller ungdomssovesalen.</strong>]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-27 14:16:58">
+  <da><![CDATA[Ja tak, jeg vil gerne leje en madras for 100 kr]]></da>
+  <en><![CDATA[Yes thank you, I would like to rent a matras for 100 kr]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Mad]]></da>
+  <en><![CDATA[Food]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Der er mulighed for fuld forplejning på Fastaval. Vores trofaste morgenmadshold søger for, at du har mulighed for at købe  morgenmad hver eneste dag. Frokost og aftensmad sørger Penguin Brain Food for. Skulle du blive sulten ind i mellem, er der også en velforsynet kiosk, og et supermarked lige rundt om hjørnet (som har åbent hele påsken og holder meget af rollespillere).]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Herunder kan du bestille morgenmad og aftensmad:]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Onsdag]]></da>
+  <en><![CDATA[Wednesday]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Vælg din aftensmad (55 kr):]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Normal: Lasagne – tilsat grøntsager]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Vegetar: Vegetarlasagne med bønner og spirer.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Torsdag]]></da>
+  <en><![CDATA[Thursday]]></en>
+</translation>
+<translation last-hit="2015-01-27 13:11:09" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Morgenmad (25 kr): (cornflakes/havregryn,yoghurt, frugt, groft og alm. brød, pålæg, kaffe, te)]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Normal: Grillet kyllingebryst med brune ris og paprikasauce, pastasalat med pesto.]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Vegetar: Paneret stegt jordnødderulle med brune ris og paprikasauce]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Fredag]]></da>
+  <en><![CDATA[Friday]]></en>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Normal: Hakkebøf med bløde løg og hvide kartofler]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Vegetar: Linsefrikadeller med stegte grøntsager, ristede kartofler og sauce.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Lørdag]]></da>
+  <en><![CDATA[Saturday]]></en>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Normal: Kylling i karry grøntsager, med løse brune ris]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Vegetar: Fyldt pandekage med nøddepostej og tomatsauce.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Søndag]]></da>
+  <en><![CDATA[Sunday]]></en>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Normal: Frikadelle med pestokartofler og sauce]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-26 20:43:11">
+  <da><![CDATA[Vegetar: Fyldt peberfrugt med pesto, hertil bulgursalat med bønner og grønt.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:13">
+  <da><![CDATA[Aktiviteter]]></da>
+  <en><![CDATA[Activities]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:13">
+  <da><![CDATA[<p>Nu bliver det langhåret! Her skal du vælge og prioritere de aktiviteter du er interesseret i at deltage i på Fastaval.</p>
+<h3>Typer af aktiviteter</h3>
+<p>Hver aktivitet på oversigten har en farvekode:</p>
+<ul>
+<li>Grøn = Bordrollespil</li>
+<li>Lilla = Liverollespil</li>
+<li>Rød = figurspil</li>
+<li>Blå = Brætspil</li>
+<li>Mørkegrøn = Magic</li>
+<li>Gul = Events & Workshops.</li>
+</ul>]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:13">
+  <da><![CDATA[<h3>Hvordan du prioriterer</h3>
+<ul>
+<li>Klik på de enkelte aktivitetsnavne for at se en foromtale/beskrivelse</li>
+<li>Du prioriterer ved at klikke på på det grå felt i perioden</li>
+<li>1-4 indikerer din prioritering (1 er højest, 3 lavest, 4 betyder 'hvis jeg ikke kommer på noget af det andet). 'SL' betyder at du gerne vil være spilleder på aktiviteten.</li>
+<li>For hver blok kan du vælge en 1., 2. 3. prioritet.</li>
+<li>Du kan vælge så mange 4+ prioriteter du har lyst til</li>
+<li>Der er heller ingen begrænsning på hvor mange gange du vælger at være spilleder på en dag. Vi elsker spilledere! Du kan dig sætte et max. på (se længere nede)</li>
+<li>Forvirret? <a href="http://www.fastaval.dk/ofte-stillede-spoergsmaal-om-tilmeldingen/" target="_blank" style="color:#b00;">Der er hjælp at hente her (åbner i nyt vindue)</a></li>
+</ul>]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:13">
+  <da><![CDATA[<h3>Tænker du på at være spilleder?</h3>
+<p>Otto elsker spilledere. Derfor får alle Fastavals spilledere en gave i Check-In når de ankommer til Fastaval (oh yeah). Derudover får man en BONUS VOUCHER for hvert scenarie/aktivitet man spilleder, eller event/workshop man afholder. Denne kan på Fastaval indløses til én af følgende goder:</p>
+<ul>
+<li>Frokost: 1 sandwich + 1 sodavand (Kiosk)</li>
+<li>Sukkerchok: 1 toast + 1 chokobar el. slikpose + 1 sodavand (Kiosk)</li>
+<li>Tømmermænd: 1 øl (Bar)</li>
+<li>+ en krammer fra nærmeste Fastavalgænger (kan indløses hvor som helst)</li>
+</ul>
+]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Rollespil]]></da>
+  <en><![CDATA[RPG]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[DKK]]></da>
+  <en><![CDATA[DKK]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[no priority]]></da>
+  <en><![CDATA[no priority]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[1. priority]]></da>
+  <en><![CDATA[1. priority]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[2. priority]]></da>
+  <en><![CDATA[2. priority]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[3. priority]]></da>
+  <en><![CDATA[3. priority]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[4. priority]]></da>
+  <en><![CDATA[4. priority]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[sl priority]]></da>
+  <en><![CDATA[GM prio]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Brætspil]]></da>
+  <en><![CDATA[Boardgames]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[1. prio]]></da>
+  <en><![CDATA[1th]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[2. prio]]></da>
+  <en><![CDATA[2nd]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[3. prio]]></da>
+  <en><![CDATA[3rd]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[4. prio]]></da>
+  <en><![CDATA[4th]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[SL]]></da>
+  <en><![CDATA[GM]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Der er i år mulighed for at vælge et maksimalt antal rollespil og brætspil man kommer til at spille:]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Antal spil jeg højst vil spille:]]></da>
+  <en><![CDATA[Number of games i want to play, maximum:]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[HelCon]]></da>
+  <en><![CDATA[HelCon]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Ja, jeg vil gerne deltage i årets HelCon]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Scenarieskrivningskonkurrence]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Hvor svært kan det være at skrive et scenarie? Vi gør det lidt sværere – skriv et scenarie under Fastaval med bundne krav til form og indhold. Der er en præmie for bedste scenarie, og detaljeret feedback til alle, der afleverer. Tør du stille op? Læs mere her.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Ja, jeg vil gerne være med i scenarieskrivningskonkurrencen]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Byg et brætspil]]></da>
+</translation>
+<translation last-hit="2015-01-29 19:49:41" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Hvor svært kan det være at lave et brætspil? Find ud af det på Fastaval! Læs mere her]]></da>
+</translation>
+<translation last-hit="2015-01-27 12:42:29" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Ja, jeg vil gerne prøve at bygge et brætspil]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Er du karma-hardcore spilleder?]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-26 20:43:14">
+  <da><![CDATA[Ja, absolut. Fastaval må gerne kontakte mig, hvis der mangler ekstra spilledere (kan vælges uanset om du allerede har valgt at være spilleder i oversigten)]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[Husk at vælge 3 GDS tjanser i alt]]></da>
+  <en><![CDATA[Remember to choose 3 DIY tasks]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[GDS]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[GDS står for Gør Det Selv og betyder på Fastaval, at alle deltagere giver en hånd med til at få de praktiske ting til at fungere. Kendetegnende for alle GDS-tjanserne er, at de ikke er ubehagelige eller tager bemærkelsesværdig lang tid. Vi koordinerer det, så det ikke går ud over dine andre aktiviteter og du skal maks. tage én GDS-tjans. Prioriter tre GDS-tjanser på nedenstående liste, så vi har noget at vælge imellem.</p>
+<p>GDS-tjanserne er i år grupperinger af tjanser, hvor man ikke vælger noget specifikt, men i stedet et område. Hvis du ønsker en bestemt tjans, kan du skrive dette i bemærkningerne senere i tilmeldingen. Læs om de forskellige <a href="http://www.fastaval.dk/gds-tjanser/" target="_blank" style="color:#b00;">GDS-tjanser her</a>]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[Du har allerede i din rolle som arrangør eller forfatter/brætspilsdesigner lagt meget tid i Fastaval, og behøver derfor ikke tage en GDS-tjans. Hvis du alligevel har lyst, er du mere end velkommen til at vælge nogle tjanser.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[Afgjort! Jeg kan godt overtales til at tage mere end én GDS-tjans]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[Ja! Jeg er Fastavals svar på faldskærmstropper. I kan ringe til mig, når det hele er væltet og I akut har brug for en hjælpende GDS-hånd]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[Morgen]]></da>
+  <en><![CDATA[Morning]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[Middag]]></da>
+  <en><![CDATA[Midday]]></en>
+</translation>
+<translation last-hit="2015-01-30 12:02:43" last-miss="2015-01-26 20:43:17">
+  <da><![CDATA[Aften]]></da>
+  <en><![CDATA[Night]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[Husk at vælge størrelser til al dit wear!]]></da>
+  <en><![CDATA[Remember to choose sizes for all your wear]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[Husk at vælge hvor meget du skal have af al dit wear!]]></da>
+  <en><![CDATA[Remember to choose how much of all your wear you want!]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[Fasta Wear]]></da>
+  <en><![CDATA[Fasta wear]]></en>
+</translation>
+<translation last-hit="2015-01-28 20:12:00" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[Det ville ikke være en rigtig Fastaval, hvis ikke du kunne tage loot med hjem. Årets Fastawear indeholder krus, hættetrøjer, T-shirts og andre nyttige ting. Det er fabelagtigt, lækkert, tema-koordineret og med masser af pingviner på.]]></da>
+</translation>
+<translation last-hit="2015-01-28 20:12:00" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[Da du tidligere har noteret dig som arrangør eller forfatter, så får du ALT wear til indkøbspris. Differencen på normalpris og indkøbspris er trukket fra de viste priser neden under.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[<strong>Husk at du skal vælge både antal og størrelse.</strong> Ønsker du forskellige størrelser på dit Wear, så skriv det i feltet 'Bemærkninger' sidst i tilmeldingen.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[Antal]]></da>
+  <en><![CDATA[Amount]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-26 20:43:19">
+  <da><![CDATA[Størrelse]]></da>
+  <en><![CDATA[Size]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Gå til godkendelse]]></da>
+  <en><![CDATA[Go to approval]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Ekstra informationer]]></da>
+  <en><![CDATA[Extra information]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Sprog og oprindelse]]></da>
+  <en><![CDATA[Language and Origin]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Hvilke sprog vil du gerne deltage i aktiviteter på:]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Dansk]]></da>
+  <en><![CDATA[Danish]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Engelsk]]></da>
+  <en><![CDATA[English]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Skandinavisk generelt (forstår dansk/svensk/norsk)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Jeg vil gerne hjælpe med at simultantolke aktiviteter på dansk/engelsk for dem, der ikke kan begge sprog. Fastaval må gerne kontakte mig efter behov.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Jeg er international gæst (dvs. ikke dansk) og vil gerne være med i aktiviteter for internationale gæster.]]></da>
+</translation>
+<translation last-hit="2015-01-28 20:11:59" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Jeg vil gerne være en af Fastavals rige tanter og onkler, og støtter hermed kongressen med 300 kr ekstra! Beløbet vil blive lagt til min endelige pris, og jeg vil blive nævnt med tak på Fastaval.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Jeg vil gerne være en af Fastavals hemmelige rige tanter og onkler, og støtter hermed kongressen med 300 kr ekstra! Beløbet vil blive lagt til min endelige pris. Kun de indviede ved, hvor sej jeg er.]]></da>
+</translation>
+<translation last-hit="2015-01-26 20:56:53" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Jeg medbringer et par bræt- eller rollespil at give væk til "The Fastaval Re-Allocation Project" ]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Giv en hånd til klargøring]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Jeg vil gerne være med til at klargøre skolen fra mandag d. 30. marts kl. 12:00]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Jeg vil gerne være med til at klargøre skolen fra tirsdag d. 31. marts kl. 12:00]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Særlige skills]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Har du skills eller ting, som du gerne vil stille til rådighed for Fastaval undervejs? Har du eksempelvis håndværkerfaring, kan du køre truck eller lastbil, er du læge, sygeplejeske, falckredder eller brandmand? Har du en bil, som du godt vil køre folk på skadestuen i? Er du dygtig til et eller andet vi ikke anede vi kunne få brug for? Så skriv det her. Vi kontakter dig, hvis det brænder på.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[Bemærkninger]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-26 20:43:22">
+  <da><![CDATA[<p>Her kan du skrive beskeder til Fastaval. Det kunne f.eks. være:</p>
+<ul><li>Hvis du har kommentarer til dine GDS prioriteringer</li><li>Eller hvis du blot har lyst til at fortælle hvor meget du glæder dig til Fastaval</li></ul><p>Vi kigger først bemærkningerne igennem efter tilmeldingen er lukket. Så har du spørgsmål eller lignende, så send dem per mail på info@fastaval.dk eller stil dem på www.facebook.dk/fastaval. Ikke i dette felt.</p>]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 20:43:24">
+  <da><![CDATA[Tilmeld]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:07:40">
+  <da><![CDATA[Godkend tilmelding]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Personlige oplysninger]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Alternativt telefonnummer:]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Medbringer mobil og må kontaktes]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Køn:]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Fødselsdato (dag):]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Fødselsdato (måned):]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Fødselsdato (år):]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Email:]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Med en klub/ungdomsskole:]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Alea]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Vil gerne meldes in i Alea]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Arrangør information]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Deltagertype]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Mit arbejdsområde]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Mit scenarie/spil]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Plads i arrangørsovesal]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Indgang]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Nej]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Ja]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Sover på hele fastaval]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Sover Onsdag/Torsdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Sover Torsdag/Fredag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Sover Fredag/Lørdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Sover Lørdag/Søndag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Sover Søndag/Mandag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Leje af madras]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Ja (100)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Aftensmad onsdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Morgenmad torsdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Aftensmad torsdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Morgenmad fredag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Aftensmad fredag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Morgenmad lørdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Aftensmad lørdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Morgenmad søndag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Aftensmad søndag]]></da>
+</translation>
+<translation last-hit="2015-01-27 14:50:27" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg kommer til Ottofesten]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Maksimum antal scenarier jeg vil spille (0 er ingen grænse)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil gerne melde mig til scenarieskrivningskonkurrencen]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil gerne være med til HelCon]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Fastaval må kontakte mig om spilleder-poster]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg er super GDS]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Fastaval må kontakte mig om GDS]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Wear]]></da>
+</translation>
+<translation last-hit="2015-01-27 15:21:45" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Ekstra Informationer]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[International gæst]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil spille på dansk]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil spille på engelsk]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil spille på skandinavisk]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Har ting med til GeekBookDrive]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Vil gerne med-arrangere Fastaval 2013]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil gerne med Københavnerbussen]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil rydde op tirsdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg vil måske medbringe spil jeg giver væk]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Klargøre skolen fra mandag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Klargøre skolen fra tirsdag]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg er en rig Fasta-onkel/tante]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Jeg er en hemmelig rig Fasta-onkel/tante]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Special skills]]></da>
+  <en><![CDATA[Special skills]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Andre kommentarer]]></da>
+  <en><![CDATA[Other comments]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Pris]]></da>
+  <en><![CDATA[Price]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Entré]]></da>
+  <en><![CDATA[Entre]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Alea indmeldelse]]></da>
+  <en><![CDATA[Alea membership]]></en>
+</translation>
+<translation last-hit="2015-01-27 14:50:28" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Mad & fest]]></da>
+  <en><![CDATA[Food & party]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[Andet]]></da>
+  <en><![CDATA[Other]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-26 21:11:36">
+  <da><![CDATA[I alt]]></da>
+  <en><![CDATA[Total]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[Allerede registeret?]]></da>
+  <en><![CDATA[Already signed up?]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[Hvis du tidligere har registreret dig, kan du genindlæse din tilmelding <small>(dette vil slette alt du har udfyldt i denne session)</small>:]]></da>
+  <en><![CDATA[If you prior have registered, you can reload your signup <small>(this will delete all you have filled in this session)</small>:]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[Email]]></da>
+  <en><![CDATA[Email]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[Kodeord]]></da>
+  <en><![CDATA[Password]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[Genindlæs]]></da>
+  <en><![CDATA[Reload]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[En fejl opstod da tilmeldingen prøvede at koble sig på serveren. Prøv igen senere.]]></da>
+  <en><![CDATA[An error occured when the signup tried to connect to the server. Try again please.]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[Der er muligvis en fejl i kombinationen af din email og kodeord. Prøv igen.]]></da>
+  <en><![CDATA[There seems to be an error in the combination of email and password. Try again please.]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 21:47:20">
+  <da><![CDATA[En ukendt fejl opstod, prøv igen (fejlkode:]]></da>
+  <en><![CDATA[An unknown error happened, try again. (error code: ]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Danmark]]></da>
+  <en><![CDATA[Denmark]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Finland]]></da>
+  <en><![CDATA[Finland]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Norge]]></da>
+  <en><![CDATA[Norway]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Storbritannien]]></da>
+  <en><![CDATA[Great Britain]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Sverige]]></da>
+  <en><![CDATA[Sweden]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Tyskland]]></da>
+  <en><![CDATA[Germany]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[USA]]></da>
+  <en><![CDATA[USA]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Albanien]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Belgien]]></da>
+  <en><![CDATA[Belgium]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Bosnien-Hercegovina]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Bulgarien]]></da>
+  <en><![CDATA[Bulgaria]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Canada]]></da>
+  <en><![CDATA[Canada]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Cypern]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Estland]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Frankrig]]></da>
+  <en><![CDATA[France]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Færøerne]]></da>
+  <en><![CDATA[Faroe Islands]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Grækenland]]></da>
+  <en><![CDATA[Greece]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Grønland]]></da>
+  <en><![CDATA[Greenland]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Holland]]></da>
+  <en><![CDATA[Netherlands]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Irland]]></da>
+  <en><![CDATA[Ireland]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Island]]></da>
+  <en><![CDATA[Iceland]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Italien]]></da>
+  <en><![CDATA[Italy]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Kroatien]]></da>
+  <en><![CDATA[Croatia]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Letland]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Luxembourg]]></da>
+  <en><![CDATA[Luxenburg]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Malta]]></da>
+  <en><![CDATA[Malta]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Montenegro]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Polen]]></da>
+  <en><![CDATA[Poland]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Portugal]]></da>
+  <en><![CDATA[Portugal]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Republikken Makedonien]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Rumænien]]></da>
+  <en><![CDATA[Romania]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Schweiz]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Serbien]]></da>
+  <en><![CDATA[Serbia]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Slovakiet]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Slovenien]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Spanien]]></da>
+  <en><![CDATA[Spain]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Tjekkiet]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Tyrkiet]]></da>
+  <en><![CDATA[Turkey]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Ungarn]]></da>
+  <en><![CDATA[Hungary]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Østrig]]></da>
+  <en><![CDATA[Austria]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Mand]]></da>
+  <en><![CDATA[Male]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Kvinde]]></da>
+  <en><![CDATA[Female]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Jeg er Deltager]]></da>
+  <en><![CDATA[I am a visitor]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Jeg er Forfatter / Brætspilsdesigner]]></da>
+  <en><![CDATA[I am a writer / boardgame designer]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Jeg er Arrangør]]></da>
+  <en><![CDATA[I am an Organizer]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Jeg er Infonaut]]></da>
+  <en><![CDATA[I am an Infonaut]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Jeg er Dirtbuster]]></da>
+  <en><![CDATA[I am a Dirtbuster]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Jeg er Brandvagt]]></da>
+  <en><![CDATA[I am a Fireguard]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-26 22:02:45">
+  <da><![CDATA[Jeg er Kioskninja]]></da>
+  <en><![CDATA[I work in the kiosk]]></en>
+</translation>
+<translation last-hit="2015-01-29 12:30:15" last-miss="2015-01-27 05:39:56">
+  <da><![CDATA[Velkommen til fastaval-tilmeldingen for arrangører]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:15" last-miss="2015-01-27 05:39:56">
+  <da><![CDATA[Tilmeldingen for fastavals arrangører er nu åben. Denne tilmelding er hovedsageligt for at for-registrere alle arrangører på fastaval, således at vi kan jonglere rundt med vores arbejdesgruppe. ]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:15" last-miss="2015-01-27 05:39:56">
+  <da><![CDATA[Den tilmelding du laver nu som arrangør, er altså en forhåndstilmelding, som du senere får mulighed for at lave om, når den officielle Fastaval-tilmelding åbner. Dette gøres ved hjælp af den email-adresse du angiver, samt et kodeord du får sidst i tilmeldingen.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Ingen grænse]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 1]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 2]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 3]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 4]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 5]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 6]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 7]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 8]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 9]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-27 07:51:36">
+  <da><![CDATA[Maksimum 10]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[1]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[2]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[3]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[4]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[5]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[6]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[7]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[8]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[XS]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[S]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[M]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[L]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[XL]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[2XL]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[3XL]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[4XL]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[5XL]]></da>
+</translation>
+<translation last-hit="2015-01-27 21:40:26" last-miss="2015-01-27 07:58:10">
+  <da><![CDATA[Infonauter: Infonaut T-shirten er din uniform og derfor gratis - vælg blot størrelse (fås i både dame og herre). Denne T-shirt vil være din uniform under hele connen!]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-27 08:25:13">
+  <da><![CDATA[Nej tak]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-27 08:25:13">
+  <da><![CDATA[Normal]]></da>
+</translation>
+<translation last-hit="2015-01-27 08:25:13" last-miss="2015-01-27 08:25:13">
+  <da><![CDATA[Vegetar]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-27 08:25:13">
+  <da><![CDATA[Ja tak]]></da>
+</translation>
+<translation last-miss="2015-01-27 08:25:21">
+  <da><![CDATA[Du har allerede i din rolle som spilleder lagt meget tid i Fastaval og behøver derfor ikke tage en GDS-tjans. Hvis du alligevel lyster dette skal du dog være meget velkommen til at vælge nogle tjanser.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:28" last-miss="2015-01-27 12:23:26">
+  <da><![CDATA[Wear til indkøbspris og med ”CREW” logo]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:28" last-miss="2015-01-27 12:23:26">
+  <da><![CDATA[Infonauter modtager derudover også:]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:28" last-miss="2015-01-27 12:23:26">
+  <da><![CDATA[En tjekket, orange Infonaut T-shirt]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-27 12:23:41">
+  <da><![CDATA[Godkend din tilmelding]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-27 12:23:41">
+  <da><![CDATA[Vigtigt! Din tilmelding er IKKE registreret endnu. Gå til næste side for at registrere dig. På denne side verificerer og godkender du din tilmelding.<br><br>Du kan benytte knappen "Forrige side" nederst for at gå tilbage og rette.]]></da>
+</translation>
+<translation last-hit="2015-01-30 23:10:38" last-miss="2015-01-29 11:29:09">
+  <da><![CDATA[Når du ikke denne tilmelding, kan du tilmelde dig den begrænsede tilmelding, hvor du dog ikke kan vælge mad, wear eller aktiviteter - denne tilmelding er åben indtil d. 31 marts]]></da>
+</translation>
+<translation last-hit="2015-01-29 19:39:07" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Antal tegn i feltet skal være 8]]></da>
+</translation>
+<translation last-hit="2015-01-29 19:39:07" last-miss="2015-01-29 11:44:18">
+  <da><![CDATA[Antal tegn i feltet skal være mellem 8 og 8]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-30 23:14:33">
+  <da><![CDATA[Du har foretaget ændringer på siden. Disse ændringer gemmes ikke, hvis du går til forrige side. Tryk Annuller hvis du vil blive på siden, ellers tryk OK.]]></da>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-29 11:44:21">
+  <da><![CDATA[Rabat på wear]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[Vælg hvilke dage du kommer til fastaval]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:47:11" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[Almindelig billet (85 kr)<br/>Ungdomsbillet (35 kr)<br/>Arrangør (25 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Ja tak (vegetarisk)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu: Lasagne – tilsat grøntsager]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu (vegetarisk): Vegetarlasagne med bønner og spirer.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Morgenmad (25 kr): (cornflakes, havregryn, yoghurt, frugt, groft og alm. brød, pålæg, kaffe, te)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Ja tak (vegetar)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu: Grillet kyllingebryst med brune ris og paprikasauce, pastasalat med pesto.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu (Vegetarisk): Paneret stegt jordnødderulle med brune ris og paprikasauce]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu: Hakkebøf med bløde løg og hvide kartofler]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu (vegetarisk): Linsefrikadeller med stegte grøntsager, ristede kartofler og sauce.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu: Kylling i karry grøntsager, med løse brune ris]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu (vegetarisk): Fyldt pandekage med nøddepostej og tomatsauce.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu: Frikadelle med pestokartofler og sauce]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:17">
+  <da><![CDATA[Menu (vegetarisk): Fyldt peberfrugt med pesto, hertil bulgursalat med bønner og grønt.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Events & Workshops]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Artemis]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[I år vender vi blikket mod middelalderens europa, hvor rigfolk og magthavere kæmper om magten, mens paven kæmper mod dæmoner om de levendes sjæle! ]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Dette års HelCon ligger i og udenfor spilblokke. Da man spiller i hold og andre afhænger af en forventes det at man som minimum møder op til disse fastsatte tidspunkter (onsdag aften og lørdag eftermiddag), dertil kan man spille videre udenfor blokkene så meget som man lyster.]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Læs mere på <a href="http://www.fastaval.dk/aktivitet/helcon-komme-dit-rige/" target="_blank">www.fastaval.dk/aktivitet/helcon-komme-dit-rige/</a>]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Ja, jeg vil gerne prøve at bygge et brætspil (20 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Ottofesten]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Ottofesten er Fastavals klimaks - det er her Ottoerne uddeles, det er her vi hylder hinanden, og det er her vi fyrer den sidste energi af mens vi fester løs.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Der er mulighed for at bestille mousserende vin til festen, formedelst 100 kr ekstra.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Jeg kommer til ottofesten:]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Ja tak, indgangsbillet (80kr)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:22" last-miss="2015-01-29 11:29:18">
+  <da><![CDATA[Ja tak, indgangsbillet (80kr) + mousserende vin (100kr)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:18:38" last-miss="2015-01-29 11:31:21">
+  <da><![CDATA[Det ville ikke være en rigtig Fastaval, hvis ikke du kunne tage loot med hjem. Årets Fastawear indeholder krus, hættetrøjer, T-shirts og andre nyttige ting. Det er fabelagtigt, lækkert, tema-koordineret og med masser af pingviner på. Husk at se vores <a href="http://www.fastaval.dk/praktisk/fastawear/" target="_blank">størrelsesguide</a>.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:17:51" last-miss="2015-01-29 11:31:21">
+  <da><![CDATA[Da du tidligere har noteret dig som arrangør eller forfatter, så får du rabat på årets Fastaval T-shirts. Prisen nedenunder er med rabat fratrukket.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-29 11:31:22">
+  <da><![CDATA[Fastaval 2016, rige onkler og andet]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-29 11:31:22">
+  <da><![CDATA[Jeg har lyst til at være med til at arrangere Fastaval 2016 (læs mere om at være arrangør)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-29 11:31:22">
+  <da><![CDATA[Jeg vil gerne være en af Fastavals rige tanter og onkler, og støtter hermed kongressen med 300 kr ekstra! Beløbet vil blive lagt til min endelige pris, og jeg vil blive nævnt med tak på Fastaval.dk samt på infoskærme under fastaval]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:37" last-miss="2015-01-29 11:31:22">
+  <da><![CDATA[Hvis du har nogle særlige skills du mener vi bør bruge lige nu og her, så skriv til os med det samme på <a href="mailto:info@fastaval.dk">info@fastaval.dk</a>]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-29 11:31:24">
+  <da><![CDATA[Rediger]]></da>
+  <en><![CDATA[Edit]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-29 11:31:24">
+  <da><![CDATA[Partout (alle dage)]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:09" last-miss="2015-01-29 11:31:24">
+  <da><![CDATA[Ja  (25 kr)]]></da>
+  <en><![CDATA[Yes  (25 kr)]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-29 11:31:24">
+  <da><![CDATA[Ottofest]]></da>
+  <en><![CDATA[Otto party]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-29 11:31:24">
+  <da><![CDATA[+ mousserende vin]]></da>
+  <en><![CDATA[+ sparkling wine]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-29 11:31:25">
+  <da><![CDATA[Jeg vil gerne melde mig til byg et brætspil (20kr)]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-29 11:31:25">
+  <da><![CDATA[GDS-vagt ]]></da>
+  <en><![CDATA[DIY task]]></en>
+</translation>
+<translation last-hit="2015-01-29 20:01:39" last-miss="2015-01-29 11:31:25">
+  <da><![CDATA[Fest]]></da>
+  <en><![CDATA[Party]]></en>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Din tilmelding er blevet registreret. Du burde inden længe modtage en email med dine tilmeldte oplysninger!]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Betaling]]></da>
+  <en><![CDATA[Payment]]></en>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Du kan betale for din tilmelding med det samme ved at benytte online-betalingen:]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[betal for tilmeldingen]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Vær opmærksom på at selve betalingen foregår på rollespil.dk.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Det er muligt at betale med de mest gængse kort-typer: dankort, visa, mastercard, etc. Vær opmærksom på at der bliver lagt et gebyr på betalingen - på dankort mellem 3 og 14 kr. På udenlandsk udstedte kort er det 3.75% af beløbet.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Online-betaling er kommet på plads i et samarbejde med <a href="http://www.rollespil.dk/" target="_blank"><img src="http://www.fastaval.dk/wp-content/uploads/2015/01/logo_rollespil_blad.jpg" alt=""></a> - mange tak til dem!]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Efter betaling vil du få en bekræftelsesmail fra rollespil.dk - det er vigtigt at du gemmer denne, da den indeholder link til kvittering og dermed bevis på din betaling.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Hvad nu hvis]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[... du ikke kan betale din tilmelding online med det samme (selvom det er supernemt)? Fortvivl ej - den mail du modtager med bekræftelse af din tilmelding indeholder samme link til online-betaling. Du kan dermed også senere betale online, nemt og bekvemt.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Vær opmærksom på]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Tilmeldinger skal være betalt inden for 14 dage efter de er oprettet. Er de ikke betalt på det tidspunkt vil de blive annulleret. Baggrunden for dette er at Fastaval i år søger at løse det logistiske problem der ligger i bestilling af special-tilpassede varer (wear eksempelvis) og mad igennem bindende tilmeldinger - dvs at man på forhånd betaler for sin tilmelding for at kunne være sikker på at få det man har bestilt.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Af samme årsag tillader vi os at påminde dig om betaling inden fristen udløber, hvis betalingen ikke er gennemført.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Bank overførsel]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Har du ikke mulighed for at betale online via betalings-siden, så er det også muligt at betale via bank-overførsel.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Her skal du dog være opmærksom på at der er et gebyr på 20 kr. per overførsel pga det ekstra arbejde der ligger i at udrede overførslerne - det tager meget lang tid at gå igennem. Dette gebyr skal du selv lægge til beløbet du overfører - ellers vil du blive afkrævet det ved check-in på Fastaval.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Bank overførsel foregår på følgende vis]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Senest 15/3 skal pengene overføres til Fastavals konto - ellers annulleres tilmeldingen]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Ved indbetaling på indbetalingskort: Kortart +73 Kreditornr 84520098]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Ved bankoverførsel til vores bankkonto: Reg.: 9314 / kontonummer: 4573884464]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Ved indbetaling fra en bank UDENFOR Danmark kontakt venligst bunker@fastaval.dk]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Ved alle muligheder skal du HUSKE at anføre dit NAVN og DELTAGERNUMMER - ellers risikerer du at vi ikke kan henføre betalingen til lige præcis din tilmelding (og så er det ikke så meget en betaling men bare en donation til Fastaval).]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:32:13" last-miss="2015-01-29 11:31:39">
+  <da><![CDATA[Vi ses på Fastaval!]]></da>
+</translation>
+<translation last-hit="2015-01-31 00:02:56" last-miss="2015-01-29 11:44:24">
+  <da><![CDATA[]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Fornavn]]></da>
+</translation>
+<translation last-hit="2015-01-29 11:59:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[peps]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Efternavn]]></da>
+</translation>
+<translation last-hit="2015-01-29 11:59:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[p]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Adresse]]></da>
+</translation>
+<translation last-hit="2015-01-29 11:59:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[J.P.Larsens Vej 48<br/>]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Postnr]]></da>
+</translation>
+<translation last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[8220]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[By]]></da>
+</translation>
+<translation last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Brabrand]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Land]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Mobil]]></da>
+</translation>
+<translation last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[61693531]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Medbringer Mobil]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Fødselsdag]]></da>
+</translation>
+<translation last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[18/03/1978]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[E-mail]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[peter.e.lind@gmail.com]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Min rolle]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Jeg er arrangør]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Telefonnummer til nødstilfælde]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Information til nødstilfælde]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Dit arbejdsområde]]></da>
+</translation>
+<translation last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[fas]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:54:01">
+  <da><![CDATA[Titel på dit spil/scenarie]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Du er nu tilmeldt!]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Som arrangør vil du senere kunne logge ind senere, og genbruge dine oplysninger, så du kan fortsætte din tilmelding når den almindelige tilmelding åbner.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Login-information:]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Brugernavn:]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Kodeord:]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Gem ovenstående login-informationer - det er dem du bruger når du vil fortsætte din tilmelding senere. Du burde også modtage dem med en email, men for en sikkerhedsskyld, skriv dem ned.]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Husk!]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Udfyld informationerne til dit id-kort - gå til <a href="http://www.fastaval.dk/idkort/" target="_blank">http://www.fastaval.dk/idkort/</a> inden det er for sent !]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:36" last-miss="2015-01-29 11:54:06">
+  <da><![CDATA[Vi ses til den store tilmelding!]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:59:32">
+  <da><![CDATA[8000]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 11:59:32">
+  <da><![CDATA[Aarhus C]]></da>
+</translation>
+<translation last-miss="2015-01-29 11:59:32">
+  <da><![CDATA[18/1/1950]]></da>
+</translation>
+<translation last-miss="2015-01-29 11:59:32">
+  <da><![CDATA[feafsea]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 12:02:17">
+  <da><![CDATA[Peter]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 12:02:17">
+  <da><![CDATA[Lind]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:30:32" last-miss="2015-01-29 12:02:17">
+  <da><![CDATA[Frederiksgade 73<br/>]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:02:17">
+  <da><![CDATA[04/02/1950]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:02:17">
+  <da><![CDATA[fase]]></da>
+</translation>
+<translation last-hit="2015-01-29 12:22:21" last-miss="2015-01-29 12:05:07">
+  <da><![CDATA[18/02/1910]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:05:07">
+  <da><![CDATA[IT, Bunker]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:19:34">
+  <da><![CDATA[01/02/1910]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:19:34">
+  <da><![CDATA[fffffffffff]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:22:21">
+  <da><![CDATA[faesfesa]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:26:35">
+  <da><![CDATA[01/4/1910]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:26:35">
+  <da><![CDATA[faesa]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:30:32">
+  <da><![CDATA[10/03/1911]]></da>
+</translation>
+<translation last-miss="2015-01-29 12:30:32">
+  <da><![CDATA[fa]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 14:55:55">
+  <da><![CDATA[Pathfinder]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 14:55:55">
+  <da><![CDATA[Figurspil]]></da>
+</translation>
+<translation last-hit="2015-01-31 02:48:56" last-miss="2015-01-29 19:42:17">
+  <da><![CDATA[Antal tegn i feltet skal være større end 7]]></da>
+</translation>
+<translation last-hit="2015-01-30 12:53:46" last-miss="2015-01-29 19:50:10">
+  <da><![CDATA[Hvor svært kan det være at lave et brætspil? Find ud af det på Fastaval! <a href="http://www.fastaval.dk/aktivitet/byg-et-braetspil-3/" target="_blank">Læs mere her</a>]]></da>
+</translation>
+<translation last-hit="2015-01-30 22:53:54" last-miss="2015-01-29 19:56:04">
+  <da><![CDATA[Vi kan desværre kun tilbyde rabat på indgang og overnatning til en person per scenarie eller brætspil, men I kan frit dele byttet mellem jer. Alle forfattere/designere får rabatkort og rabat på udvalgt wear - og megen kærlighed fra Fastaval. Det er vigtigt at I alle tilmelder jer som forfattere/designere, ellers går det i kuk. Vi skal nok efterregulere jeres pris.]]></da>
+</translation>
+<translation last-hit="2015-01-29 20:01:38" last-miss="2015-01-29 19:59:43">
+  <da><![CDATA[Ja  (150 kr)]]></da>
+</translation>
+<translation last-hit="2015-01-30 23:14:36" last-miss="2015-01-30 22:53:56">
+  <da><![CDATA[<a href="http://www.fastaval.dk/alea-det-med-smaat/" target="_blank">Læs alt det med småt</a>. Du kan også <a href="/om-fastaval/om-alea/" target="_blank">læse mere om Alea.</a>]]></da>
+  <en><![CDATA[<a href="http://www.fastaval.dk/alea-det-med-smaat-2/?lang=en" target="_blank">Read the fine print</a>.]]></en>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-31 10:00:20">
+  <da><![CDATA[Antal tegn i feltet skal være større end ]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-31 10:00:20">
+  <da><![CDATA[Feltet skal være mellem ]]></da>
+</translation>
+<translation last-hit="2015-01-31 11:11:24" last-miss="2015-01-31 10:00:20">
+  <da><![CDATA[ og ]]></da>
+</translation>
+</translations>

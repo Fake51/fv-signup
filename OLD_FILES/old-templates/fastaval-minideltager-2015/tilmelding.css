@@ -1,0 +1,387 @@
+.load-deltager{
+    border:1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    position:absolute;
+    right:0;
+    top:180px;
+    width:40%;
+    z-index:100;
+}
+.load-deltager p{font-weight: normal;}
+.load-deltager input.field{width:100%;}
+.load-deltager button{width:100%;}
+
+button, input, textarea{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+button:hover, input:hover, textarea:hover{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+h1.entry-title{
+    /*color:black !important;*/
+    text-transform: none !important;
+}
+
+p.indent{
+    margin-top:-1rem;
+    padding-top:0;
+    padding-left:20px;
+}
+
+div.grouped{
+    margin-bottom:2.3rem;
+}
+div.grouped p
+{
+    margin-bottom:0rem;
+}
+label.disabled{
+    color:grey;
+}
+
+span.link-previous{
+    cursor:pointer;
+    text-decoration: none;
+}
+span.link-previous:hover{
+    text-decoration: underline;
+}
+
+#tilmelding-info, .site-main{
+    position:relative;
+}
+
+#tilmelding-info label{
+    display:inline-block;
+    width:15%;
+    min-height:26px;
+    line-height:26px;
+}
+
+#tilmelding-info .tilmelding-input{
+    display:inline-block;
+    width:35%;
+    min-height:26px;
+    line-height:26px;
+}
+
+#tilmelding-info .caption
+{
+    font-size:10px;
+    font-style: italic;
+    height:10px;
+    line-height:10px;
+    min-height:auto;
+    display:block;
+    margin-left:15%;
+    margin-top:5px;
+}
+
+#tilmelding-info .fullsize-label label
+{
+    display:block;
+    width:100%;
+    height:auto;
+}
+#tilmelding-info .fullsize-label .caption
+{
+    margin-left:0;
+}
+
+
+#tilmelding-info textarea.tilmelding-input{
+    width:35%;
+    height: 10em;
+}
+
+
+
+
+#tilmelding-info .field-type-checkbox{
+    height:auto;
+}
+#tilmelding-info .field-type-checkbox input{
+    float:left;
+    width:2%;
+    position:relative;
+    top:4px;
+}
+#tilmelding-info .field-type-checkbox label{
+    width:48%;
+}
+#tilmelding-info .field-type-checkbox.fullwidth-checkbox label{
+    width:98%;
+}
+
+
+
+#tilmelding-info .field-type-radio input{
+    float:left;
+    width:3%;
+    position:relative;
+    top:8px;
+}
+#tilmelding-info .field-type-radio label{
+    width:28%;
+}
+
+
+
+#tilmelding-info .birthday-day{
+    width:40px;
+    text-align:center;
+}
+#tilmelding-info .birthday-month{
+    width:40px;
+    text-align:center;
+}
+#tilmelding-info .birthday-year{
+    width:80px;
+    text-align:center;
+}
+
+
+#info-table{
+    width:75%;
+}
+#info-table td{
+    min-height:26px;
+    line-height: 26px;
+}
+#info-table th{
+    min-height:26px;
+    line-height: 26px;
+    padding: 0.6rem 1rem 0.6rem 0;
+}
+#info-table td.text{
+    width: 15%;
+}
+#info-table td.value{
+    width: 35%;
+}
+#info-table td.headline{
+    font-weight: bold;
+    width:50%;
+    text-transform: uppercase;
+    padding-top:25px;
+    min-height:26px;
+    line-height: 26px;
+}
+#info-table th.large{
+    height:5em;
+    background:#404040;
+    color:white;
+    text-align: center;
+    border-top:1em solid white;
+    border-bottom:1em solid white;
+}
+
+
+
+.button.next{
+    float:right;
+    margin-bottom:50px;
+}
+.button.prev{
+    float:left;
+    margin-bottom:50px;
+}
+
+
+.has-error{
+    border:1px solid red !important;
+}
+
+
+
+
+
+/* AKTIVITETER TABLE */
+
+    #tilmelding-info #aktiviteter table
+    {
+        padding:0;
+        z-index:2;
+    }
+    #tilmelding-info #aktiviteter table tr
+    {
+        padding:0;
+    }
+    
+    #tilmelding-info #aktiviteter table tr.activity-text
+    {
+        ___display:none;
+    }
+    
+    #tilmelding-info #aktiviteter table tr td.caption,
+    #tilmelding-info #aktiviteter table tr th.caption
+    {
+        height:3rem;
+        margin:0;
+        padding:0 0 0 10px;
+        display:block;
+        font-size:10px;
+        line-height:1rem;
+        min-height:3rem;
+        padding-top:10px;
+        border:none;
+        min-width:300px;
+    }
+    
+    #tilmelding-info #aktiviteter table tr th.time
+    {
+        height:3rem;
+        padding:0;
+        border-left:1px solid lightgrey;
+        border-bottom:1px solid lightgrey;
+    }
+    #tilmelding-info #aktiviteter table tr th.caption,
+    #tilmelding-info #aktiviteter table tr td.caption,
+    #tilmelding-info #aktiviteter table tr td.noevent,
+    #tilmelding-info #aktiviteter table tr td.has-event
+    {
+        border-bottom:1px solid lightgrey;
+    }
+    #tilmelding-info #aktiviteter table tr th.day{
+        height:3rem;
+        line-height:3rem;
+        min-height:3rem;
+        padding-left: 10px;
+        background: #404040;
+        color:white;
+    }
+    
+    #tilmelding-info #aktiviteter table tr td.caption .box_braet,
+    #tilmelding-info #aktiviteter table tr td.caption .box_rolle,
+    #tilmelding-info #aktiviteter table tr td.caption .box_live,
+    #tilmelding-info #aktiviteter table tr td.caption .box_figur,
+    #tilmelding-info #aktiviteter table tr td.caption .box_workshop,
+    #tilmelding-info #aktiviteter table tr td.caption .box_ottoviteter, 
+    #tilmelding-info #aktiviteter table tr td.caption .box_magic
+    {
+        position:relative;
+        top:-4px;
+        right:10px;
+    }
+    
+    #tilmelding-info #aktiviteter table tr td.has-event div
+    {
+        border:none;
+        font-size:10px;
+        -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+    }
+
+    
+    #tilmelding-info ul.type-selector{
+        height:3rem;
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+    #tilmelding-info ul.type-selector li{
+        float:left;
+        border:1px solid black;
+        border-left:none;
+        border-bottom: none;
+        padding: 5px 15px;
+        cursor:pointer;
+        background:#505050;
+        color:lightgrey;
+        line-height:2rem;
+        position:relative;
+        top:1px;
+        -moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;
+        z-index:1;
+    }
+    #tilmelding-info ul.type-selector li:first-child{
+    }
+    #tilmelding-info ul.type-selector li:last-child{
+    }
+    #tilmelding-info ul.type-selector li.selected{
+        color:white;
+        z-index:1000;
+        border-bottom:1px solid #404040;
+        background:#404040;
+    }
+    #tilmelding-info ul.type-selector li span{
+        width:14px;
+        height:14px;
+        padding-bottom:1px;
+        line-height: 14px;
+        display:inline-block;
+        border-radius: 6px;
+        font-size:8px;
+        text-align:center;
+        background:Coral;
+        margin-left:15px;
+        color:black;
+    }
+    #tilmelding-info ul.type-selector li span.value-0
+    {
+        background:#404040;
+        color:grey;
+    }
+    #tilmelding-info ul.type-selector li.selected span.value-0
+    {
+        background:#202020;
+        color:grey;
+    }
+    
+    
+    
+    /* FIX LATER */
+    #tilmelding-info #aktiviteter table tr.hidden,
+    #tilmelding-info #aktiviteter table tr.hidden td,
+    #tilmelding-info #aktiviteter table tr.hidden td.caption,
+    #tilmelding-info #aktiviteter table tr.hidden td.has-event
+    {
+        /*opacity: 0.1;*/
+        line-height:0 !important;
+        margin: 0px !important;
+        padding: 0px !important;
+        overflow: hidden !important;
+        border: 0px !important;
+        height: 0px !important;
+        min-height: 0px !important;
+        max-height: 0px !important;
+        -moz-transition: height 1s ease;
+        -webkit-transition: height 1s ease;
+        -o-transition: height 1s ease;
+        transition: height 1s ease;        
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    #tilmelding-info #aktiviteter table tr.hidden td
+    {
+        display:block;
+    }
+    #tilmelding-info #aktiviteter table tr.hidden td *{
+        display: none;
+    }
+    
+
+    
+
+select
+{
+    position:relative;
+    left:2px;
+}
+a{color:#b00;}
+a:hover{ text-decoration:underline; }
+
+.breakfast_2, 
+.breakfast_3, 
+.breakfast_4, 
+.breakfast_5,
+.brainfood_dinner_1, 
+.brainfood_dinner_2, 
+.brainfood_dinner_3, 
+.brainfood_dinner_4, 
+.brainfood_dinner_5
+{
+    margin-top:-20px;
+}
+

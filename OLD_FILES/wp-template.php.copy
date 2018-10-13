@@ -1,0 +1,135 @@
+<?php 
+session_start();
+setlocale(LC_TIME, "da_DK");
+
+function __tm($str, $str_id=null){return $str;}
+function __etm($str, $str_id=null){echo __tm($str);}
+
+if (isset($_GET['reset'])){
+    unset($_SESSION['customer']);
+}
+
+function gf($name)
+{
+	return tm_getForm($name);
+	//return preg_replace("\"","&quot;",stripslashes(tm_getForm($name)));
+}
+
+
+if ($_POST)
+{
+	if (!isset($_SESSION['customer']))
+		$_SESSION['customer'] = array();
+	
+	foreach($_POST as $key=>$value)
+	{
+		$_SESSION['customer'][$key] = $value;
+	}
+	
+	if (isset($_POST['expected-checkboxes']))
+	{
+		$fields = $_POST['expected-checkboxes'];
+		foreach($fields as $field)
+		{
+			if (!isset($_POST[$field]))
+				unset($_SESSION['customer'][$field]);
+		}
+	}
+	
+	unset($_SESSION['customer']['action1']);
+	unset($_SESSION['customer']['action2']);
+	unset($_SESSION['customer']['action3']);
+}
+
+$startdate_str = get_option('tilm_start_date');
+$startdate_hour = get_option('tilm_start_hour');
+$startdate_minut = get_option('tilm_start_minut');
+$startdate_time = strtotime($startdate_str);
+
+$slutdate_str = get_option('tilm_slut_date');
+$slutdate_hour = get_option('tilm_slut_hour');
+$slutdate_minut = get_option('tilm_slut_minut');
+$slutdate_time = strtotime($slutdate_str);
+
+$start_date_minut = "0";
+
+
+$startTime = mktime($startdate_hour,$start_date_minut, 0,  date('n',$startdate_time), date('j',$startdate_time), date('Y',$startdate_time));
+$stopTime = mktime($slutdate_hour,$slutdate_minut,0,  date('n',$slutdate_time), date('j',$slutdate_time), date('Y',$slutdate_time));
+
+$nowTime = time();
+$force_show = true;
+
+
+    if (VCTilm()->get_template_folder()=="templates/fastaval-deltager-2015/") // the new way !
+    {
+        get_header();
+        
+        $pages = myfunc_get_pages();
+        $page_num_to_show = 1;
+        for ($i=1;$i<100;$i++)
+        {
+            if (tm_is_path("step-".$i))
+                $page_num_to_show = $i;
+        }
+        $page_shown = false;
+        
+
+
+        $visible_count = 0;
+        foreach($pages as $page)
+        {
+            $page->init();
+            if ($page->canShow())
+                $visible_count++;
+                
+            if ($visible_count==$page_num_to_show)
+            {
+                $page->render();
+                $page_shown = true;
+                break;
+            }
+        }
+            
+                
+        if (!$page_shown)
+        {
+            echo "Page not set";
+        }
+        
+        get_footer();
+        
+    }
+    else // the old way !
+    {
+        get_header();
+        $template_to_show = "tilmelding_1.php";
+        if (($nowTime<$startTime)&&(!$force_show))
+        {
+            $template_to_show = "tilmelding_coming.php";
+        }
+        else if (($nowTime>$stopTime)&&(!$force_show))
+        {
+            $template_to_show = "tilmelding_done.php";
+        }
+        else
+        {
+            $can_show_subpages = false;
+            
+            if (isset($_SESSION['customer']))
+                $can_show_subpages = true;
+            
+            if ($can_show_subpages)
+            {
+                for ($i=1;$i<100;$i++)
+                {
+            	 	if (tm_is_path("step-".$i))
+            			$template_to_show = "tilmelding_".$i.".php";
+                }
+            }
+        }
+        include(VCTilm()->get_template_folder().'/'.$template_to_show);
+        get_footer();
+        
+    }
+    

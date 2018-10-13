@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translations>
+	<translation key='6beb8a691c7ba50433bb95a78f874bce'>
+		<da><![CDATA[Næste side]]></da>
+		<en><![CDATA[Next page]]></en>
+	</translation>
+	<translation key='1126b4ee140f011961535fc7d9e43524'>
+		<da><![CDATA[Velkommen til den store tilmeldingen for Fastaval 2015]]></da>
+		<en><![CDATA[Welcome to the full signup for Fastaval 2015]]></en>
+	</translation>
+	<translation key='728ce475c34b24473cd26f761ebb6f2a'>
+		<da><![CDATA[Vigtigt !]]></da>
+		<en><![CDATA[Important !]]></en>
+	</translation>
+	<translation key='f73fdf2a3c333338977201615dd02ebf'>
+		<da><![CDATA[Du er først registreret til fastaval når du modtager din registrerings-mail. Hvis du IKKE modtager en registreringsmail fra os, så skriv til os, så kan vi eftersende den, eller finde ud af hvad fejlen kan være. Du kan skrive til os på <a href="mailto:info@fastaval.dk">info@fastaval.dk</a>.]]></da>
+		<en><![CDATA[You are not registered for Fastaval until you receive your registration email. Hvis you do NOT receive your registration email, then write us, then we can send it to you again - or find out what the error can be. You can write us at <a href="mailto:info@fastaval.dk">info@fastaval.dk</a>!]]></en>
+	</translation>
+	<translation key='83ee16bca2c8c111f418a8b847f9f0bc'>
+		<da><![CDATA[Feltet må ikke være tomt]]></da>
+		<en><![CDATA[The field cannot be empty]]></en>
+	</translation>
+	<translation key='c62a41e342f4a4ef9cff719280e6ee0d'>
+		<da><![CDATA[Feltet skal være et tal]]></da>
+		<en><![CDATA[Field must be a number]]></en>
+	</translation>
+	<translation key='424f5d9d153ac6a9acb49046e29be54b'>
+		<da><![CDATA[Feltet skal være mellem 1 og 31]]></da>
+		<en><![CDATA[Field must be between 1 and 31]]></en>
+	</translation>
+	<translation key='01b2ba8b740620f71eda29f8798b33a2'>
+		<da><![CDATA[Forrige side]]></da>
+		<en><![CDATA[Previous page]]></en>
+	</translation>
+	<translation key='8f843442d5e445b3e10803e09ba65d57'>
+		<da><![CDATA[Den store tilmelding for fastavals deltagere er nu åben. Du kan tilmelde dig hele Fastaval 2015 fra den 1. februar til og med den 8. marts]]></da>
+		<en><![CDATA[The full signup for fastaval is now open. You can signup for Fastaval 2015 in the period 1th of Februarty to the 8th of march]]></en>
+	</translation>
+	<translation key='818359e6311f0858e64a0b513cb1e1ab'>
+		<da><![CDATA[Når du ikke denne tilmelding, kan du tilmelde dig den begrænsede tilmelding, hvor du dog ikke kan vælge mad eller aktiviteter - denne tilmelding er åben indtil d. 31 marts]]></da>
+		<en><![CDATA[If you do not make this deadline, you can signup in the limited signup where you cannot choose food or activites - this signup is active until the 31th of march.]]></en>
+	</translation>
+	<translation key='b91e4fd8cf9b21175209933b23d177ba'>
+		<da><![CDATA[Feltet skal være mellem 1 og 12]]></da>
+		<en><![CDATA[The field must be between 1 and 12]]></en>
+	</translation>
+	<translation key='e37891915bdcfbbf8bd8bd338516421d'>
+		<da><![CDATA[Feltet skal være mellem 1900 og 2014]]></da>
+		<en><![CDATA[The fields must be between 1900 and 2014]]></en>
+	</translation>
+	<translation key='a1849edf73aa1abb706f87d90b79e5c2'>
+		<da><![CDATA[Feltet skal være en email]]></da>
+		<en><![CDATA[The field must be an email]]></en>
+	</translation>
+	<translation key='ee5d524d10fe55975e7b4a9c51e8bf52'>
+		<da><![CDATA[De to felter skal matche]]></da>
+		<en><![CDATA[The two fields must match]]></en>
+	</translation>
+	<translation key='cbf24285be435473f46fc66e77ffb872'>
+		<da><![CDATA[Velkommen til fastaval-tilmeldingen]]></da>
+		<en><![CDATA[Welcome to fastaval signup]]></en>
+	</translation>
+	<translation key='acdd1d0373c72d3cef8f8954e9d3ce40'>
+		<da><![CDATA[Kontaktoplysninger]]></da>
+		<en><![CDATA[Contact information]]></en>
+	</translation>
+	<translation key='8be24bbb848455cca28c5c9a77fd19c5'>
+		<da><![CDATA[Fornavn:]]></da>
+		<en><![CDATA[Firstname:]]></en>
+	</translation>
+	<translation key='0f79e692d6da8db387b62a4c271d48e6'>
+		<da><![CDATA[Efternavn:]]></da>
+		<en><![CDATA[Lastname:]]></en>
+	</translation>
+	<translation key='f0a0f8800ddb6f21f311e7dce58dcda6'>
+		<da><![CDATA[Adresse:]]></da>
+		<en><![CDATA[Address:]]></en>
+	</translation>
+	<translation key='cc7819055cde3194bb3b136bad5cf58d'>
+		<da><![CDATA[&nbsp;]]></da>
+		<en><![CDATA[&nbsp;]]></en>
+	</translation>
+	<translation key='c0f1c71e80750fefeda68d7784fd131f'>
+		<da><![CDATA[Postnr.:]]></da>
+		<en><![CDATA[Zipcode:]]></en>
+	</translation>
+	<translation key='8f55c64037fdfe1a9ef874c1431473f8'>
+		<da><![CDATA[By:]]></da>
+		<en><![CDATA[City:]]></en>
+	</translation>
+	<translation key='40db99ca340ed8ff25be03a41a42f773'>
+		<da><![CDATA[Land:]]></da>
+		<en><![CDATA[Country:]]></en>
+	</translation>
+	<translation key='0435850de01c31c324d753c2db18733f'>
+		<da><![CDATA[Mobil:]]></da>
+		<en><![CDATA[Cellphone:]]></en>
+	</translation>
+	<translation key='1f8110d16bf54bf8ae818376de45ed82'>
+		<da><![CDATA[Telefonnummeret må kun indeholde tal. Udenlandske numre kan ikke indtastes]]></da>
+		<en><![CDATA[The phonenumber can only contain number. Foreign numbers cannot be entered]]></en>
+	</translation>
+	<translation key='aa96fc9cbd9f69e8a4a5c27d39bac56e'>
+		<da><![CDATA[Jeg medbringer mobil på Fastaval og må gerne kontaktes via opkald/SMS (fx. med spil-info og nyheder)]]></da>
+		<en><![CDATA[I will be bringing a cell phone to Fastaval and can<br> be contacted by phone<br> (unfortunately Fastaval SMS-alerts do not work with non-Danish phones)]]></en>
+	</translation>
+	<translation key='1c66b6cf7cb82064ab5521e1fa4048da'>
+		<da><![CDATA[Køn]]></da>
+		<en><![CDATA[Sex]]></en>
+	</translation>
+	<translation key='82f983c55989376ef93e4b1bfb3faf6e'>
+		<da><![CDATA[Fødselsdato:]]></da>
+		<en><![CDATA[Date of birth:]]></en>
+	</translation>
+	<translation key='a77e9870d3d56823d97c477b1070c6f1'>
+		<da><![CDATA[dag, måned, år - f.eks. 29,7,1980]]></da>
+		<en><![CDATA[day, month, year - e.i. 29 7 1980:]]></en>
+	</translation>
+	<translation key='3c70009aa14199aaa59a739494c5cba4'>
+		<da><![CDATA[Jeg er på Fastaval med min klub/ungdomsskole]]></da>
+		<en><![CDATA[I am at Fastaval with my club/school]]></en>
+	</translation>
+	<translation key='6669909797438ede657a6cbea9f5a74c'>
+		<da><![CDATA[Navn på klub/ungdomsskole:]]></da>
+		<en><![CDATA[Name of club/school:]]></en>
+	</translation>
+	<translation key='dfab42763dd677632c0c14f9eef727fb'>
+		<da><![CDATA[Vælg din deltager-kategori]]></da>
+		<en><![CDATA[Choose your visitor-type:]]></en>
+	</translation>
+	<translation key='ef1effae174abc795dd76212864018ed'>
+		<da><![CDATA[Vælg den deltager-kategori der matcher dig bedst - selvom der er flere kategorier der matcher skal du kun vælge en. Som udgangspunkt skal du vælge den nederste kategori der matcher (hvis du f.eks. både er Infonaut og Brandvagt, vælg Brandvagt).]]></da>
+		<en><![CDATA[Choose your visitor-type that matches you - even if several categories matches, only choose one. Choose the one furthest down the page of the ones that matches (if you match both Infonaut and Fireguard, choose Fireguard)]]></en>
+	</translation>
+	<translation key='f9560afdf58281d67923381cf0fcf7e1'>
+		<da><![CDATA[<strong>Er du ikke arrangør?</strong> Så marker feltet "Jeg er Deltager" og gå videre i tilmeldingen.]]></da>
+		<en><![CDATA[<strong>Are you not an organizer?</strong> Then just mark the field "I am a visitor" and press next page in the signup]]></en>
+	</translation>
+	<translation key='01b70cdbdf67ed6b64a5f66976f8f9c9'>
+		<da><![CDATA[Sygdomme & helbred]]></da>
+		<en><![CDATA[Health-information:]]></en>
+	</translation>
+	<translation key='e494f6071a0ca8d2b370f8aa24b9fdd5'>
+		<da><![CDATA[Er der et telefonnummer vi kan ringe til i nødstilfælde (fx at du er kommmet til skade) angiv det her:]]></da>
+		<en><![CDATA[Emergency phone number (e.g. if you're hurt):]]></en>
+	</translation>
+	<translation key='751df4be5e8a59ed725a26de1098cd4d'>
+		<da><![CDATA[Hvis du lider af en sygdom, vi af særlige grunde skal kende til, så skriv det i nedenstående felt. Vi vil kun bruge denne information i nødstilfælde vedrørende dit helbred.:]]></da>
+		<en><![CDATA[If you suffer from a disease we need to be aware of, please note it in the field below.<br>We will only use this information in case of emergencies concerning your health.:]]></en>
+	</translation>
+	<translation key='c58d12538c1f13fe53af2c0f5bdc75fb'>
+		<da><![CDATA[Specielt for arrangører, forfattere og designere]]></da>
+		<en><![CDATA[Special information for organisers, writers and designers]]></en>
+	</translation>
+	<translation key='5c05c8e1f5863916e6198f9511a058b3'>
+		<da><![CDATA[På vegne af alle deltagerne: Tusind tak for dit engagement i Fastaval 2015! Vi elsker dig!]]></da>
+		<en><![CDATA[On behalf of the participants: Thank you so much for your hard work at Fastaval 2015!]]></en>
+	</translation>
+	<translation key='e83f7d95dd4a33339623d3cd7e21330c'>
+		<da><![CDATA[Hvad er dit arbejdsområde?:]]></da>
+		<en><![CDATA[What is your organisational area at Fastaval?:]]></en>
+	</translation>
+	<translation key='30cd55430e69ed697ed6439ff1f9ac3b'>
+		<da><![CDATA[Hvis du er forfatter/brætspilsdesigner, hvad er titlen på dit scenarie/spil:]]></da>
+		<en><![CDATA[If you are a writer/boardgame designer, what is the title of your scenario/game?:]]></en>
+	</translation>
+	<translation key='ebb1813a28948fa3920c1b199e054e5e'>
+		<da><![CDATA[Om rabatterne]]></da>
+		<en><![CDATA[The discounts]]></en>
+	</translation>
+	<translation key='6668eae6c0a1cf7570c997f8f10fa9a3'>
+		<da><![CDATA[Selvom Fastaval aldrig vil kunne tilbagebetale alt det fantastiske det arbejde som alle vores mange forfattere og arrangører lægger for dagen for at skabe en fed oplevelse for alle deltagerne, så har vi alligevel valgt at yde en mindre kompensation til dem der lægger rigtigt mange timer i Fastaval.]]></da>
+		<en><![CDATA[Even though Fastaval will never be able to repay all the awesome work done by our many writers and organisers, we have chosen to provide a bit of compensation for those who put in many long hours of hard work.]]></en>
+	</translation>
+	<translation key='d27435acd210b54949bf4c42191378a4'>
+		<da><![CDATA[ALLE arrangører og forfattere modtager:]]></da>
+		<en><![CDATA[ALL organizers and writers receive:]]></en>
+	</translation>
+	<translation key='2647bdc9c9f74a4bd0cae933af82c01b'>
+		<da><![CDATA[ID kort der giver rabat i kiosk, café og bar]]></da>
+		<en><![CDATA[ID cart for discounts in kiosk, cafe and bar]]></en>
+	</translation>
+	<translation key='dffe351414698c6650fca2c18f4479b8'>
+		<da><![CDATA[Wear til indkøbspris]]></da>
+		<en><![CDATA[Wear at reduced prices]]></en>
+	</translation>
+	<translation key='2dac3f8410b8a05a9df5529de831d8ea'>
+		<da><![CDATA[Arrangører og forfattere der arbejder mere end 40 timer før/efter Fastaval og/eller 24 timer på Fastaval modtager derudover:]]></da>
+		<en><![CDATA[In addition organisers and writers who work more than 40 hours before/after Fastaval and /or 24 hours during Fastaval will receive:]]></en>
+	</translation>
+	<translation key='56f12c50dea26c946658d6dcbbf626a4'>
+		<da><![CDATA[Rabat på indgang samt overnatning på Fastaval]]></da>
+		<en><![CDATA[Discount on entrance fee to Fastaval and the sleeping area]]></en>
+	</translation>
+	<translation key='41c8088f7d9e4d659943e4b546ff8892'>
+		<da><![CDATA[Et scenarie, flere forfatterne?]]></da>
+		<en><![CDATA[One oroduct, more writers?]]></en>
+	</translation>
+	<translation key='df12b9cd32e3d882c8c14005c44dc4f7'>
+		<da><![CDATA[Vi kan desværre kun tilbyde rabat på indgang og overnatning til en person per scenarie eller brætspil, men I kan frit dele byttet mellem jer. Alle forfattere/designere får rabatkort og merchandise til indkøbspris, og megen kærlighed fra Fastaval. Det er vigtigt at I alle tilmelder jer som forfattere/designere, ellers går det i kuk. Vi skal nok efterregulere jeres pris.]]></da>
+		<en><![CDATA[Unfortunately we can only offer one free entrance/sleeping spot per scenario/board game (which you are obviously very welcome to share between you). All of you will receive ID badges, cheap FastaWear and much love from all of Fastaval. All of you need to sign up as writers/designers. Price foo regulation will happen at venue check-in. ]]></en>
+	</translation>
+	<translation key='ba0b59bf914dc7e28234e13f4c0008d6'>
+		<da><![CDATA[Arrangørsovesalen]]></da>
+		<en><![CDATA[Dormitory for the organisers]]></en>
+	</translation>
+	<translation key='0d680bf488db32c69a105d8af3b464bb'>
+		<da><![CDATA[Vi har som altid begrænset plads i Arrangørsovesalene, og derfor fordeles pladserne efter størst behov. Sovepladserne er fortrinsvis til folk, der på grund af nattevagter eller lignende har brug for ro til at sove på vilkårlige tidspunkter af døgnet, såsom kioskpersonale, Infonauter og bar- eller cafépersonale.]]></da>
+		<en><![CDATA[As always space in the organiser dormitory is limited, and therefore the spots are  distributed on a greatest need basis. Sleeping space is intended for people who, due to night watch duty or similar, need peace and quiet at arbitrary times in the day, such as kiosk personnel, Infonauts, bartenders and the like.]]></en>
+	</translation>
+	<translation key='e6e4e063517f8e31434e8f4ea628009d'>
+		<da><![CDATA[Jeg vil gerne have en plads i arrangørsovesalen:]]></da>
+		<en><![CDATA[I would like a spot in the organiser dormitory]]></en>
+	</translation>
+	<translation key='d0eb7d490300cbc36995e8ff3ba07354'>
+		<da><![CDATA[Meld dig ind i Alea og få rabat på indgangen]]></da>
+		<en><![CDATA[Alea]]></en>
+	</translation>
+	<translation key='efae65b72d4e648c86e8e19c1c9b413d'>
+		<da><![CDATA[ALEA er foreningen bag Fastaval. Siden 2003 er det ALEA der har arrangeret Fastaval. Ud over det praktiske er foreningen også til for at sikre kontinuitet for Fastaval, og videregive erfaringer og ressourcer fra år til år.]]></da>
+		<en><![CDATA[ALEA is the organisation behind Fastaval. Since 2003 Fastaval has been arranged by ALEA. In addition to handling all the practical details the purpose of ALEA is to ensure continuity and pass on experience and resources from one year to the next.]]></en>
+	</translation>
+	<translation key='1c63c70ae4bb261059caa12588995257'>
+		<da><![CDATA[Ja tak, jeg vil gerne melde mig ind i ALEA, for 75 kr. Min indgangsbillet vil derfor koste 75 + 85 = 160 kr (normalt 210 kroner). Mit medlemskab af ALEA gælder indtil dagen før Fastaval næste år.]]></da>
+		<en><![CDATA[Yes, I would like to join ALEA for the rest of 2014, for only 75 kr. My entry fee will be 75 + 85 kr. = 160 DKK. My membership is valid until the day before Fastaval next year.]]></en>
+	</translation>
+	<translation key='cf77640b65fa1b0752c0aab1314b0c3e'>
+		<da><![CDATA[Hvis du ikke ønsker at være medlem af ALEA, skal du trykke på "Næste side"]]></da>
+		<en><![CDATA[If you do not want to join ALEA, simply click [Next Page].]]></en>
+	</translation>
+	<translation key='af0a6c9723a54f24fc1a4114afbe1950'>
+		<da><![CDATA[Hvorfor melde sig ind i Alea?]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='9874c7375882a5be8f71bb14f0311cf2'>
+		<da><![CDATA[Udover den dejlige rabat, hjælper du også Fastaval på den lange bane. I år modtager Fastaval ikke kommunale støttekroner. Hvis deltagerne på Fastaval er medlemmer af foreningen som arrangerer kongressen, giver det på sigt mulighed for at søge et betragteligt kommunalt aktivitetstilskud. Med 500 medlemmer ville ALEA/Fastaval forhåbentligt også få større gennemslagskraft i forbindelse med vores samarbejde med kommunerne. Dette skulle gerne på sigt sikre dig som deltager en bedre (og måske billigere) Fastaval i fremtiden.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2485da083a9a9af084c0c1ea8e2444da'>
+		<da><![CDATA[Praktisk]]></da>
+		<en><![CDATA[Practical stuff]]></en>
+	</translation>
+	<translation key='d9da21f2802f33cc0bae1a4678522bde'>
+		<da><![CDATA[Entre (hvilke dage er du på Fastaval)]]></da>
+		<en><![CDATA[Entry fee (which days will you be at Fastaval)]]></en>
+	</translation>
+	<translation key='8c8064c2b45a81f190771a46396b4a70'>
+		<da><![CDATA[Partout - Alle dage. Priserne er:]]></da>
+		<en><![CDATA[5-day Pass for all of Fastaval. The prices are:]]></en>
+	</translation>
+	<translation key='20762fd4e0fe0c666fa5ade3f9907c53'>
+		<da><![CDATA[Almindelig billet (210 kr)<br/>Ungdomsbillet (160 kr)<br/>Arrangør (150 kr)<br/><br/><strong>OBS: Du kan spare penge på din indgangsbillet hvis du melder dig ind i ALEA. Tryk på <span class="link-previous">[Forrige side]</span> længere nede for at gå tilbage og melde dig ind.</strong>]]></da>
+		<en><![CDATA[Regular ticket (210 kr)<br/>Youth ticket (160 kr)<br/>Organizers (150 kr)<br/><br/><strong>You can save money on your ticket if you join ALEA.  Press the <span class="link-previous">[Previous page]</span> to join</strong>]]></en>
+	</translation>
+	<translation key='6f4e1eb0b92e4c23e9230069b485dbe6'>
+		<da><![CDATA[Onsdag (55 kr)]]></da>
+		<en><![CDATA[Wednesday (55 kr.)]]></en>
+	</translation>
+	<translation key='eccd8f454c851dcd99fc2226f533e597'>
+		<da><![CDATA[Torsdag (55 kr)]]></da>
+		<en><![CDATA[Thursday (55 kr.)]]></en>
+	</translation>
+	<translation key='07d45a48fa639df48be3854f198388ec'>
+		<da><![CDATA[Fredag (55 kr)]]></da>
+		<en><![CDATA[Friday (55 kr.)]]></en>
+	</translation>
+	<translation key='6d641ec500e8f1b0ee24cb8094b21525'>
+		<da><![CDATA[Lørdag (55 kr)]]></da>
+		<en><![CDATA[Saturday (55 kr.)]]></en>
+	</translation>
+	<translation key='b4ee8341663b381a73455397de9007f7'>
+		<da><![CDATA[Søndag (55 kr)]]></da>
+		<en><![CDATA[Sunday (55 kr.)]]></en>
+	</translation>
+	<translation key='cd6642386cfb98df230f08dca2b9e86c'>
+		<da><![CDATA[Overnatning]]></da>
+		<en><![CDATA[Sleeping arrangements]]></en>
+	</translation>
+	<translation key='493b7986aaf5e6b292c8e5575c55d570'>
+		<da><![CDATA[Jeg overnatter alle dage på Fastaval (175 kr)]]></da>
+		<en><![CDATA[I will be sleeping at Fastaval all days (175 DKK)]]></en>
+	</translation>
+	<translation key='b74dc2926e2e4537056e8f48f312ebf9'>
+		<da><![CDATA[Bemærk: Hvis du skal sove i arrangørsovesalen skal du også afkrydse ovenstående felt. Prisen for overnatning som arrangør er 100 kr for alle dage]]></da>
+		<en><![CDATA[Notice: If you are sleeping in the organizer dormitory, you must still check off the above field.<br>For organizers the price is 100 DKK for the entire period]]></en>
+	</translation>
+	<translation key='d9e3d51fc4d26bb174861b498c30824e'>
+		<da><![CDATA[Jeg overnatter onsdag/torsdag (50 kr)]]></da>
+		<en><![CDATA[I will be staying overnight Wednesday/Thursday (50 DKK)]]></en>
+	</translation>
+	<translation key='3367989c82c77bae3d0eac17b42eb47d'>
+		<da><![CDATA[Jeg overnatter torsdag/fredag (50 kr)]]></da>
+		<en><![CDATA[I will be staying overnight Thursday/Friday (50 DKK)]]></en>
+	</translation>
+	<translation key='72a695edd32ac011d11069209d24e941'>
+		<da><![CDATA[Jeg overnatter fredag/lørdag (50 kr)]]></da>
+		<en><![CDATA[I will be staying overnight Friday/Saturday (50 DKK)]]></en>
+	</translation>
+	<translation key='0b18a27f7a2f74d7133b5304de2d4066'>
+		<da><![CDATA[Jeg overnatter lørdag/søndag (50 kr)]]></da>
+		<en><![CDATA[I will be staying overnight Saturday/Sunday (50 DKK)]]></en>
+	</translation>
+	<translation key='9b417b452fd9e3ee0a5951b60e5356b8'>
+		<da><![CDATA[Jeg overnatter søndag/mandag (50 kr)]]></da>
+		<en><![CDATA[I will be staying overnight Sunday/Monday (50 DKK)]]></en>
+	</translation>
+	<translation key='1f365454a61ef23c240c2b3871e44cd6'>
+		<da><![CDATA[<strong>Madras</strong><br>Du kan reservere en madras til brug under hele Fastaval. Prisen er 100 kr i leje for hele Fastaval. <strong>Bemærk: madrassen kan ikke medtages i arrangørsovesal eller ungdomssovesalen.</strong>]]></da>
+		<en><![CDATA[<strong>Mattress</strong><br>
+You can rent a mattress through Fastaval. The price is 100 DKK in rent for the entire Fastaval. <strong>Note, the mattress cannot be used in the organizer or youth dormitories.</strong>]]></en>
+	</translation>
+	<translation key='698ece59827e00edcc385eb1d283411f'>
+		<da><![CDATA[Ja tak, jeg vil gerne leje en madras for 100 kr]]></da>
+		<en><![CDATA[Yes thank you, I would like to rent a matras for 100 kr]]></en>
+	</translation>
+	<translation key='cf1ef61fbec0eb674a2ad96ddfe5256d'>
+		<da><![CDATA[Mad]]></da>
+		<en><![CDATA[Food]]></en>
+	</translation>
+	<translation key='5779f06b8bfd5c55540bebe8ccf82ff0'>
+		<da><![CDATA[Der er mulighed for fuld forplejning på Fastaval. Vores trofaste morgenmadshold søger for, at du har mulighed for at købe  morgenmad hver eneste dag. Frokost og aftensmad sørger Penguin Brain Food for. Skulle du blive sulten ind i mellem, er der også en velforsynet kiosk, og et supermarked lige rundt om hjørnet (som har åbent hele påsken og holder meget af rollespillere).]]></da>
+		<en><![CDATA[Low blood sugar makes for very cranky roleplayers. The breakfast crew is there to make sure that doesn't happen, by serving you breakfast Wednesday through Saturday (Sunday is party day!). At lunch- and dinnertime, Penguin Brain Food will take good care of you.]]></en>
+	</translation>
+	<translation key='1388ccf5f43bfbc69e0939f8ba2d593a'>
+		<da><![CDATA[Herunder kan du bestille morgenmad og aftensmad:]]></da>
+		<en><![CDATA[Order breakfast and dinner here:]]></en>
+	</translation>
+	<translation key='e366c4aaa1fecd0508f3947521b78daa'>
+		<da><![CDATA[Onsdag]]></da>
+		<en><![CDATA[Wednesday]]></en>
+	</translation>
+	<translation key='826772208fb24b938cf8c7dbf0bac821'>
+		<da><![CDATA[Vælg din aftensmad (55 kr):]]></da>
+		<en><![CDATA[Choose dinner (55 DKK):]]></en>
+	</translation>
+	<translation key='08980838aa5c01750ef182edda22ec29'>
+		<da><![CDATA[Normal: Lasagne – tilsat grøntsager]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='32d6fcdde3faed2c2095be4f477c67cc'>
+		<da><![CDATA[Vegetar: Vegetarlasagne med bønner og spirer.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='01ef99b1cd3df9b2f79f4952f40b0ca3'>
+		<da><![CDATA[Torsdag]]></da>
+		<en><![CDATA[Thursday]]></en>
+	</translation>
+	<translation key='d97604d7c27b280d5021d8615e5b3ac7'>
+		<da><![CDATA[Morgenmad (25 kr): (cornflakes/havregryn,yoghurt, frugt, groft og alm. brød, pålæg, kaffe, te)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='531d2ed99878846066efa00b9d11635a'>
+		<da><![CDATA[Normal: Grillet kyllingebryst med brune ris og paprikasauce, pastasalat med pesto.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='e07027a9d7c08fa70f4ba6228c5c324c'>
+		<da><![CDATA[Vegetar: Paneret stegt jordnødderulle med brune ris og paprikasauce]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='544783d0c9d5ee256df4b7dfa7db019c'>
+		<da><![CDATA[Fredag]]></da>
+		<en><![CDATA[Friday]]></en>
+	</translation>
+	<translation key='71836061ad1f1ede10b8e1efb679fc56'>
+		<da><![CDATA[Normal: Hakkebøf med bløde løg og hvide kartofler]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2244095d2b6d91c21c19524ff0924f9e'>
+		<da><![CDATA[Vegetar: Linsefrikadeller med stegte grøntsager, ristede kartofler og sauce.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='9f4616f9a5d42c6dceb4674960ab591a'>
+		<da><![CDATA[Lørdag]]></da>
+		<en><![CDATA[Saturday]]></en>
+	</translation>
+	<translation key='d26a1a189217b19a15df12b8e00a11c0'>
+		<da><![CDATA[Normal: Kylling i karry grøntsager, med løse brune ris]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='baad207cf3a373196fa7afa9e861adc2'>
+		<da><![CDATA[Vegetar: Fyldt pandekage med nøddepostej og tomatsauce.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='128be23775d98070bd5ed4c14db7bce8'>
+		<da><![CDATA[Søndag]]></da>
+		<en><![CDATA[Sunday]]></en>
+	</translation>
+	<translation key='0d11d572108d397820434dbe4721e1cb'>
+		<da><![CDATA[Normal: Frikadelle med pestokartofler og sauce]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='200666d5442f2aa4ba912b2e48e41144'>
+		<da><![CDATA[Vegetar: Fyldt peberfrugt med pesto, hertil bulgursalat med bønner og grønt.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='aeec243dbd8ebd6156888b9a1cf2e313'>
+		<da><![CDATA[Aktiviteter]]></da>
+		<en><![CDATA[Activities]]></en>
+	</translation>
+	<translation key='f458451a754cc255dc831baeac6bcd91'>
+		<da><![CDATA[<p>Nu bliver det langhåret! Her skal du vælge og prioritere de aktiviteter du er interesseret i at deltage i på Fastaval.</p>
+<h3>Typer af aktiviteter</h3>
+<p>Hver aktivitet på oversigten har en farvekode:</p>
+<ul>
+<li>Grøn = Bordrollespil</li>
+<li>Lilla = Liverollespil</li>
+<li>Rød = figurspil</li>
+<li>Blå = Brætspil</li>
+<li>Mørkegrøn = Magic</li>
+<li>Gul = Events & Workshops.</li>
+</ul>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b3f32195f39a8ccd7e6f62b88bfa2aa7'>
+		<da><![CDATA[<h3>Hvordan du prioriterer</h3>
+<ul>
+<li>Klik på de enkelte aktivitetsnavne for at se en foromtale/beskrivelse</li>
+<li>Du prioriterer ved at klikke på på det grå felt i perioden</li>
+<li>1-4 indikerer din prioritering (1 er højest, 3 lavest, 4 betyder 'hvis jeg ikke kommer på noget af det andet). 'SL' betyder at du gerne vil være spilleder på aktiviteten.</li>
+<li>For hver blok kan du vælge en 1., 2. 3. prioritet.</li>
+<li>Du kan vælge så mange 4+ prioriteter du har lyst til</li>
+<li>Der er heller ingen begrænsning på hvor mange gange du vælger at være spilleder på en dag. Vi elsker spilledere! Du kan dig sætte et max. på (se længere nede)</li>
+<li>Forvirret? <a href="http://www.fastaval.dk/ofte-stillede-spoergsmaal-om-tilmeldingen/" target="_blank" style="color:#b00;">Der er hjælp at hente her (åbner i nyt vindue)</a></li>
+</ul>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='32e49c5c2ea744e32275fa2f00a21c48'>
+		<da><![CDATA[<h3>Tænker du på at være spilleder?</h3>
+<p>Otto elsker spilledere. Derfor får alle Fastavals spilledere en gave i Check-In når de ankommer til Fastaval (oh yeah). Derudover får man en BONUS VOUCHER for hvert scenarie/aktivitet man spilleder, eller event/workshop man afholder. Denne kan på Fastaval indløses til én af følgende goder:</p>
+<ul>
+<li>Frokost: 1 sandwich + 1 sodavand (Kiosk)</li>
+<li>Sukkerchok: 1 toast + 1 chokobar el. slikpose + 1 sodavand (Kiosk)</li>
+<li>Tømmermænd: 1 øl (Bar)</li>
+<li>+ en krammer fra nærmeste Fastavalgænger (kan indløses hvor som helst)</li>
+</ul>
+]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='81ef2b89c69d61cb27e7feea77b5f314'>
+		<da><![CDATA[Rollespil]]></da>
+		<en><![CDATA[RPG]]></en>
+	</translation>
+	<translation key='5b006441e694cb45a1af078e58a66a87'>
+		<da><![CDATA[DKK]]></da>
+		<en><![CDATA[DKK]]></en>
+	</translation>
+	<translation key='07b1aa9d5df21fa2bfae0ab950fa476b'>
+		<da><![CDATA[no priority]]></da>
+		<en><![CDATA[no priority]]></en>
+	</translation>
+	<translation key='b387de60aebda22ffcb6e3dc43dec2fe'>
+		<da><![CDATA[1. priority]]></da>
+		<en><![CDATA[1. priority]]></en>
+	</translation>
+	<translation key='cc17e78d3614cccd2589ba2118321c5a'>
+		<da><![CDATA[2. priority]]></da>
+		<en><![CDATA[2. priority]]></en>
+	</translation>
+	<translation key='40535f3371afa7105aaccad616fb6208'>
+		<da><![CDATA[3. priority]]></da>
+		<en><![CDATA[3. priority]]></en>
+	</translation>
+	<translation key='330a6e2dfeef8ddb953b596846873f4b'>
+		<da><![CDATA[4. priority]]></da>
+		<en><![CDATA[4. priority]]></en>
+	</translation>
+	<translation key='627866bed722002492f5ea745051e944'>
+		<da><![CDATA[sl priority]]></da>
+		<en><![CDATA[GM prio]]></en>
+	</translation>
+	<translation key='8e77726f3c431bc0e1d53e9d62254fed'>
+		<da><![CDATA[Brætspil]]></da>
+		<en><![CDATA[Boardgames]]></en>
+	</translation>
+	<translation key='9dd6a4b8031621b2d264fe5ce86ef358'>
+		<da><![CDATA[1. prio]]></da>
+		<en><![CDATA[1th]]></en>
+	</translation>
+	<translation key='39c49e93d9f6a9b842cf701776c50151'>
+		<da><![CDATA[2. prio]]></da>
+		<en><![CDATA[2nd]]></en>
+	</translation>
+	<translation key='4c1b59e76a21f85146653c007fa13f82'>
+		<da><![CDATA[3. prio]]></da>
+		<en><![CDATA[3rd]]></en>
+	</translation>
+	<translation key='af3b03b88b87065d1715f54a5e004c45'>
+		<da><![CDATA[4. prio]]></da>
+		<en><![CDATA[4th]]></en>
+	</translation>
+	<translation key='74b8d5453b654b3a79e7b8985a2fc71c'>
+		<da><![CDATA[SL]]></da>
+		<en><![CDATA[GM]]></en>
+	</translation>
+	<translation key='cb38ee67cb4223de110500273adf6750'>
+		<da><![CDATA[Der er i år mulighed for at vælge et maksimalt antal rollespil og brætspil man kommer til at spille:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='344b3893ff4baf8b642490acde2fea08'>
+		<da><![CDATA[Antal spil jeg højst vil spille:]]></da>
+		<en><![CDATA[Number of games i want to play, maximum:]]></en>
+	</translation>
+	<translation key='d82dff3b311e53dda6e844edd1d8321e'>
+		<da><![CDATA[HelCon]]></da>
+		<en><![CDATA[HelCon]]></en>
+	</translation>
+	<translation key='42a863a6ab80425175477e37cc7e9e1c'>
+		<da><![CDATA[Ja, jeg vil gerne deltage i årets HelCon]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='99925831e3ab0d8f33521bf33cc2eb31'>
+		<da><![CDATA[Scenarieskrivningskonkurrence]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b8ef586e0e6c8750b68c45f85f136b2d'>
+		<da><![CDATA[Hvor svært kan det være at skrive et scenarie? Vi gør det lidt sværere – skriv et scenarie under Fastaval med bundne krav til form og indhold. Der er en præmie for bedste scenarie, og detaljeret feedback til alle, der afleverer. Tør du stille op? Læs mere her.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8f7a1d4a772ccbcf1fe392296fd62684'>
+		<da><![CDATA[Ja, jeg vil gerne være med i scenarieskrivningskonkurrencen]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d1668a73db04c3386112e2fca5306a72'>
+		<da><![CDATA[Byg et brætspil]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fa108d9e48664fbdb5a6dfeca8653a2e'>
+		<da><![CDATA[Hvor svært kan det være at lave et brætspil? Find ud af det på Fastaval! Læs mere her]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='47d80c16319cb18a55079f5a654a1c43'>
+		<da><![CDATA[Ja, jeg vil gerne prøve at bygge et brætspil]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='53da26957f124f848e40a9c20a20b90f'>
+		<da><![CDATA[Er du karma-hardcore spilleder?]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6304784796c272b7ecd8280d9f012340'>
+		<da><![CDATA[Ja, absolut. Fastaval må gerne kontakte mig, hvis der mangler ekstra spilledere (kan vælges uanset om du allerede har valgt at være spilleder i oversigten)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='09acc2ab2c0807d6de8887b62dedc52b'>
+		<da><![CDATA[Husk at vælge 3 GDS tjanser i alt]]></da>
+		<en><![CDATA[Remember to choose 3 DIY tasks]]></en>
+	</translation>
+	<translation key='495ebb08d96fd1ef02a05992b75a58e0'>
+		<da><![CDATA[GDS]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1c7922a927d335604921077f25271647'>
+		<da><![CDATA[GDS står for Gør Det Selv og betyder på Fastaval, at alle deltagere giver en hånd med til at få de praktiske ting til at fungere. Kendetegnende for alle GDS-tjanserne er, at de ikke er ubehagelige eller tager bemærkelsesværdig lang tid. Vi koordinerer det, så det ikke går ud over dine andre aktiviteter og du skal maks. tage én GDS-tjans. Prioriter tre GDS-tjanser på nedenstående liste, så vi har noget at vælge imellem.</p>
+<p>GDS-tjanserne er i år grupperinger af tjanser, hvor man ikke vælger noget specifikt, men i stedet et område. Hvis du ønsker en bestemt tjans, kan du skrive dette i bemærkningerne senere i tilmeldingen. Læs om de forskellige <a href="http://www.fastaval.dk/gds-tjanser/" target="_blank" style="color:#b00;">GDS-tjanser her</a>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='0a31b9bb7df57277ff050165ba031ea9'>
+		<da><![CDATA[Du har allerede i din rolle som arrangør eller forfatter/brætspilsdesigner lagt meget tid i Fastaval, og behøver derfor ikke tage en GDS-tjans. Hvis du alligevel har lyst, er du mere end velkommen til at vælge nogle tjanser.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='25f849cff5063693033ab8a427fe1804'>
+		<da><![CDATA[Afgjort! Jeg kan godt overtales til at tage mere end én GDS-tjans]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7fe8f7d28bcbbef7e682eeb3e812930c'>
+		<da><![CDATA[Ja! Jeg er Fastavals svar på faldskærmstropper. I kan ringe til mig, når det hele er væltet og I akut har brug for en hjælpende GDS-hånd]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6afd1b6e045dcb8a9648a0b1dc0456a5'>
+		<da><![CDATA[Morgen]]></da>
+		<en><![CDATA[Morning]]></en>
+	</translation>
+	<translation key='658e2b0c648c9f31a796f11fc7f3cb67'>
+		<da><![CDATA[Middag]]></da>
+		<en><![CDATA[Midday]]></en>
+	</translation>
+	<translation key='b2dfee9938756c3525b266279d26e02e'>
+		<da><![CDATA[Aften]]></da>
+		<en><![CDATA[Night]]></en>
+	</translation>
+	<translation key='d893c94bc3c25c466480d5c3bb5af860'>
+		<da><![CDATA[Husk at vælge størrelser til al dit wear!]]></da>
+		<en><![CDATA[Remember to choose sizes for all your wear]]></en>
+	</translation>
+	<translation key='b171bd553102f8072c31e01a18b3fe87'>
+		<da><![CDATA[Husk at vælge hvor meget du skal have af al dit wear!]]></da>
+		<en><![CDATA[Remember to choose how much of all your wear you want!]]></en>
+	</translation>
+	<translation key='ad60e2fc714f34f3d78b3b71b4ce94c8'>
+		<da><![CDATA[Fasta Wear]]></da>
+		<en><![CDATA[Fasta wear]]></en>
+	</translation>
+	<translation key='692beb1ea6d76ef726a280ea9e638811'>
+		<da><![CDATA[Det ville ikke være en rigtig Fastaval, hvis ikke du kunne tage loot med hjem. Årets Fastawear indeholder krus, hættetrøjer, T-shirts og andre nyttige ting. Det er fabelagtigt, lækkert, tema-koordineret og med masser af pingviner på.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='40ef2b5e64b2473a3f8991095465fb51'>
+		<da><![CDATA[Da du tidligere har noteret dig som arrangør eller forfatter, så får du ALT wear til indkøbspris. Differencen på normalpris og indkøbspris er trukket fra de viste priser neden under.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5510f7702733bdf685619f50032ca819'>
+		<da><![CDATA[<strong>Husk at du skal vælge både antal og størrelse.</strong> Ønsker du forskellige størrelser på dit Wear, så skriv det i feltet 'Bemærkninger' sidst i tilmeldingen.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='330034615d830254d558c1c6319fd600'>
+		<da><![CDATA[Antal]]></da>
+		<en><![CDATA[Amount]]></en>
+	</translation>
+	<translation key='e394c354a1fbaff01fd167d40f81cb26'>
+		<da><![CDATA[Størrelse]]></da>
+		<en><![CDATA[Size]]></en>
+	</translation>
+	<translation key='cdc079e43b3ab2f89ae80151ed1edc91'>
+		<da><![CDATA[Gå til godkendelse]]></da>
+		<en><![CDATA[Go to approval]]></en>
+	</translation>
+	<translation key='55b46c78923b2d327133829ca40e2f3d'>
+		<da><![CDATA[Ekstra informationer]]></da>
+		<en><![CDATA[Extra information]]></en>
+	</translation>
+	<translation key='ed8b98fd211e9b9712e25988b275ee20'>
+		<da><![CDATA[Sprog og oprindelse]]></da>
+		<en><![CDATA[Language and Origin]]></en>
+	</translation>
+	<translation key='77a6768a55f05faba0ffb3e2e2a93d02'>
+		<da><![CDATA[Hvilke sprog vil du gerne deltage i aktiviteter på:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='cdfe453db1377572731d156bf9cd2fce'>
+		<da><![CDATA[Dansk]]></da>
+		<en><![CDATA[Danish]]></en>
+	</translation>
+	<translation key='2cf6d7f4e34ede86abc5a7b3091a959d'>
+		<da><![CDATA[Engelsk]]></da>
+		<en><![CDATA[English]]></en>
+	</translation>
+	<translation key='17cf7eaef2df3cdfed2f8eb41cc7ce6e'>
+		<da><![CDATA[Skandinavisk generelt (forstår dansk/svensk/norsk)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='87c5770920187679729a97ce3ccdfd08'>
+		<da><![CDATA[Jeg vil gerne hjælpe med at simultantolke aktiviteter på dansk/engelsk for dem, der ikke kan begge sprog. Fastaval må gerne kontakte mig efter behov.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7e891cce9db2af8ad36d34d695ac423b'>
+		<da><![CDATA[Jeg er international gæst (dvs. ikke dansk) og vil gerne være med i aktiviteter for internationale gæster.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5741fb792928d1f0e3bf0d9f528f9ff0'>
+		<da><![CDATA[Jeg vil gerne være en af Fastavals rige tanter og onkler, og støtter hermed kongressen med 300 kr ekstra! Beløbet vil blive lagt til min endelige pris, og jeg vil blive nævnt med tak på Fastaval.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='49f24121e7e0b5a7bed76d41a583fa7a'>
+		<da><![CDATA[Jeg vil gerne være en af Fastavals hemmelige rige tanter og onkler, og støtter hermed kongressen med 300 kr ekstra! Beløbet vil blive lagt til min endelige pris. Kun de indviede ved, hvor sej jeg er.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6018d7a74d44110ff16474f8c02d7162'>
+		<da><![CDATA[Jeg medbringer et par bræt- eller rollespil at give væk til "The Fastaval Re-Allocation Project" ]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7728b91dd6405e62228a001d9127f0ab'>
+		<da><![CDATA[Giv en hånd til klargøring]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d3b1f24e87ccf539337f3f6484e91e56'>
+		<da><![CDATA[Jeg vil gerne være med til at klargøre skolen fra mandag d. 30. marts kl. 12:00]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2e662cffa53de1e21c15a446b9975531'>
+		<da><![CDATA[Jeg vil gerne være med til at klargøre skolen fra tirsdag d. 31. marts kl. 12:00]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='cb1095c9a5eece8bd556cf3529a11222'>
+		<da><![CDATA[Særlige skills]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='9eb6c7f090e30896b3920d4aebb55a63'>
+		<da><![CDATA[Har du skills eller ting, som du gerne vil stille til rådighed for Fastaval undervejs? Har du eksempelvis håndværkerfaring, kan du køre truck eller lastbil, er du læge, sygeplejeske, falckredder eller brandmand? Har du en bil, som du godt vil køre folk på skadestuen i? Er du dygtig til et eller andet vi ikke anede vi kunne få brug for? Så skriv det her. Vi kontakter dig, hvis det brænder på.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='3d9cb1e8a2ab87987b6e37f546f2511e'>
+		<da><![CDATA[Bemærkninger]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='63c9b40f38789870f84fae39e95c26f0'>
+		<da><![CDATA[<p>Her kan du skrive beskeder til Fastaval. Det kunne f.eks. være:</p>
+<ul><li>Hvis du har kommentarer til dine GDS prioriteringer</li><li>Eller hvis du blot har lyst til at fortælle hvor meget du glæder dig til Fastaval</li></ul><p>Vi kigger først bemærkningerne igennem efter tilmeldingen er lukket. Så har du spørgsmål eller lignende, så send dem per mail på info@fastaval.dk eller stil dem på www.facebook.dk/fastaval. Ikke i dette felt.</p>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='3f195d00337fd69671ae15bccf8922f2'>
+		<da><![CDATA[Tilmeld]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2dd7e84d074de3962c328536a0f546fa'>
+		<da><![CDATA[Godkend tilmelding]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1a9d28ea5640d81fa986fe0777df522e'>
+		<da><![CDATA[Personlige oplysninger]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='0e68852d659a8ebe87c2be1d45247026'>
+		<da><![CDATA[Alternativt telefonnummer:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5dbd9def684edacb651971575e443503'>
+		<da><![CDATA[Medbringer mobil og må kontaktes]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7b493c576a022a41354ac7753900c497'>
+		<da><![CDATA[Køn:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='28075e88fed53e3a9e08efe3500624b1'>
+		<da><![CDATA[Fødselsdato (dag):]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4292ffe544fe503be5d1212a1b795c6a'>
+		<da><![CDATA[Fødselsdato (måned):]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5ebd097cb48abac91788c010eece7ac1'>
+		<da><![CDATA[Fødselsdato (år):]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6a1e265f92087bb6dd18194833fe946b'>
+		<da><![CDATA[Email:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c226dbb7ca7901423c32c5aea84cf2b3'>
+		<da><![CDATA[Med en klub/ungdomsskole:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7e5cd3eec9d19f6740183fde3d2fdf99'>
+		<da><![CDATA[Alea]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='02c56efbde5f27d64065eb29ebd1d6e6'>
+		<da><![CDATA[Vil gerne meldes in i Alea]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1a04d5cd9375b827f681f12d18cbdf7f'>
+		<da><![CDATA[Arrangør information]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='86673048530311e4f8aaab4f0636e9e7'>
+		<da><![CDATA[Deltagertype]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1e4febbcf18580269cb4a3db4d9ea134'>
+		<da><![CDATA[Mit arbejdsområde]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='bef3cbb74b793c456a939520856777c8'>
+		<da><![CDATA[Mit scenarie/spil]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2bddd1561cd1f3b4112600538fd7c74e'>
+		<da><![CDATA[Plads i arrangørsovesal]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fa94897be2f9b66aab49157be946a9fd'>
+		<da><![CDATA[Indgang]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='484f9fd37bfb06760b3432f6511dca24'>
+		<da><![CDATA[Nej]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='375ee26098b46e23bcb854331f0ad8c5'>
+		<da><![CDATA[Ja]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4ec5b43e8b42bd0ca5ab45a50ee0f47f'>
+		<da><![CDATA[Sover på hele fastaval]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='63a506f4e48938c24c9e98915ca01744'>
+		<da><![CDATA[Sover Onsdag/Torsdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6879531d6168d1b12940dd6110497a37'>
+		<da><![CDATA[Sover Torsdag/Fredag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c52d9b5ed4862e8aa4d9bb4205d0448c'>
+		<da><![CDATA[Sover Fredag/Lørdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4f56a9aeda7e47b12c8fb2f65274ce0c'>
+		<da><![CDATA[Sover Lørdag/Søndag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='ed9757bd10b382923d8098a2f489a12c'>
+		<da><![CDATA[Sover Søndag/Mandag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2bb7d58225f14e8d072e1e3c157bd3da'>
+		<da><![CDATA[Leje af madras]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7ce2b1b8c932c1cda68a779adeb64e1f'>
+		<da><![CDATA[Ja (100)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='efdd73bd2fcef274297e581abbe038b5'>
+		<da><![CDATA[Aftensmad onsdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='be57398ec0d33bbee919bb18d35492d2'>
+		<da><![CDATA[Morgenmad torsdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='f6eb8c1d6cd949117c492baa06030fe2'>
+		<da><![CDATA[Aftensmad torsdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='51519742b16884e4f1a514a436747eac'>
+		<da><![CDATA[Morgenmad fredag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='01751fcc72af200b9233bdba8c7baed6'>
+		<da><![CDATA[Aftensmad fredag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='70f7edafb76ca090ff0e66e9c07ed5d4'>
+		<da><![CDATA[Morgenmad lørdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fc126f3df02ee2fdaf9d27e219d3313b'>
+		<da><![CDATA[Aftensmad lørdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='709230bccb6242dedd6b7ed934081bc3'>
+		<da><![CDATA[Morgenmad søndag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='eabdf99be94e32bc87978c26623017c9'>
+		<da><![CDATA[Aftensmad søndag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8604c048f8f1fa662e933d44d5b999b9'>
+		<da><![CDATA[Jeg kommer til Ottofesten]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='476bcf7b3a0f54429860068dd320e34f'>
+		<da><![CDATA[Maksimum antal scenarier jeg vil spille (0 er ingen grænse)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8c8ded165e7d1ae335262656bf54717a'>
+		<da><![CDATA[Jeg vil gerne melde mig til scenarieskrivningskonkurrencen]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a6a873b051b53c69f18e47a105d6ec69'>
+		<da><![CDATA[Jeg vil gerne være med til HelCon]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='731037744f474174bc9bc76a1f57f7c2'>
+		<da><![CDATA[Fastaval må kontakte mig om spilleder-poster]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='312dfc19854364423a11fb6b4e05151c'>
+		<da><![CDATA[Jeg er super GDS]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='061fa5b5247736b8226977a2bec4feed'>
+		<da><![CDATA[Fastaval må kontakte mig om GDS]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='67992418ca03737d9a630ecf8410b57b'>
+		<da><![CDATA[Wear]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='0abc443a58ee93208900435b6eb365c2'>
+		<da><![CDATA[Ekstra Informationer]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6bef350b41655f184a89d59068a5bdde'>
+		<da><![CDATA[International gæst]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='07caea310d79188e433e45c737ec1b6b'>
+		<da><![CDATA[Jeg vil spille på dansk]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='f15b47baa802ffdbeabe7a0edbcc9aec'>
+		<da><![CDATA[Jeg vil spille på engelsk]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8945b86cd2c3a7b7f756ebecced17ff4'>
+		<da><![CDATA[Jeg vil spille på skandinavisk]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6e56741bc3432dfb851f855ce3fec655'>
+		<da><![CDATA[Har ting med til GeekBookDrive]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='554000eb96cef34fe838501c321b3f35'>
+		<da><![CDATA[Vil gerne med-arrangere Fastaval 2013]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a499afae15aea43aec8da6f495aa73bb'>
+		<da><![CDATA[Jeg vil gerne med Københavnerbussen]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4bd660a36261f5fa9ed0a225f9a863d0'>
+		<da><![CDATA[Jeg vil rydde op tirsdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='280421465680fda57f9de1b16661bf76'>
+		<da><![CDATA[Jeg vil måske medbringe spil jeg giver væk]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='3377ae8b1b2106cd6efaeb429fcb67e2'>
+		<da><![CDATA[Klargøre skolen fra mandag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2b4c5e7a7af9ab9da26b832d69fe8b9e'>
+		<da><![CDATA[Klargøre skolen fra tirsdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b21bb8a2f2f1185775c7735181f0979b'>
+		<da><![CDATA[Jeg er en rig Fasta-onkel/tante]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fa5d0101824429e8f3fa1adad2443d68'>
+		<da><![CDATA[Jeg er en hemmelig rig Fasta-onkel/tante]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a99974d6a5c4bbef9827df944d530c6b'>
+		<da><![CDATA[Special skills]]></da>
+		<en><![CDATA[Special skills]]></en>
+	</translation>
+	<translation key='66b99779a32b0208028d5c71ed368fa2'>
+		<da><![CDATA[Andre kommentarer]]></da>
+		<en><![CDATA[Other comments]]></en>
+	</translation>
+	<translation key='62f53655259ed2a25e90a5f021757950'>
+		<da><![CDATA[Pris]]></da>
+		<en><![CDATA[Price]]></en>
+	</translation>
+	<translation key='f84585caa2263bb72be2dcad6d917b00'>
+		<da><![CDATA[Entré]]></da>
+		<en><![CDATA[Entre]]></en>
+	</translation>
+	<translation key='9fe1357eb872126b3969b35db91d1adb'>
+		<da><![CDATA[Alea indmeldelse]]></da>
+		<en><![CDATA[Alea membership]]></en>
+	</translation>
+	<translation key='5b7f1c9d28b1581481c25ed79b2ac9ea'>
+		<da><![CDATA[Mad & fest]]></da>
+		<en><![CDATA[Food & party]]></en>
+	</translation>
+	<translation key='10bc272c6498df46e252290bcde451dd'>
+		<da><![CDATA[Andet]]></da>
+		<en><![CDATA[Other]]></en>
+	</translation>
+	<translation key='d41c1b6b4f7e3c43353be611e0a55710'>
+		<da><![CDATA[I alt]]></da>
+		<en><![CDATA[Total]]></en>
+	</translation>
+	<translation key='d91f2f503bbfd19d6811603ee8a695c7'>
+		<da><![CDATA[Allerede registeret?]]></da>
+		<en><![CDATA[Already signed up?]]></en>
+	</translation>
+	<translation key='a6b0484287eb33d287d59464969dfdf1'>
+		<da><![CDATA[Hvis du tidligere har registreret dig, kan du genindlæse din tilmelding <small>(dette vil slette alt du har udfyldt i denne session)</small>:]]></da>
+		<en><![CDATA[If you prior have registered, you can reload your signup <small>(this will delete all you have filled in this session)</small>:]]></en>
+	</translation>
+	<translation key='ce8ae9da5b7cd6c3df2929543a9af92d'>
+		<da><![CDATA[Email]]></da>
+		<en><![CDATA[Email]]></en>
+	</translation>
+	<translation key='0a5d2fec885097107184eb9f39e5e690'>
+		<da><![CDATA[Kodeord]]></da>
+		<en><![CDATA[Password]]></en>
+	</translation>
+	<translation key='e667224b800d1653d0fdc659c3315aec'>
+		<da><![CDATA[Genindlæs]]></da>
+		<en><![CDATA[Reload]]></en>
+	</translation>
+	<translation key='d66d4399bb0e2fba0e14321046460907'>
+		<da><![CDATA[En fejl opstod da tilmeldingen prøvede at koble sig på serveren. Prøv igen senere.]]></da>
+		<en><![CDATA[An error occured when the signup tried to connect to the server. Try again please.]]></en>
+	</translation>
+	<translation key='eb8e6bec6a56a7e0d92bcf44b7c355a6'>
+		<da><![CDATA[Der er muligvis en fejl i kombinationen af din email og kodeord. Prøv igen.]]></da>
+		<en><![CDATA[There seems to be an error in the combination of email and password. Try again please.]]></en>
+	</translation>
+	<translation key='b1012c0e43704a3382cd85d35bace03b'>
+		<da><![CDATA[En ukendt fejl opstod, prøv igen (fejlkode:]]></da>
+		<en><![CDATA[An unknown error happened, try again. (error code: ]]></en>
+	</translation>
+	<translation key='9c0b146a424847e9e18b992ddf8091c0'>
+		<da><![CDATA[Danmark]]></da>
+		<en><![CDATA[Denmark]]></en>
+	</translation>
+	<translation key='6f781c6559a0c605da918096bdb69edf'>
+		<da><![CDATA[Finland]]></da>
+		<en><![CDATA[Finland]]></en>
+	</translation>
+	<translation key='059ed2b127f13864b451941a095dc015'>
+		<da><![CDATA[Norge]]></da>
+		<en><![CDATA[Norway]]></en>
+	</translation>
+	<translation key='66fc3657b7abf9197c7c8caa98309d49'>
+		<da><![CDATA[Storbritannien]]></da>
+		<en><![CDATA[Great Britain]]></en>
+	</translation>
+	<translation key='65878fa17e8d8170b2e680e1e45fd62d'>
+		<da><![CDATA[Sverige]]></da>
+		<en><![CDATA[Sweden]]></en>
+	</translation>
+	<translation key='7c48a669dc8327e9e398177689bc5296'>
+		<da><![CDATA[Tyskland]]></da>
+		<en><![CDATA[Germany]]></en>
+	</translation>
+	<translation key='f75d91cdd36b85cc4a8dfeca4f24fa14'>
+		<da><![CDATA[USA]]></da>
+		<en><![CDATA[USA]]></en>
+	</translation>
+	<translation key='8c9d10360ee50c84a5561a7f26a90c9d'>
+		<da><![CDATA[Albanien]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='361e734b7e9d674efb5e3ac441e2c149'>
+		<da><![CDATA[Belgien]]></da>
+		<en><![CDATA[Belgium]]></en>
+	</translation>
+	<translation key='0a2d04719588fbf068bb00fc5792cf7e'>
+		<da><![CDATA[Bosnien-Hercegovina]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='890e7d6ada065165ebbc77c4b7822c37'>
+		<da><![CDATA[Bulgarien]]></da>
+		<en><![CDATA[Bulgaria]]></en>
+	</translation>
+	<translation key='445d337b5cd5de476f99333df6b0c2a7'>
+		<da><![CDATA[Canada]]></da>
+		<en><![CDATA[Canada]]></en>
+	</translation>
+	<translation key='d6343265b8063a8f4e9cb7aae39a626e'>
+		<da><![CDATA[Cypern]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='84e125f84bd0cf18031a2a266a5868cf'>
+		<da><![CDATA[Estland]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7b3cd4d77ebb87af127b48ae3cfe9c05'>
+		<da><![CDATA[Frankrig]]></da>
+		<en><![CDATA[France]]></en>
+	</translation>
+	<translation key='82d9df18bad973bec16d19b20e72dea3'>
+		<da><![CDATA[Færøerne]]></da>
+		<en><![CDATA[Faroe Islands]]></en>
+	</translation>
+	<translation key='5f5980ab123a594f7e9b6ee91c01834e'>
+		<da><![CDATA[Grækenland]]></da>
+		<en><![CDATA[Greece]]></en>
+	</translation>
+	<translation key='5b886b19ff72b735d988b45a4a957d34'>
+		<da><![CDATA[Grønland]]></da>
+		<en><![CDATA[Greenland]]></en>
+	</translation>
+	<translation key='67eb2b8d0aab60ec69666532ff9527c9'>
+		<da><![CDATA[Holland]]></da>
+		<en><![CDATA[Netherlands]]></en>
+	</translation>
+	<translation key='dd19727aa7653455e4a37d6d46767124'>
+		<da><![CDATA[Irland]]></da>
+		<en><![CDATA[Ireland]]></en>
+	</translation>
+	<translation key='ac0ce97fbbf9358c19452118b49eeacc'>
+		<da><![CDATA[Island]]></da>
+		<en><![CDATA[Iceland]]></en>
+	</translation>
+	<translation key='389962c9dec540ab28d04517e82c3996'>
+		<da><![CDATA[Italien]]></da>
+		<en><![CDATA[Italy]]></en>
+	</translation>
+	<translation key='ee09f953e2cce4a1e7a2f5b288fee2f4'>
+		<da><![CDATA[Kroatien]]></da>
+		<en><![CDATA[Croatia]]></en>
+	</translation>
+	<translation key='d47984bd247211a02a26fff1bf8ca391'>
+		<da><![CDATA[Letland]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='06630c890abadde9228ea818ce52b621'>
+		<da><![CDATA[Luxembourg]]></da>
+		<en><![CDATA[Luxenburg]]></en>
+	</translation>
+	<translation key='92468e8a62373add2b9caefddbcf1303'>
+		<da><![CDATA[Malta]]></da>
+		<en><![CDATA[Malta]]></en>
+	</translation>
+	<translation key='4e92f9d2cdf0b8eb493ae3a19709d121'>
+		<da><![CDATA[Montenegro]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c5d7f540c8bc591b128caf6c923206f8'>
+		<da><![CDATA[Polen]]></da>
+		<en><![CDATA[Poland]]></en>
+	</translation>
+	<translation key='ea71b362e3ea9969db085abfccdeb10d'>
+		<da><![CDATA[Portugal]]></da>
+		<en><![CDATA[Portugal]]></en>
+	</translation>
+	<translation key='5ee678023266b6ce4522c07946d16d4c'>
+		<da><![CDATA[Republikken Makedonien]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a46e2b4d8417f22929bd32f57d3dd20f'>
+		<da><![CDATA[Rumænien]]></da>
+		<en><![CDATA[Romania]]></en>
+	</translation>
+	<translation key='7a0be5a1ed9675975e678b517f07573c'>
+		<da><![CDATA[Schweiz]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='57441f5036e3278df0a7cf7f317c5805'>
+		<da><![CDATA[Serbien]]></da>
+		<en><![CDATA[Serbia]]></en>
+	</translation>
+	<translation key='eee02ef72fb8f95ba39af78d01e55958'>
+		<da><![CDATA[Slovakiet]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6ec2877151f199612b1377204c322e50'>
+		<da><![CDATA[Slovenien]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5ea5f4002712b1a9a4e292d3c83736b9'>
+		<da><![CDATA[Spanien]]></da>
+		<en><![CDATA[Spain]]></en>
+	</translation>
+	<translation key='dfa06ba126d83f4174c036496e159aa1'>
+		<da><![CDATA[Tjekkiet]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='efcba0794a1b2272abc849f4693b75cc'>
+		<da><![CDATA[Tyrkiet]]></da>
+		<en><![CDATA[Turkey]]></en>
+	</translation>
+	<translation key='601df943a89d2ac73e0e43a5d37fc228'>
+		<da><![CDATA[Ungarn]]></da>
+		<en><![CDATA[Hungary]]></en>
+	</translation>
+	<translation key='b2b57342c3bf44a758c0c465c7668cf4'>
+		<da><![CDATA[Østrig]]></da>
+		<en><![CDATA[Austria]]></en>
+	</translation>
+	<translation key='ae9247329010d56e469ec40e6f401fc5'>
+		<da><![CDATA[Mand]]></da>
+		<en><![CDATA[Male]]></en>
+	</translation>
+	<translation key='d50c9b8a2c4a37fde19df7ce01e09135'>
+		<da><![CDATA[Kvinde]]></da>
+		<en><![CDATA[Female]]></en>
+	</translation>
+	<translation key='4342f602eefa89856529e128b99caf1c'>
+		<da><![CDATA[Jeg er Deltager]]></da>
+		<en><![CDATA[I am a visitor]]></en>
+	</translation>
+	<translation key='62ab2604d39e51b84f1b4bf20b0396f6'>
+		<da><![CDATA[Jeg er Forfatter / Brætspilsdesigner]]></da>
+		<en><![CDATA[I am a writer / boardgame designer]]></en>
+	</translation>
+	<translation key='ffbff292729f70e68b708bc98fffaf48'>
+		<da><![CDATA[Jeg er Arrangør]]></da>
+		<en><![CDATA[I am an Organizer]]></en>
+	</translation>
+	<translation key='0134dce5cc335aaf77469726131ccc49'>
+		<da><![CDATA[Jeg er Infonaut]]></da>
+		<en><![CDATA[I am an Infonaut]]></en>
+	</translation>
+	<translation key='8b6436bc5152ec767d6c5a92bcaf420e'>
+		<da><![CDATA[Jeg er Dirtbuster]]></da>
+		<en><![CDATA[I am a Dirtbuster]]></en>
+	</translation>
+	<translation key='774f2ecc0bff69bffd86e86435a5588a'>
+		<da><![CDATA[Jeg er Brandvagt]]></da>
+		<en><![CDATA[I am a Fireguard]]></en>
+	</translation>
+	<translation key='9c680599d1e772956de67bf46ce243e9'>
+		<da><![CDATA[Jeg er Kioskninja]]></da>
+		<en><![CDATA[I work in the kiosk]]></en>
+	</translation>
+	<translation key='b219d410e0f21ba3c0dbcee7736786d0'>
+		<da><![CDATA[Velkommen til fastaval-tilmeldingen for arrangører]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='031fce60160ba61bb12d57301476753b'>
+		<da><![CDATA[Tilmeldingen for fastavals arrangører er nu åben. Denne tilmelding er hovedsageligt for at for-registrere alle arrangører på fastaval, således at vi kan jonglere rundt med vores arbejdesgruppe. ]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7117965861f9977bee7da70e849db29f'>
+		<da><![CDATA[Den tilmelding du laver nu som arrangør, er altså en forhåndstilmelding, som du senere får mulighed for at lave om, når den officielle Fastaval-tilmelding åbner. Dette gøres ved hjælp af den email-adresse du angiver, samt et kodeord du får sidst i tilmeldingen.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fd6d79467a9b5742376d55d3bf2a79d7'>
+		<da><![CDATA[Ingen grænse]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='124a7c7730dd567abbbb551b9ed4d937'>
+		<da><![CDATA[Maksimum 1]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c76eb173ee369472c2ef46ad81d18ceb'>
+		<da><![CDATA[Maksimum 2]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='9e17761e387474c526a27d8f5a38c454'>
+		<da><![CDATA[Maksimum 3]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='f06e61d31ee68b9353376f510a16ce55'>
+		<da><![CDATA[Maksimum 4]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='33254470038b73d66f7e91280a86f06a'>
+		<da><![CDATA[Maksimum 5]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='eb52ba7a727aded84d2d8fae160c79bb'>
+		<da><![CDATA[Maksimum 6]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='e9f877952acba5889436d74d24242f98'>
+		<da><![CDATA[Maksimum 7]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='93d8cc6a30638144f18a008cbcd25c0b'>
+		<da><![CDATA[Maksimum 8]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5471f29a3bbb93c536eb94c0aa94f3b4'>
+		<da><![CDATA[Maksimum 9]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='84f77909f0419d72e2c37994735f20e5'>
+		<da><![CDATA[Maksimum 10]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c4ca4238a0b923820dcc509a6f75849b'>
+		<da><![CDATA[1]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c81e728d9d4c2f636f067f89cc14862c'>
+		<da><![CDATA[2]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='eccbc87e4b5ce2fe28308fd9f2a7baf3'>
+		<da><![CDATA[3]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a87ff679a2f3e71d9181a67b7542122c'>
+		<da><![CDATA[4]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='e4da3b7fbbce2345d7772b0674a318d5'>
+		<da><![CDATA[5]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1679091c5a880faf6fb5e6087eb1b2dc'>
+		<da><![CDATA[6]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8f14e45fceea167a5a36dedd4bea2543'>
+		<da><![CDATA[7]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c9f0f895fb98ab9159f51fd0297e236d'>
+		<da><![CDATA[8]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4e51ce89637824ccde8d4ee797b78151'>
+		<da><![CDATA[XS]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5dbc98dcc983a70728bd082d1a47546e'>
+		<da><![CDATA[S]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='69691c7bdcc3ce6d5d8a1361f22d04ac'>
+		<da><![CDATA[M]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d20caec3b48a1eef164cb4ca81ba2587'>
+		<da><![CDATA[L]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a7a4ccc5e1a068d87f4965e014329201'>
+		<da><![CDATA[XL]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b4916bf0f7c94a403a2f374a0441d302'>
+		<da><![CDATA[2XL]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='578492a364fec54ec2ebee80196fa6c6'>
+		<da><![CDATA[3XL]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6755bca62ea688d06cc78cdfb9e61a73'>
+		<da><![CDATA[4XL]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b4a34a2d51159e7072322e1661fd14ce'>
+		<da><![CDATA[5XL]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='949e26691e35861d61e6e05f2e5ab183'>
+		<da><![CDATA[Infonauter: Infonaut T-shirten er din uniform og derfor gratis - vælg blot størrelse (fås i både dame og herre). Denne T-shirt vil være din uniform under hele connen!]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='41222ed8935c04bef37b824d36f1533e'>
+		<da><![CDATA[Nej tak]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='960b44c579bc2f6818d2daaf9e4c16f0'>
+		<da><![CDATA[Normal]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='ed19701b966bd842d3e799155eaaaa58'>
+		<da><![CDATA[Vegetar]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4b2c1acc3307071db1e8aa66070cdd0c'>
+		<da><![CDATA[Ja tak]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='3f5a011c738970fc5350ba57ab86db51'>
+		<da><![CDATA[Du har allerede i din rolle som spilleder lagt meget tid i Fastaval og behøver derfor ikke tage en GDS-tjans. Hvis du alligevel lyster dette skal du dog være meget velkommen til at vælge nogle tjanser.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='47472041867bde6ec072caec11afc5ac'>
+		<da><![CDATA[Wear til indkøbspris og med ”CREW” logo]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4cd867747fd6bcfe0a0ba337c41224d3'>
+		<da><![CDATA[Infonauter modtager derudover også:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a22b348ebc7c72800c323b4ce968a0ea'>
+		<da><![CDATA[En tjekket, orange Infonaut T-shirt]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='dfb412e7ecfff5d9e03bff85a68aee07'>
+		<da><![CDATA[Godkend din tilmelding]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1974a0827f311cc732f53d3ce81c48c6'>
+		<da><![CDATA[Vigtigt! Din tilmelding er IKKE registreret endnu. Gå til næste side for at registrere dig. På denne side verificerer og godkender du din tilmelding.<br><br>Du kan benytte knappen "Forrige side" nederst for at gå tilbage og rette.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b73e01ea3ed66d290cafffce804587d9'>
+		<da><![CDATA[Når du ikke denne tilmelding, kan du tilmelde dig den begrænsede tilmelding, hvor du dog ikke kan vælge mad, wear eller aktiviteter - denne tilmelding er åben indtil d. 31 marts]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4d57da3313cf0f77e8b7282f65846985'>
+		<da><![CDATA[Antal tegn i feltet skal være 8]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d0bb4b95f7dd416a01cd569a778b8109'>
+		<da><![CDATA[Antal tegn i feltet skal være mellem 8 og 8]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c3ddd52a9d9a3407f00f1ad0010cdfc0'>
+		<da><![CDATA[Du har foretaget ændringer på siden. Disse ændringer gemmes ikke, hvis du går til forrige side. Tryk Annuller hvis du vil blive på siden, ellers tryk OK.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d59ce2cc0592e539d8e06de0199f01fb'>
+		<da><![CDATA[Rabat på wear]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='ea4f426d75e7e99f88509af9fee263c7'>
+		<da><![CDATA[Vælg hvilke dage du kommer til fastaval]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c7331da8e17f41557e08c612eb35a1d1'>
+		<da><![CDATA[Almindelig billet (85 kr)<br/>Ungdomsbillet (35 kr)<br/>Arrangør (25 kr)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='94a1902dd5d98f7b7127d23a4622d5e2'>
+		<da><![CDATA[Ja tak (vegetarisk)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='16544ec7b68cfa951720301a1707a77d'>
+		<da><![CDATA[Menu: Lasagne – tilsat grøntsager]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='086958c976601855175bd992a55e7b4d'>
+		<da><![CDATA[Menu (vegetarisk): Vegetarlasagne med bønner og spirer.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='27c71d6736a0f774cdf5b4ce186d6da9'>
+		<da><![CDATA[Morgenmad (25 kr): (cornflakes, havregryn, yoghurt, frugt, groft og alm. brød, pålæg, kaffe, te)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a7d7232b47d9acd8b2498f781003f538'>
+		<da><![CDATA[Ja tak (vegetar)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='11c2b045231e8c955850a5a13dbd9188'>
+		<da><![CDATA[Menu: Grillet kyllingebryst med brune ris og paprikasauce, pastasalat med pesto.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7eea5293a2608769f968bbb5698ece99'>
+		<da><![CDATA[Menu (Vegetarisk): Paneret stegt jordnødderulle med brune ris og paprikasauce]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='3d8829829152cc18a91482f5f61348ae'>
+		<da><![CDATA[Menu: Hakkebøf med bløde løg og hvide kartofler]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='cfbd3b31a095a660a5e0afdd9dff2701'>
+		<da><![CDATA[Menu (vegetarisk): Linsefrikadeller med stegte grøntsager, ristede kartofler og sauce.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='bfa49a5fa6a3ba3d4937ac6ab53a6a0e'>
+		<da><![CDATA[Menu: Kylling i karry grøntsager, med løse brune ris]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fd305598c0d4583fadaf9ef973180031'>
+		<da><![CDATA[Menu (vegetarisk): Fyldt pandekage med nøddepostej og tomatsauce.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5791fa3c35a1c1ad39bde9914c6b58f3'>
+		<da><![CDATA[Menu: Frikadelle med pestokartofler og sauce]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7f1ca0a1c4b4c4970aabaf6419a276bb'>
+		<da><![CDATA[Menu (vegetarisk): Fyldt peberfrugt med pesto, hertil bulgursalat med bønner og grønt.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='47a559168219b93eb5a397329b945dde'>
+		<da><![CDATA[Events & Workshops]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='95630cefed3dc2578222c6219f8e069f'>
+		<da><![CDATA[Artemis]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4b8f1006601ccda42ef7b825ead40bc2'>
+		<da><![CDATA[I år vender vi blikket mod middelalderens europa, hvor rigfolk og magthavere kæmper om magten, mens paven kæmper mod dæmoner om de levendes sjæle! ]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4e5edcf1ce892e814c3f0a60004f1f42'>
+		<da><![CDATA[Dette års HelCon ligger i og udenfor spilblokke. Da man spiller i hold og andre afhænger af en forventes det at man som minimum møder op til disse fastsatte tidspunkter (onsdag aften og lørdag eftermiddag), dertil kan man spille videre udenfor blokkene så meget som man lyster.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4e2ba0b8cb56b79c512fd698914208a4'>
+		<da><![CDATA[Læs mere på <a href="http://www.fastaval.dk/aktivitet/helcon-komme-dit-rige/" target="_blank">www.fastaval.dk/aktivitet/helcon-komme-dit-rige/</a>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b9f899b060fd5c5bc235c0028b0fa172'>
+		<da><![CDATA[Ja, jeg vil gerne prøve at bygge et brætspil (20 kr)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='f2d97719a2256dfea07b962de6930d4b'>
+		<da><![CDATA[Ottofesten]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='761d2f823c1efe2aa460ca1fe7964cdc'>
+		<da><![CDATA[Ottofesten er Fastavals klimaks - det er her Ottoerne uddeles, det er her vi hylder hinanden, og det er her vi fyrer den sidste energi af mens vi fester løs.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='184ff6eb119a4c1431f01d622a048c63'>
+		<da><![CDATA[Der er mulighed for at bestille mousserende vin til festen, formedelst 100 kr ekstra.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4472e633eee0702c6904ed07937f9ccf'>
+		<da><![CDATA[Jeg kommer til ottofesten:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1166cc500ff7743d22492342cb82f531'>
+		<da><![CDATA[Ja tak, indgangsbillet (80kr)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='09b5d122331f9150cf543cbcd691cae0'>
+		<da><![CDATA[Ja tak, indgangsbillet (80kr) + mousserende vin (100kr)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='88ae6615b52d5225f2fca93cb8d924c0'>
+		<da><![CDATA[Det ville ikke være en rigtig Fastaval, hvis ikke du kunne tage loot med hjem. Årets Fastawear indeholder krus, hættetrøjer, T-shirts og andre nyttige ting. Det er fabelagtigt, lækkert, tema-koordineret og med masser af pingviner på. Husk at se vores <a href="http://www.fastaval.dk/praktisk/fastawear/" target="_blank">størrelsesguide</a>.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='98b924899f1e6dee747acc9cfc89cc60'>
+		<da><![CDATA[Da du tidligere har noteret dig som arrangør eller forfatter, så får du rabat på årets Fastaval T-shirts. Prisen nedenunder er med rabat fratrukket.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='df1e81c8e2efcc736ed040119f37918c'>
+		<da><![CDATA[Fastaval 2016, rige onkler og andet]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='29869eae910ef0df30b70d587b30376b'>
+		<da><![CDATA[Jeg har lyst til at være med til at arrangere Fastaval 2016 (læs mere om at være arrangør)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c3b0b61ef15fb610ef7cdb2037d862d1'>
+		<da><![CDATA[Jeg vil gerne være en af Fastavals rige tanter og onkler, og støtter hermed kongressen med 300 kr ekstra! Beløbet vil blive lagt til min endelige pris, og jeg vil blive nævnt med tak på Fastaval.dk samt på infoskærme under fastaval]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='e8c53dcc82b104e7411cf2e1d55326a9'>
+		<da><![CDATA[Hvis du har nogle særlige skills du mener vi bør bruge lige nu og her, så skriv til os med det samme på <a href="mailto:info@fastaval.dk">info@fastaval.dk</a>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4879221911b456dfa72873487686c9e2'>
+		<da><![CDATA[Rediger]]></da>
+		<en><![CDATA[Edit]]></en>
+	</translation>
+	<translation key='45ec715b8a2960b9ec4920844609353b'>
+		<da><![CDATA[Partout (alle dage)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='9a3f67b835ec74ecf4692c41cc891799'>
+		<da><![CDATA[Ja  (25 kr)]]></da>
+		<en><![CDATA[Yes  (25 kr)]]></en>
+	</translation>
+	<translation key='654188a630fa52da20a66eba249c2dee'>
+		<da><![CDATA[Ottofest]]></da>
+		<en><![CDATA[Otto party]]></en>
+	</translation>
+	<translation key='db369f88bc46f9f0c76099e78e604731'>
+		<da><![CDATA[+ mousserende vin]]></da>
+		<en><![CDATA[+ sparkling wine]]></en>
+	</translation>
+	<translation key='286932ede9f6bbbfe0867c08be51ab01'>
+		<da><![CDATA[Jeg vil gerne melde mig til byg et brætspil (20kr)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='eb30a79e17835b2c7a8eaba82ae2e4be'>
+		<da><![CDATA[GDS-vagt ]]></da>
+		<en><![CDATA[DIY task]]></en>
+	</translation>
+	<translation key='051864bb8d6626922a1aa5563ed27588'>
+		<da><![CDATA[Fest]]></da>
+		<en><![CDATA[Party]]></en>
+	</translation>
+	<translation key='2160c51a263391b5dfe4fb8f36ebdbba'>
+		<da><![CDATA[Din tilmelding er blevet registreret. Du burde inden længe modtage en email med dine tilmeldte oplysninger!]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='f4d95f80985caaaf0beeb07d57cde685'>
+		<da><![CDATA[Betaling]]></da>
+		<en><![CDATA[Payment]]></en>
+	</translation>
+	<translation key='099e715d6855fb3a5607db218f846f4a'>
+		<da><![CDATA[Du kan betale for din tilmelding med det samme ved at benytte online-betalingen:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='790a7ca333ed9472659f3d5701e6105e'>
+		<da><![CDATA[betal for tilmeldingen]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='35064ea8c08f7525cb9fe6040728d62a'>
+		<da><![CDATA[Vær opmærksom på at selve betalingen foregår på rollespil.dk.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8886e6c5bafafab15a6c9ed33a0247b3'>
+		<da><![CDATA[Det er muligt at betale med de mest gængse kort-typer: dankort, visa, mastercard, etc. Vær opmærksom på at der bliver lagt et gebyr på betalingen - på dankort mellem 3 og 14 kr. På udenlandsk udstedte kort er det 3.75% af beløbet.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='68787abe2a3314d8c9274af1c1be6ec6'>
+		<da><![CDATA[Online-betaling er kommet på plads i et samarbejde med <a href="http://www.rollespil.dk/" target="_blank"><img src="http://www.fastaval.dk/wp-content/uploads/2015/01/logo_rollespil_blad.jpg" alt=""></a> - mange tak til dem!]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='2b7d496ff1d13181e991e7eb680bd349'>
+		<da><![CDATA[Efter betaling vil du få en bekræftelsesmail fra rollespil.dk - det er vigtigt at du gemmer denne, da den indeholder link til kvittering og dermed bevis på din betaling.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='376dc37fc4ae1e841cf78ff6b6209427'>
+		<da><![CDATA[Hvad nu hvis]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='18153a4aaf7ffecf60a9cd119586bfb8'>
+		<da><![CDATA[... du ikke kan betale din tilmelding online med det samme (selvom det er supernemt)? Fortvivl ej - den mail du modtager med bekræftelse af din tilmelding indeholder samme link til online-betaling. Du kan dermed også senere betale online, nemt og bekvemt.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c16af63fce05d7790de0a7e87916cefa'>
+		<da><![CDATA[Vær opmærksom på]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='ac50caf2ce6d0743d63c53a531d4b3ae'>
+		<da><![CDATA[Tilmeldinger skal være betalt inden for 14 dage efter de er oprettet. Er de ikke betalt på det tidspunkt vil de blive annulleret. Baggrunden for dette er at Fastaval i år søger at løse det logistiske problem der ligger i bestilling af special-tilpassede varer (wear eksempelvis) og mad igennem bindende tilmeldinger - dvs at man på forhånd betaler for sin tilmelding for at kunne være sikker på at få det man har bestilt.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='87e648bd0e0288a5712165776e43c780'>
+		<da><![CDATA[Af samme årsag tillader vi os at påminde dig om betaling inden fristen udløber, hvis betalingen ikke er gennemført.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a370b52a615f2ad7a2cc455c3921c667'>
+		<da><![CDATA[Bank overførsel]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='587c1b8db2984a72b7541ec02b249216'>
+		<da><![CDATA[Har du ikke mulighed for at betale online via betalings-siden, så er det også muligt at betale via bank-overførsel.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5dec06af990d4226996730c98d0ead77'>
+		<da><![CDATA[Her skal du dog være opmærksom på at der er et gebyr på 20 kr. per overførsel pga det ekstra arbejde der ligger i at udrede overførslerne - det tager meget lang tid at gå igennem. Dette gebyr skal du selv lægge til beløbet du overfører - ellers vil du blive afkrævet det ved check-in på Fastaval.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='971c13c284569b6aa95f9d300bbca6b3'>
+		<da><![CDATA[Bank overførsel foregår på følgende vis]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a434607b60b8b282eea48b2cf674ce81'>
+		<da><![CDATA[Senest 15/3 skal pengene overføres til Fastavals konto - ellers annulleres tilmeldingen]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='05c4e51660a1f1496b95c62be21f5b58'>
+		<da><![CDATA[Ved indbetaling på indbetalingskort: Kortart +73 Kreditornr 84520098]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='0bbddad031bf535a430744d8ca20b2b1'>
+		<da><![CDATA[Ved bankoverførsel til vores bankkonto: Reg.: 9314 / kontonummer: 4573884464]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='0688f79e5684cab39fc1b670647cbb50'>
+		<da><![CDATA[Ved indbetaling fra en bank UDENFOR Danmark kontakt venligst bunker@fastaval.dk]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a9bd4d60688043b353ae499336da55f7'>
+		<da><![CDATA[Ved alle muligheder skal du HUSKE at anføre dit NAVN og DELTAGERNUMMER - ellers risikerer du at vi ikke kan henføre betalingen til lige præcis din tilmelding (og så er det ikke så meget en betaling men bare en donation til Fastaval).]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='00a35340157a3ccac8221eab632fe8e7'>
+		<da><![CDATA[Vi ses på Fastaval!]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d41d8cd98f00b204e9800998ecf8427e'>
+		<da><![CDATA[]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='4b12bcc430c9e24e0fb24d13c289000a'>
+		<da><![CDATA[Fornavn]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='3276544ab4347b6d24a024aa132d3913'>
+		<da><![CDATA[peps]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='03aa910608e60fa0f3793440d486b107'>
+		<da><![CDATA[Efternavn]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='83878c91171338902e0fe0fb97a8c47a'>
+		<da><![CDATA[p]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='50d46c2f993f4c6ab66c095555dcc401'>
+		<da><![CDATA[Adresse]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8dafd014a3eb9f3171475a1d5a9de104'>
+		<da><![CDATA[J.P.Larsens Vej 48<br/>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='98debb79486c1301b1828022fe4b679f'>
+		<da><![CDATA[Postnr]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='7c0e0e8da3c1e8ac3739456178b8f6ba'>
+		<da><![CDATA[8220]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='53e5aa2c97fef1555d2511de8218c544'>
+		<da><![CDATA[By]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a5ac760261893a5ad14e777f2c5ebe2b'>
+		<da><![CDATA[Brabrand]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='512ef7c688a2c8572d5e16f44e17e869'>
+		<da><![CDATA[Land]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='e297441cdb2b08b5a8773ac7f920b836'>
+		<da><![CDATA[Mobil]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fc088aa68d29cc2c1c3f99b17c33c14d'>
+		<da><![CDATA[61693531]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='ef6900d059acab5d651ac0bbff413219'>
+		<da><![CDATA[Medbringer Mobil]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='570b6022595d5012ec25d72dfc205b70'>
+		<da><![CDATA[Fødselsdag]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='fe1b531b1073daca003caf9e3d599667'>
+		<da><![CDATA[18/03/1978]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1e884e3078d9978e216a027ecd57fb34'>
+		<da><![CDATA[E-mail]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6906d020c3456ee0725b0a0f6b7d1095'>
+		<da><![CDATA[peter.e.lind@gmail.com]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='54a3034fd5c5e338981887f2c28ceb8c'>
+		<da><![CDATA[Min rolle]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='bda15bdf8b603e2c105d162459446db8'>
+		<da><![CDATA[Jeg er arrangør]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='592c99ef6e2bc9922b2bc85f05d7b477'>
+		<da><![CDATA[Telefonnummer til nødstilfælde]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='79cc74db809913b1ede60a1841aeb037'>
+		<da><![CDATA[Information til nødstilfælde]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='74bd7c00668eef9e58f37af48dac0b48'>
+		<da><![CDATA[Dit arbejdsområde]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c5341e883d09ced169abfac23dc13abc'>
+		<da><![CDATA[fas]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='f5a20cd485d9c29ba4a9332f15378e2e'>
+		<da><![CDATA[Titel på dit spil/scenarie]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8ab2840075b981ed2d89bdc853dda44f'>
+		<da><![CDATA[Du er nu tilmeldt!]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b966592960c2d78222e182a856111418'>
+		<da><![CDATA[Som arrangør vil du senere kunne logge ind senere, og genbruge dine oplysninger, så du kan fortsætte din tilmelding når den almindelige tilmelding åbner.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='9e98930affc5335f9a02248541543808'>
+		<da><![CDATA[Login-information:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='05bd3bde968649332f6e13055771ab2b'>
+		<da><![CDATA[Brugernavn:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b60ad127de5a01ba88ee107ce35cf14c'>
+		<da><![CDATA[Kodeord:]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c159e84a5485091fce4c4ba3ee2a83e8'>
+		<da><![CDATA[Gem ovenstående login-informationer - det er dem du bruger når du vil fortsætte din tilmelding senere. Du burde også modtage dem med en email, men for en sikkerhedsskyld, skriv dem ned.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6cf33b63cba3111c95368eeda4007928'>
+		<da><![CDATA[Husk!]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a7c1d94a6a2a76a44e93400a33c8ba72'>
+		<da><![CDATA[Udfyld informationerne til dit id-kort - gå til <a href="http://www.fastaval.dk/idkort/" target="_blank">http://www.fastaval.dk/idkort/</a> inden det er for sent !]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c03297e4537d69e60b89fda46774f2e0'>
+		<da><![CDATA[Vi ses til den store tilmelding!]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='67ff32d40fb51f1a2fd2c4f1b1019785'>
+		<da><![CDATA[8000]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d9bfffa1849a00dc8f34d1a0d5a94750'>
+		<da><![CDATA[Aarhus C]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='5d32089e75ad083802c2d119af3c55b2'>
+		<da><![CDATA[18/1/1950]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='86c0611f6049375c337b0e30d09ee683'>
+		<da><![CDATA[feafsea]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='6fa95b1427af77b3d769ae9cb853382f'>
+		<da><![CDATA[Peter]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='eb1cae342dc0adedf733dd361bd633ad'>
+		<da><![CDATA[Lind]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='f425d7ea60c1fc6e2fdafa2bc742c642'>
+		<da><![CDATA[Frederiksgade 73<br/>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='faa353c8723075f6f680da5fe1fc3a3b'>
+		<da><![CDATA[04/02/1950]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d7b8bf65dc16f6babfcaba939abad559'>
+		<da><![CDATA[fase]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='3a57a98608ec5e60210ff68c460b713e'>
+		<da><![CDATA[18/02/1910]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='9ebb32c26488431bbe1731bde7db175d'>
+		<da><![CDATA[IT, Bunker]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='42b7b7687665db2d5ce82e672d3ee5d8'>
+		<da><![CDATA[01/02/1910]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='a1b0d5228df73c24196f32b30acc5285'>
+		<da><![CDATA[fffffffffff]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='c18195d19ab1d9a5ad9988e8e12def10'>
+		<da><![CDATA[faesfesa]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d2a3331f2d1a8410bcb89ecf5a2bf2f4'>
+		<da><![CDATA[01/4/1910]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='bf57b11b0f2b79d576138f0b1e913ade'>
+		<da><![CDATA[faesa]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='11d1038f35afbeb35a5e7eacf2fc4638'>
+		<da><![CDATA[10/03/1911]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='89e6d2b383471fc370d828e552c19e65'>
+		<da><![CDATA[fa]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='8fa2699da13cc322905e07d9598dd13b'>
+		<da><![CDATA[Pathfinder]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='af8ee76e4357a0a7e2d6997fe26312cd'>
+		<da><![CDATA[Figurspil]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d8d365399511d44b81827e736991058f'>
+		<da><![CDATA[Antal tegn i feltet skal være større end 7]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='b7720db054dff57067ccb290213a9ef2'>
+		<da><![CDATA[Hvor svært kan det være at lave et brætspil? Find ud af det på Fastaval! <a href="http://www.fastaval.dk/aktivitet/byg-et-braetspil-3/" target="_blank">Læs mere her</a>]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='82a09e7021ad5cc0f0015f6b0dff350b'>
+		<da><![CDATA[Vi kan desværre kun tilbyde rabat på indgang og overnatning til en person per scenarie eller brætspil, men I kan frit dele byttet mellem jer. Alle forfattere/designere får rabatkort og rabat på udvalgt wear - og megen kærlighed fra Fastaval. Det er vigtigt at I alle tilmelder jer som forfattere/designere, ellers går det i kuk. Vi skal nok efterregulere jeres pris.]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='61d30ae0c652c4120bba6f98edb8e663'>
+		<da><![CDATA[Ja  (150 kr)]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='d3dc7944d0aa0194bab926f6a87ad888'>
+		<da><![CDATA[<a href="http://www.fastaval.dk/alea-det-med-smaat/" target="_blank">Læs alt det med småt</a>. Du kan også <a href="/om-fastaval/om-alea/" target="_blank">læse mere om Alea.</a>]]></da>
+		<en><![CDATA[<a href="http://www.fastaval.dk/alea-det-med-smaat-2/?lang=en" target="_blank">Read the fine print</a>.]]></en>
+	</translation>
+	<translation key='ef3bb04aa6b5fa616b6ac29b02cff895'>
+		<da><![CDATA[Antal tegn i feltet skal være større end ]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='e51beb8253b9772b3014af68b98d5cf0'>
+		<da><![CDATA[Feltet skal være mellem ]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+	<translation key='1cdb3d041cb459d309f994db5efc9e44'>
+		<da><![CDATA[ og ]]></da>
+		<en><![CDATA[]]></en>
+	</translation>
+</translations>
