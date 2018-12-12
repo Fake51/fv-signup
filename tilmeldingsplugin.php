@@ -168,7 +168,7 @@ function handle_wp_templates()
         }
     
     get_footer(); // wp
-    
+    die();
 }
 
 register_activation_hook(__FILE__, 'vcsysActivationHook');
