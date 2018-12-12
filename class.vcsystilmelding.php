@@ -20,16 +20,16 @@ class VCSys_Tilmelding
 		
 		if ($tilmelding_live == "ja")
 		{
-        		$this->add_template(get_field('tilmelding_url', 'option'), "templates/".get_field('tilmelding_template_navn','option')."/");
-        		$this->add_template(get_field('tilmelding_test_url', 'option'), "templates/".get_field('tilmelding_test_template_navn','option')."/");
+        	$this->add_template(get_field('tilmelding_url', 'option'), "templates/".get_field('tilmelding_template_navn','option')."/");
+        	$this->add_template(get_field('tilmelding_test_url', 'option'), "templates/".get_field('tilmelding_test_template_navn','option')."/");
             $this->include_all_ajax($this->templates);
 		}
 		
 		if ($tilmelding_live == "nej")
 		{
-        		$this->add_template(get_field('tilmelding_test_url', 'option'), "templates/".get_field('tilmelding_test_template_navn','option')."/");
+        	$this->add_template(get_field('tilmelding_test_url', 'option'), "templates/".get_field('tilmelding_test_template_navn','option')."/");
             $this->include_all_ajax($this->templates);
-    		}
+    	}
 		
 		/*
         if (strtotime("03-02-2018 20:00:00") - strtotime("now") < 0)
@@ -49,23 +49,29 @@ class VCSys_Tilmelding
      	// $this->include_all_ajax($this->templates);
 	}
 
-	function url_handler() 
+	function url_handler($request) 
 	{
         	
-        	foreach($this->templates as $url_prefix => $template_folder)
-        	{
-        		if (substr($_SERVER['REQUEST_URI'],0,strlen($url_prefix))==$url_prefix)
-        		{
-            		
-            		$this->current_template_folder = $template_folder;
-        		    	$this->include_template_functions();
-        			add_filter('body_class',array(&$this,'add_body_class_filter'));	
-        			add_filter('wp_title', array(&$this,'set_title_filter'));
-        			add_action('wp_enqueue_scripts', array(&$this,'add_stylesheet'));
-        			handle_wp_templates();
-        			die();
-        		}
-        	}
+		foreach($this->templates as $url_prefix => $template_folder)
+		{
+			if (substr($_SERVER['REQUEST_URI'],0,strlen($url_prefix))==$url_prefix)
+			{
+				$this->current_template_folder = $template_folder;
+				$this->include_template_functions();
+				add_filter('body_class',array(&$this,'add_body_class_filter'));	
+				add_filter('wp_title', array(&$this,'set_title_filter'));
+				add_action('wp_enqueue_scripts', array(&$this,'add_stylesheet'));
+				add_action('wp' , array(&$this,'handle_template'));
+				
+				// this is to avoid a 404 error
+				$request->query_vars = array();		
+				return $request;
+			}
+		}
+	}
+
+	function handle_template(){
+		handle_wp_templates();
 	}
 	
     function get_template_folder()
@@ -95,15 +101,17 @@ class VCSys_Tilmelding
 	
 	function add_stylesheet() 
 	{
-        $url = plugins_url($this->get_template_folder().'tilmelding.less', __FILE__);
-        $url = str_replace("https://www.fastaval.dk","",$url);
+        // $url = plugins_url($this->get_template_folder().'tilmelding.less', __FILE__);
+        // $url = str_replace("https://www.fastaval.dk","",$url);
 
         //todo change function name
-        // load lightbox
+		// load lightbox
+		
         wp_enqueue_script( 'vcsys-lightbox-js', plugins_url('lightbox/js/lightbox.min.js', __FILE__));
 	    wp_enqueue_style( 'vcsys-lightbox', plugins_url('lightbox/css/lightbox.css', __FILE__) );
 	    //wp_enqueue_style( 'prefix-style', plugins_url($this->get_template_folder().'tilmelding.less', __FILE__) );
-	    wp_enqueue_style( 'prefix-style', plugins_url($this->get_template_folder().'tilmelding.less', __FILE__) );
+		wp_enqueue_style( 'prefix-style', plugins_url($this->get_template_folder().'tilmelding.css', __FILE__) );
+		wp_enqueue_style( 'fusion-dynamic-css-css', plugins_url($this->get_template_folder().'copy_of_fusion_dynamic.min.css ', __FILE__) );
 	    wp_enqueue_style( 'signup-responsive', plugins_url($this->get_template_folder().'responsive.css', __FILE__) );
 	}
 	

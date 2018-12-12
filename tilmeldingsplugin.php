@@ -57,7 +57,7 @@ if (isset($_GET['reset']))
 }
 
 
-define('INFOSYS_HOSTNAME','infosys.fastaval.dk');
+define('INFOSYS_HOSTNAME','infosys-test.fastaval.dk');
 
 
 
@@ -168,7 +168,7 @@ function handle_wp_templates()
         }
     
     get_footer(); // wp
-    
+    die();
 }
 
 register_activation_hook(__FILE__, 'vcsysActivationHook');

@@ -1,0 +1,78 @@
+@media (max-width: 479px) {
+    .prev-form {
+        float: left;
+        max-width: 49%;
+        
+    }
+
+    form[action="./next"] > p {
+        float: right;
+        max-width: 49%;
+    }
+
+    .button.prev,
+    .button.next {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .load-deltager {
+        position: static;
+        width: 100%;
+        display: none;
+    }
+
+    #tilmelding-info .fields label {
+        width: 29.8%;
+    }
+
+    #tilmelding-info .field-type-radio label,
+    #tilmelding-info .field-type-checkbox label {
+        width: 88%;
+    }
+
+    #tilmelding-info .field-type-radio input,
+    #tilmelding-info .field-type-checkbox input {
+        width: 10%;
+    }
+
+    #tilmelding-info .tilmelding-input {
+        width: 68%;
+    }
+
+    #tilmelding-info .tilmelding-input.birthday-day,
+    #tilmelding-info .tilmelding-input.birthday-month {
+        width: 15%;
+    }
+
+    #tilmelding-info .tilmelding-input.birthday-year {
+        width: 35%;
+    }
+
+    #tilmelding-info .fullsize-label label {
+        width: 100%;
+    }
+
+    #tilmelding-info textarea.tilmelding-input {
+        width: 100%;
+    }
+
+    .box .button.next {
+        margin: 0;
+    }
+
+    #tilmelding-info .box {
+        padding: 20px;
+    }
+
+    .box:after {
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    .button#package {
+        margin: 0;
+    }
+}
