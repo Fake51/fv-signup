@@ -57,7 +57,7 @@ if (isset($_GET['reset']))
 }
 
 
-define('INFOSYS_HOSTNAME','infosys.fastaval.dk');
+define('INFOSYS_HOSTNAME','infosys-test.fastaval.dk');
 
 
 
