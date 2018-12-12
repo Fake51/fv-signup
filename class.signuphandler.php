@@ -136,7 +136,8 @@ class SignupHandler
         if ($page!=null)
         {
             $page->renderHeader();
-            $page->render();
+            //$page->render();
+            $page->render_with_fusion_row();
             $page->renderFooter();
             $this->page_shown = true;
         }

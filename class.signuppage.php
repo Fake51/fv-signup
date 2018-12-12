@@ -6,6 +6,11 @@
         public function init(){}
         public function canShow(){return false;}
         public function render(){}
+        public function render_with_fusion_row(){
+            echo '<div class="fusion-builder-row fusion-row ">';
+            $this->render();
+            echo '</div>';
+        }
         public function renderHeader()
         {
             ?>
