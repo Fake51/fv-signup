@@ -21,7 +21,7 @@ class InfosysConnect
     {
         $infosys_url_auth = "api/auth";
     	$curl = curl_init();
-    	curl_setopt($curl, CURLOPT_URL, "http://127.0.0.1/".$infosys_url_auth);
+    	curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$infosys_url_auth);
     	curl_setopt($curl, CURLOPT_HEADER, false);
     	curl_setopt($curl, CURLOPT_REFERER, '');
     	curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
@@ -50,7 +50,7 @@ class InfosysConnect
         );
         $infosys_url_auth = "api/auth";
     	$curl = curl_init();
-    	curl_setopt($curl, CURLOPT_URL, "http://127.0.0.1/".$infosys_url_auth);
+    	curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$infosys_url_auth);
     	curl_setopt($curl, CURLOPT_HEADER, false);
     	curl_setopt($curl, CURLOPT_REFERER, '');
     	curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
@@ -76,7 +76,7 @@ class InfosysConnect
     {
         $infosys_url_auth = "api/v2/user-data/".$username."?pass=".$password;
     	$curl = curl_init();
-    	curl_setopt($curl, CURLOPT_URL, "http://127.0.0.1/".$infosys_url_auth);
+    	curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$infosys_url_auth);
     	curl_setopt($curl, CURLOPT_HEADER, false);
     	curl_setopt($curl, CURLOPT_REFERER, '');
     	curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');

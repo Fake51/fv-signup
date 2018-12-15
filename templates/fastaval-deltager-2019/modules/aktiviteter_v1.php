@@ -145,7 +145,7 @@
             if (is_numeric($year)&&is_numeric($month)&&is_numeric($day))
                 $birthdate = $year."".($month<10?"0":"").$month."".($day<10?"0":"").$day;
             
-            $das_url =  "http://127.0.0.1/".$url."?birthdate=".$birthdate."&brugertype=".$brugertype;
+            $das_url =  INFOSYS_URL.$url."?birthdate=".$birthdate."&brugertype=".$brugertype;
     		curl_setopt($c, CURLOPT_URL, $das_url);
     		curl_setopt($c, CURLOPT_HEADER, false);
     		curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);

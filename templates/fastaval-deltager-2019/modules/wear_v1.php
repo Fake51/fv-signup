@@ -230,7 +230,7 @@ if (!class_exists("wear_v1")){
     	function loadJSON($url)
     	{
     		$c = curl_init();
-    		curl_setopt($c, CURLOPT_URL, "http://127.0.0.1/".$url);
+    		curl_setopt($c, CURLOPT_URL, INFOSYS_URL.$url);
     		curl_setopt($c, CURLOPT_HEADER, false);
     		curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
     		curl_setopt($c, CURLOPT_REFERER, '');

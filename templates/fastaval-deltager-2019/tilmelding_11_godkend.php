@@ -39,7 +39,7 @@
         
     	function loadJSON($url){
     		$c = curl_init();
-    		curl_setopt($c, CURLOPT_URL, "http://127.0.0.1/".$url);
+    		curl_setopt($c, CURLOPT_URL, INFOSYS_URL.$url);
     		curl_setopt($c, CURLOPT_HEADER, false);
     		curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
     		curl_setopt($c, CURLOPT_REFERER, '');
@@ -564,7 +564,7 @@
             if (isset($_GET['lang']))$signup_api .= "?lang=".$_GET['lang'];
             
 			$curl = curl_init();
-			curl_setopt($curl, CURLOPT_URL, "http://127.0.0.1/".$signup_api);
+			curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$signup_api);
 			curl_setopt($curl, CURLOPT_HEADER, false);
 			curl_setopt($curl, CURLOPT_REFERER, '');
 			curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
