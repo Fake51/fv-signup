@@ -56,9 +56,11 @@ if (isset($_GET['reset']))
     unset($_SESSION['customer']);
 }
 
-
-define('INFOSYS_HOSTNAME','infosys-test.fastaval.dk');
-define('INFOSYS_URL', 'http://'.INFOSYS_HOSTNAME.'/');
+$infosys_url = get_field('infosys_url','option');
+function get_infosys_url(){
+    global $infosys_url;
+    return $infosys_url;
+}
 
 
 

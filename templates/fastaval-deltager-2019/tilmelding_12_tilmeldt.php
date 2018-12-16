@@ -43,11 +43,10 @@
             if (isset($_GET['lang']))$create_api .= "?lang=".$_GET['lang'];
             
             $curl = curl_init();
-            curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$create_api);
+            curl_setopt($curl, CURLOPT_URL, get_infosys_url().$create_api);
             curl_setopt($curl, CURLOPT_HEADER, false);
             curl_setopt($curl, CURLOPT_REFERER, '');
             curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
-            curl_setopt($curl, CURLOPT_HTTPHEADER, array('Host: '.INFOSYS_HOSTNAME));
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_POST, true);
             curl_setopt($curl, CURLOPT_POSTFIELDS, array('email' => $email));
@@ -65,11 +64,10 @@
             if (isset($_GET['lang']))$create_api .= "?lang=".$_GET['lang'];
             
             $curl = curl_init();
-            curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$create_api);
+            curl_setopt($curl, CURLOPT_URL, get_infosys_url().$create_api);
             curl_setopt($curl, CURLOPT_HEADER, false);
             curl_setopt($curl, CURLOPT_REFERER, '');
             curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
-            curl_setopt($curl, CURLOPT_HTTPHEADER, array('Host: '.INFOSYS_HOSTNAME));
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_POST, true);
             curl_setopt($curl, CURLOPT_POSTFIELDS, array('user_id' => $user_id));
@@ -90,11 +88,10 @@
                 'brugertype'                    => $brugertype,
             );
             $curl = curl_init();
-            curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$create_api);
+            curl_setopt($curl, CURLOPT_URL, get_infosys_url().$create_api);
             curl_setopt($curl, CURLOPT_HEADER, false);
             curl_setopt($curl, CURLOPT_REFERER, '');
             curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
-            curl_setopt($curl, CURLOPT_HTTPHEADER, array('Host: '.INFOSYS_HOSTNAME));
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
             curl_setopt($curl, CURLOPT_POST, true);
             curl_setopt($curl, CURLOPT_POSTFIELDS, array('data' => json_encode($create_data)));
@@ -489,11 +486,10 @@
                 if (isset($_GET['lang']))$signup_api .= "?lang=".$_GET['lang'];
             
     			$curl = curl_init();
-    			curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$signup_api);
+    			curl_setopt($curl, CURLOPT_URL, get_infosys_url().$signup_api);
     			curl_setopt($curl, CURLOPT_HEADER, false);
     			curl_setopt($curl, CURLOPT_REFERER, '');
     			curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
-    			curl_setopt($curl, CURLOPT_HTTPHEADER, array('Host: '.INFOSYS_HOSTNAME));
     			curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
     			curl_setopt($curl, CURLOPT_POST, true);
     			curl_setopt($curl, CURLOPT_POSTFIELDS, array('data' => json_encode($signup_data)));

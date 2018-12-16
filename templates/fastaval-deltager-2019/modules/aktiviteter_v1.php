@@ -145,13 +145,12 @@
             if (is_numeric($year)&&is_numeric($month)&&is_numeric($day))
                 $birthdate = $year."".($month<10?"0":"").$month."".($day<10?"0":"").$day;
             
-            $das_url =  INFOSYS_URL.$url."?birthdate=".$birthdate."&brugertype=".$brugertype;
+            $das_url =  get_infosys_url().$url."?birthdate=".$birthdate."&brugertype=".$brugertype;
     		curl_setopt($c, CURLOPT_URL, $das_url);
     		curl_setopt($c, CURLOPT_HEADER, false);
     		curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
     		curl_setopt($c, CURLOPT_REFERER, '');
     		curl_setopt($c, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
-    		curl_setopt($c, CURLOPT_HTTPHEADER, array('Host: '.INFOSYS_HOSTNAME));
     		$data = curl_exec($c);
     		curl_close($c);
     		$json = json_decode($data,true);

@@ -36,12 +36,11 @@
 //        	echo "non cache hit ($url)<br>";
         	
     		$c = curl_init();
-    		curl_setopt($c, CURLOPT_URL, INFOSYS_URL.$url);
+    		curl_setopt($c, CURLOPT_URL, get_infosys_url().$url);
     		curl_setopt($c, CURLOPT_HEADER, false);
     		curl_setopt($c, CURLOPT_RETURNTRANSFER, 1);
     		curl_setopt($c, CURLOPT_REFERER, '');
     		curl_setopt($c, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
-    		curl_setopt($c, CURLOPT_HTTPHEADER, array('Host: '.INFOSYS_HOSTNAME));
     		$data = curl_exec($c);
     		curl_close($c);
     		$json = json_decode($data,true);

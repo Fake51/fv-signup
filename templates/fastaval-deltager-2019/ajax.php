@@ -23,7 +23,7 @@ function infosys_app_auth($cookie_jar)
 {
     $infosys_url_auth = "api/auth";
 	$curl = curl_init();
-	curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$infosys_url_auth);
+	curl_setopt($curl, CURLOPT_URL, get_infosys_url().$infosys_url_auth);
 	curl_setopt($curl, CURLOPT_HEADER, false);
 	curl_setopt($curl, CURLOPT_REFERER, '');
 	curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
@@ -51,7 +51,7 @@ function infosys_app_login($cookie_jar,$auth_token)
     );
     $infosys_url_auth = "api/auth";
 	$curl = curl_init();
-	curl_setopt($curl, CURLOPT_URL, INFOSYS_URL.$infosys_url_auth);
+	curl_setopt($curl, CURLOPT_URL, get_infosys_url().$infosys_url_auth);
 	curl_setopt($curl, CURLOPT_HEADER, false);
 	curl_setopt($curl, CURLOPT_REFERER, '');
 	curl_setopt($curl, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
@@ -179,11 +179,10 @@ function ajax_tilmelding_forgot()
     
     $url = "api/request-password-email";
 	$c = curl_init();
-    curl_setopt($c, CURLOPT_URL, INFOSYS_URL.$url);
+    curl_setopt($c, CURLOPT_URL, get_infosys_url().$url);
     curl_setopt($c, CURLOPT_HEADER, false);
     curl_setopt($c, CURLOPT_REFERER, '');
     curl_setopt($c, CURLOPT_USERAGENT, 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-GB; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2');
-    curl_setopt($c, CURLOPT_HTTPHEADER, array('Host: '.INFOSYS_HOSTNAME));
     curl_setopt($c, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($c, CURLOPT_POST, true);
     curl_setopt($c, CURLOPT_POSTFIELDS, array('data' => json_encode(array('email' => $username) )));
