@@ -344,18 +344,31 @@
             			'class'=>array('fullwidth-checkbox'),
             			'default-checked' => true,
         			));
-        			*/
-        			renderFieldByType(array(
-            			'id'=>'field1_17',
-            			'input-type'=>'radio',
-            			'input-name'=>'new_alea',
-            			'text'=>'page3_text3',
-            			'value' => array(
-                        			'1' => __tm('page3_text3'),
-                        			'-1' => __tm('pagealea_no_thanks'),
-                                    ),
-                        'value-default' => '1',
-        			));
+					*/
+					if (in_array($_SESSION['customer']['participant'], array('deltagerjunior', 'deltager'))){
+						// regular antendee
+						renderFieldByType(array(
+							'id'=>'field1_17',
+							'input-type'=>'radio',
+							'input-name'=>'new_alea',
+							'text'=>'page3_text3',
+							'value' => array(
+										'1' => __tm('page3_text3'),
+										'-1' => __tm('pagealea_no_thanks'),
+										),
+							'value-default' => '1',
+						));
+					} else {
+						// co-organizer - have to be a member of Alea due to inssurance
+						echo "<p class='field1_17 field-type-checkbox'>";
+						echo "<input class='tilmelding-input tilmelding-input-checkbox' id='field1_17' name='new_alea' type='checkbox' disabled='true' value='1' checked='true'>";
+						echo "<label for='field1_17'>";
+						__etm('page3_text4');
+						echo "</label>";
+						echo "</p>";
+					}
+
+
 
 
 
