@@ -40,69 +40,26 @@ if (!class_exists("wear_v1")){
                 usort($my_wear, 'wear_v1_callablesorter');
                 
                 $last_filename = null;
-            	foreach($my_wear as $wear)
-            	{
-            	     $navn = $wear["title_".$language];
-            	     $id = $wear["wear_id"];
-            	     $sizerange = $wear["size_range"];
-            	     $pris = $wear['price']['price'];
+            	foreach($my_wear as $wear) {
+            	  $navn = $wear["title_".$language];
+            	  $id = $wear["wear_id"];
+            	  $sizerange = $wear["size_range"];
+            	  $pris = $wear['price']['price'];
             	     
-            	     $max = 8;
-            	     $min = 0;
-            	    $required_wear = false;
+            	  $max = 8;
+            	  $min = 0;
+            	  $required_wear = true; // dunno if this is in use
             	     
-            	    if ($id==3) // infonaut
-            	    {
-                	    $min = 0;
-                	    $max = 1;
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==4) // kiosk (dame)
-            	    {
-                	    $min = 0;
-                	    $max = 1;
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==23) // kiosk (herre)
-            	    {
-                	    $min = 0;
-                	    $max = 1;
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==24) // kaffekro
-            	    {
-                	    $min = 0;
-                	    $max = 1;
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==26) // Junior (pige)
-            	    {
-                	    $min = 0;
-                	    $max = 1;
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==27) // Junior (dreng)
-            	    {
-                	    $min = 0;
-                	    $max = 1;
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==1) //  almindelig tshirt
-            	    {
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==21) // almindelig tshirt
-            	    {
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==2) //  crew tshirt
-            	    {
-                	    $required_wear = true;
-            	    }
-            	    else if ($id==22) // crew tshirt
-            	    {
-                	    $required_wear = true;
-            	    }
+								switch ($id){
+									case 32: // crew dame rabat
+									case 23: // crew herre rabat
+									case 28: // junior barn
+									case 31: // junior dame
+									case 29: // junior herre
+									case 30: // sild
+										$min = 0;
+										$max = 1;
+								}
     
             	     if ($show_only_required && !$required_wear)
             	        continue;
