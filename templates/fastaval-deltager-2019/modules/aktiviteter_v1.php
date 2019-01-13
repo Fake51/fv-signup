@@ -513,21 +513,21 @@
     			
 			
 			<div id='aktiviteter'>
-    			<?php
-        		 if ($this->attends_con_at_numday(1) && isset($afviklinger_daysplit[28])){
-    	    	     $this->ft_aktiviteterByDayJSON(28, "Onsdag (28. marts 2017)", $afviklinger_daysplit[28] );
+				<?php //TODO Add this to wp admin in some way
+        		 if ($this->attends_con_at_numday(1) && isset($afviklinger_daysplit[17])){
+    	    	     $this->ft_aktiviteterByDayJSON(17, "Onsdag (17. april 2019)", $afviklinger_daysplit[17] );
         		 }
-        		 if ($this->attends_con_at_numday(2) && isset($afviklinger_daysplit[29])){
-        		     $this->ft_aktiviteterByDayJSON(29, "Torsdag (29. marts 2017)", $afviklinger_daysplit[29] );
+        		 if ($this->attends_con_at_numday(2) && isset($afviklinger_daysplit[18])){
+        		     $this->ft_aktiviteterByDayJSON(18, "Torsdag (18. april 2019)", $afviklinger_daysplit[18] );
         		 }
-        		 if ($this->attends_con_at_numday(3) && isset($afviklinger_daysplit[30])){
-        		     $this->ft_aktiviteterByDayJSON(30, "Fredag (30. marts 2017)", $afviklinger_daysplit[30] );
+        		 if ($this->attends_con_at_numday(3) && isset($afviklinger_daysplit[19])){
+        		     $this->ft_aktiviteterByDayJSON(19, "Fredag (19. april 2019)", $afviklinger_daysplit[19] );
         		 }
-        		 if ($this->attends_con_at_numday(4) && isset($afviklinger_daysplit[31])){
-        		     $this->ft_aktiviteterByDayJSON(31, "Lørdag (31. marts 2017)", $afviklinger_daysplit[31] );
+        		 if ($this->attends_con_at_numday(4) && isset($afviklinger_daysplit[20])){
+        		     $this->ft_aktiviteterByDayJSON(20, "Lørdag (20. april 2019)", $afviklinger_daysplit[20] );
         		 }
-        		 if ($this->attends_con_at_numday(5) && isset($afviklinger_daysplit[1])){
-        		     $this->ft_aktiviteterByDayJSON(1, "Søndag (1. april 2017)", $afviklinger_daysplit[1] );
+        		 if ($this->attends_con_at_numday(5) && isset($afviklinger_daysplit[21])){
+        		     $this->ft_aktiviteterByDayJSON(21, "Søndag (21. april 2019)", $afviklinger_daysplit[21] );
         		 }
         		 
 			 ?>
