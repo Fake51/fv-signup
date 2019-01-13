@@ -134,18 +134,7 @@
                         <li><?php __etm('page2b_text9');?></li>
                     </ul>
                     
-                    
-                    <?php if (gf("participant")=="infonaut"){?>
-                        <h2><?php __etm('page2b_text12_1'); ?></h2>
-                        <p><?php __etm('page2b_text12_2');?></p>
-                    <?php } ?>
-                    
-                    <?php if (gf("participant")=="kioskninja"){?>
-                        <h2><?php __etm('page2b_text12_3'); ?></h2>
-                        <p><?php __etm('page2b_text12_4');?></p>
-                    <?php } ?>
-                    
-                    
+            
                     <h2><?php __etm('page2b_text10'); ?></h2>
                     <p><?php __etm('page2b_text11');?></p>
                     
