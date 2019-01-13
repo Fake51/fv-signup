@@ -29,6 +29,7 @@ textarea:hover {
 h1.entry-title {
   /*color:black !important;*/
   text-transform: none !important;
+  text-align: center;
 }
 p.indent {
   margin-top: -1rem;
@@ -403,7 +404,7 @@ a:hover {
 .brainfood_dinner_3,
 .brainfood_dinner_4,
 .brainfood_dinner_5 {
-  margin-top: -20px;
+  margin-top: -10px;
 }
 td div.dead {
   background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) 1px, transparent 1px, transparent 100%);
