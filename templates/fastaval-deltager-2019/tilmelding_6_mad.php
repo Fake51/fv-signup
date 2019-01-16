@@ -1,4 +1,20 @@
 <?php
+define('DAY_2_BREAKFAST', '244');
+define('DAY_3_BREAKFAST', '248');
+define('DAY_4_BREAKFAST', '252');
+define('DAY_5_BREAKFAST', '256');
+
+define('DAY_1_REGULAR', '194');
+define('DAY_2_REGULAR', '199');
+define('DAY_3_REGULAR', '204');
+define('DAY_4_REGULAR', '209');
+define('DAY_5_REGULAR', '219');
+
+define('DAY_1_VEGETARIAN', '224');
+define('DAY_2_VEGETARIAN', '229');
+define('DAY_3_VEGETARIAN', '274');
+define('DAY_4_VEGETARIAN', '278');
+define('DAY_5_VEGETARIAN', '279');
     
     class DeltagerTilmeldingMadPage6 extends SignupPage
     {
@@ -86,8 +102,8 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'145'=>'nocat_155',
-                        			'150'=>'nocat_156',
+                        			DAY_1_REGULAR =>'nocat_155',
+                        			DAY_1_VEGETARIAN =>'nocat_156',
                             ),
         			));
                     ?>
@@ -108,7 +124,7 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'160'=>'nocat_155'
+                        			DAY_2_BREAKFAST =>'nocat_155'
                             ),
         			));
                     ?>
@@ -121,8 +137,8 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'146'=>'nocat_155',
-                        			'151'=>'nocat_156',
+                        			DAY_2_REGULAR =>'nocat_155',
+                        			DAY_2_VEGETARIAN  =>'nocat_156',
                             ),
         			));
                     ?>
@@ -143,7 +159,7 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'161'=>'nocat_155'
+                        			DAY_3_BREAKFAST =>'nocat_155'
                             ),
         			));
                     ?>
@@ -161,8 +177,8 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'147'=>'nocat_155',
-                        			'152'=>'nocat_156',
+                        			DAY_3_REGULAR =>'nocat_155',
+                        			DAY_3_VEGETARIAN  =>'nocat_156',
                             ),
         			));
                     ?>
@@ -182,7 +198,7 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'162'=>'nocat_155'
+                        			DAY_4_BREAKFAST =>'nocat_155'
                             ),
         			));
                     ?>
@@ -195,8 +211,8 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'148'=>'nocat_155',
-                        			'153'=>'nocat_156',
+                        			DAY_4_REGULAR =>'nocat_155',
+                        			DAY_4_VEGETARIAN  =>'nocat_156',
                             ),
         			));
                     ?>
@@ -216,7 +232,7 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'163'=>'nocat_155'
+                        			DAY_5_BREAKFAST =>'nocat_155'
                             ),
         			));
                     ?>
@@ -229,8 +245,8 @@
             			'text'=>'',
             			'value' => array(
                         			'0'=>'nocat_154',
-                        			'149'=>'nocat_155',
-                        			'154'=>'nocat_156',
+                        			DAY_5_REGULAR =>'nocat_155',
+                        			DAY_5_VEGETARIAN =>'nocat_156',
                             ),
         			));
                     ?>
