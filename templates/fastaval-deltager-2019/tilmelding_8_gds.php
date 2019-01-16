@@ -207,7 +207,7 @@
                     <h3><?php __etm('gds_how_many_headline');?></h3>
                     <p><?php __etm('gds_how_many_text');?>
                     <?php
-                        if (!isset($_SESSION['customer']['desired_diy_shifts'])) $_SESSION['customer']['desired_diy_shifts'] = 1;
+                        if (!isset($_SESSION['customer']['desired_diy_shifts']) && $_SESSION['customer']['participant'] == "deltager") $_SESSION['customer']['desired_diy_shifts'] = 1;
                 			renderFieldByType(array(
                     			'id'=>'desired_diy_shifts',
                     			'input-type'=>'text',
