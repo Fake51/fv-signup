@@ -306,6 +306,7 @@
             <script>
                 jQuery(document).ready(function(){
                     
+                    jQuery('#aktiviteter tr.row-type-junior').addClass('hidden');
                     if (selectFilterType === "junior"){
                         // do the  junior thing
                         jQuery(".type-selector").hide();
