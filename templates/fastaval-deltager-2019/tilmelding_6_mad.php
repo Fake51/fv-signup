@@ -33,6 +33,8 @@ define('DAY_5_VEGETARIAN', '279');
         
         public function canShow()
         {
+            if ($_SESSION['customer']['participant']=='deltagerjunior')return false;
+            
             if (isset($_SESSION['customer']['is_package']) && ($_SESSION['customer']['is_package']==1))
                 return false;
             return true;
