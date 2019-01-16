@@ -92,11 +92,11 @@
                 <div id='tilmelding-info'>
                     
                     <?php
-                        __etm('nocat_8');
+                       if(!$junior) __etm('nocat_8');
                     ?>
                     
                     
-                    
+                    <?php if(!$junior) { ?>
                     <h2>Filtrering</h2>
                     <script> selectFilterType = ''; </script>
                     <?php __etm('filtering_1010');?>
@@ -116,7 +116,9 @@
                         </ul>
                     </div>
                     
-                    
+                    <?php } else {
+                        ?><script>selectFilterType = 'junior';</script><?php
+                    } ?>
                     
                     <?php __etm('nocat_9');?>
                     
@@ -304,7 +306,17 @@
             <script>
                 jQuery(document).ready(function(){
                     
-                    if (selectFilterType!=""){
+                    if (selectFilterType === "junior"){
+                        // do the  junior thing
+                        jQuery(".type-selector").hide();
+                        jQuery(".table-day").each( function (){
+                            if(jQuery(this).find("tr.row-type-junior").length === 0){
+                                jQuery(this).hide();
+                            }
+                        });
+                        jQuery('#aktiviteter tr.row-with-game').addClass('hidden');
+                        jQuery('#aktiviteter tr.row-type-junior').removeClass('hidden');
+                    } else if (selectFilterType!=""){
                         jQuery('#filter-'+selectFilterType).click();
                     }
                 });
