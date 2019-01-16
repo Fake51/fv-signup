@@ -18,8 +18,6 @@
         
         public function canShow()
         {
-            if ($_SESSION['customer']['participant']=='deltagerjunior')return false;
-
             if (isset($_SESSION['customer']['is_package']) && ($_SESSION['customer']['is_package']==1))
                 return false;
             
@@ -85,15 +83,19 @@
                 <h1 class='entry-title'><?php __etm('nocat_40');?></h1>
                 <div id='tilmelding-info'>
                     
-                    <p><?php __etm('nocat_179');?></p> 
-                    
+                    <?php  if($_SESSION['customer']['participant'] ===  "deltagerjunior") { 
+                        // different text for junior that doesn't mention 
+                        // echo "<p>".__etm('nocat_179_1')."</p>";
+                    } else {
+                        echo "<p>".__etm('nocat_179')."</p>";
+                    }?>
+
                     <?php 
-                    if (isset($_SESSION['customer']['participant'])&&($_SESSION['customer']['participant']!="deltager"))
-                    {
-                        ?><p><?php __etm('nocat_180');?></p><?php 
-                    } 
-                    ?>
-                    
+                    if (isset($_SESSION['customer']['participant']) && !in_array($_SESSION['customer']['participant'], array ("deltager", "deltagerjunior")))
+                    { ?>
+                        <p><?php __etm('nocat_180');?></p>
+                    <?php } ?>
+
                     <p><?php __etm('nocat_181');?></p>
                     
                     <?php
