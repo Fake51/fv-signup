@@ -468,14 +468,15 @@
             
             /* FOOD */
 			$signup_data['food'] = array();
-			for ($i=1;$i<=15;$i++){
-    			if (gf('food_'.$i)>0){
-        			$signup_data['food'][] = array('madtid_id'=>gf('food_'.$i));
-    			}
-			}
-			
-            
-            
+			if (gf('breakfast_2')!=0)$signup_data['food'][] = array('madtid_id'=>gf('breakfast_2'));
+			if (gf('breakfast_3')!=0)$signup_data['food'][] = array('madtid_id'=>gf('breakfast_3'));
+			if (gf('breakfast_4')!=0)$signup_data['food'][] = array('madtid_id'=>gf('breakfast_4'));
+			if (gf('breakfast_5')!=0)$signup_data['food'][] = array('madtid_id'=>gf('breakfast_5'));
+			if (gf('brainfood_dinner_1')!=0)$signup_data['food'][] = array('madtid_id'=>gf('brainfood_dinner_1'));
+			if (gf('brainfood_dinner_2')!=0)$signup_data['food'][] = array('madtid_id'=>gf('brainfood_dinner_2'));
+			if (gf('brainfood_dinner_3')!=0)$signup_data['food'][] = array('madtid_id'=>gf('brainfood_dinner_3'));
+			if (gf('brainfood_dinner_4')!=0)$signup_data['food'][] = array('madtid_id'=>gf('brainfood_dinner_4'));
+			if (gf('brainfood_dinner_5')!=0)$signup_data['food'][] = array('madtid_id'=>gf('brainfood_dinner_5'));
             
             /* WEAR */            
 			$signup_data['wear'] = array();
