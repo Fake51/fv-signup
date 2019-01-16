@@ -30,7 +30,8 @@
 			
 			foreach($afviklinger as $afvikling)
 			{
-				if ($_SESSION['customer']['event_'.$afvikling['afvikling_id']]==5)
+                if (!isset($_SESSION['customer']['event_'.$afvikling['afvikling_id']])) continue;
+                if ($_SESSION['customer']['event_'.$afvikling['afvikling_id']]==5)
 					$_SESSION['customer']['aktiviteter_is_spilleder'] = 1;
 				if ($_SESSION['customer']['event_'.$afvikling['afvikling_id']]==4)
 					$_SESSION['customer']['aktiviteter_is_spilleder'] = 1;
@@ -59,7 +60,7 @@
         
         public function canShow()
         {
-            if ($_SESSION['customer']['participant']=='deltagerjunior')return false;
+            // if ($_SESSION['customer']['participant']=='deltagerjunior')return false;
 
             if (isset($_SESSION['customer']['is_package']) && ($_SESSION['customer']['is_package']==1))
                 return false;
@@ -74,7 +75,8 @@
 			echo "<pre>";
 			var_dump($customer);
 			echo "</pre>";
-			*/
+            */
+            $junior = $_SESSION['customer']['participant']=='deltagerjunior';
             ?>
 
         	<form method="post" action="<?php echo get_previous_step_name();?>" class='prev-form'>
@@ -90,11 +92,11 @@
                 <div id='tilmelding-info'>
                     
                     <?php
-                        __etm('nocat_8');
+                       if(!$junior) __etm('nocat_8');
                     ?>
                     
                     
-                    
+                    <?php if(!$junior) { ?>
                     <h2>Filtrering</h2>
                     <script> selectFilterType = ''; </script>
                     <?php __etm('filtering_1010');?>
@@ -114,12 +116,14 @@
                         </ul>
                     </div>
                     
-                    
+                    <?php } else {
+                        ?><script>selectFilterType = 'junior';</script><?php
+                    } ?>
                     
                     <?php __etm('nocat_9');?>
                     
                     <?php 
-                        __etm('nocat_9_2');
+                        if (!$junior) __etm('nocat_9_2'); // no game masters for Junior
                     ?>
 
 
@@ -250,46 +254,44 @@
         			));
                     ?>
                     
-                    <?php if ($this->get_age()>=13){?>
+                    <?php if (!$junior){ // No GM or Scenario competition for junior
+                        if ($this->get_age()>=13){?>
                     
-                    <h2><?php __etm('nocat_28');?></h2>
-                    <p><?php __etm('nocat_29');?></p>
-                    <?php
-        			renderFieldByType(array(
-            			'id'=>'scenarieskrivningskonkurrence',
-            			'input-type'=>'checkbox',
-            			'input-name'=>'scenarieskrivningskonkurrence',
-            			'text'=>'nocat_250',
-        			));
-        			?>
-                    
-                    
-                    <!-- 
-                    <h2><?php __etm('nocat_31');?></h2>
-                    <p><?php __etm('nocat_140');?></p>
-                    <?php
-        			renderFieldByType(array(
-            			'id'=>'boardgame_competition',
-            			'input-type'=>'checkbox',
-            			'input-name'=>'boardgame_competition',
-            			'text'=>'nocat_131',
-        			));
-        			?>
-        			-->
-
-                    <?php }?>
-                     
-                    
-                    <h2><?php __etm('nocat_32');?></h2>
-                    <?php
-        			renderFieldByType(array(
-            			'id'=>'may_contact',
-            			'input-type'=>'checkbox',
-            			'input-name'=>'may_contact',
-            			'text'=>'nocat_33',
-        			));
-        			?>
-        			
+                            <h2><?php __etm('nocat_28');?></h2>
+                            <p><?php __etm('nocat_29');?></p>
+                            <?php
+                            renderFieldByType(array(
+                                'id'=>'scenarieskrivningskonkurrence',
+                                'input-type'=>'checkbox',
+                                'input-name'=>'scenarieskrivningskonkurrence',
+                                'text'=>'nocat_250',
+                            ));
+                            ?>
+                            
+                            
+                            <!-- 
+                            <h2><?php __etm('nocat_31');?></h2>
+                            <p><?php __etm('nocat_140');?></p>
+                            <?php
+                            renderFieldByType(array(
+                                'id'=>'boardgame_competition',
+                                'input-type'=>'checkbox',
+                                'input-name'=>'boardgame_competition',
+                                'text'=>'nocat_131',
+                            ));
+                            ?>
+                            -->
+                        <?php }?>
+                            
+                        <h2><?php __etm('nocat_32');?></h2>
+                        <?php
+                        renderFieldByType(array(
+                        'id'=>'may_contact',
+                            'input-type'=>'checkbox',
+                            'input-name'=>'may_contact',
+                            'text'=>'nocat_33',
+                        ));
+                    } ?>
                 </div>
                 <?php render_next_button("general_next_page"); ?>
                 <?php tilm_form_postfields(); ?>
@@ -304,7 +306,18 @@
             <script>
                 jQuery(document).ready(function(){
                     
-                    if (selectFilterType!=""){
+                    jQuery('#aktiviteter tr.row-type-junior').addClass('hidden');
+                    if (selectFilterType === "junior"){
+                        // do the  junior thing
+                        jQuery(".type-selector").hide();
+                        jQuery(".table-day").each( function (){
+                            if(jQuery(this).find("tr.row-type-junior").length === 0){
+                                jQuery(this).hide();
+                            }
+                        });
+                        jQuery('#aktiviteter tr.row-with-game').addClass('hidden');
+                        jQuery('#aktiviteter tr.row-type-junior').removeClass('hidden');
+                    } else if (selectFilterType!=""){
                         jQuery('#filter-'+selectFilterType).click();
                     }
                 });
