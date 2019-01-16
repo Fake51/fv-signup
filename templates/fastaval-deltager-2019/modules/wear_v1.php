@@ -51,11 +51,11 @@ if (!class_exists("wear_v1")){
             	  $required_wear = true; // dunno if this is in use
             	     
 								switch ($id){
-									case 32: // crew dame rabat
 									case 23: // crew herre rabat
-									case 28: // junior barn
-									case 31: // junior dame
-									case 29: // junior herre
+									case 24: // crew dame rabat
+									case 3: // junior barn
+									case 21: // junior herre
+									case 22: // junior dame
 									case 30: // sild
 										$min = 0;
 										$max = 1;
