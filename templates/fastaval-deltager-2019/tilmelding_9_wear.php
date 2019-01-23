@@ -85,7 +85,7 @@
                     
                     <?php  if($_SESSION['customer']['participant'] ===  "deltagerjunior") { 
                         // different text for junior that doesn't mention 
-                        // echo "<p>".__etm('nocat_179_1')."</p>";
+                        echo "<p>".__etm('nocat_179_1')."</p>";
                     } else {
                         echo "<p>".__etm('nocat_179')."</p>";
                     }?>
@@ -96,7 +96,9 @@
                         <p><?php __etm('nocat_180');?></p>
                     <?php } ?>
 
-                    <p><?php __etm('nocat_181');?></p>
+                    <?php  if($_SESSION['customer']['participant'] !==  "deltagerjunior") { 
+                        echo "<p>".__etm('nocat_181')."</p>";
+                    } ?>
                     
                     <?php
                         $wear_v1 = new wear_v1();
