@@ -50,6 +50,36 @@
                 
                 <h2><?php __etm('page1_text2');?></h2>
                 <p><?php __etm('page1_text3');?></p>
+
+
+                <h2><?php __etm('page1_gdpr_headline');?></h2>
+                <p><?php __etm('page1_gdpr_text');?></p>
+
+                <div id='tilmelding-info'>
+                    <?php 
+                        renderFieldByType(array(
+                            'id'=>'field1_1',
+                            'input-type'=>'checkbox',
+                            'input-name'=>'gdpr_accept',
+                            'text'=>'page1_gdpr_accept'
+                        ));
+                    ?>
+                </div>
+
+                <script>
+                    jQuery(document).ready(function(){
+                        // disable the next buttons until accept of gdpr rules
+                        jQuery('.next').prop("disabled", true).css('opacity', '0.5');
+
+                        jQuery('#gdpr_accept').click(function(event){
+                            if (this.checked){
+                                jQuery('.next').prop("disabled", false).css('opacity', '1');
+                            } else {
+                                jQuery('.next').prop("disabled", true).css('opacity', '0.5');
+                            }
+                        });
+                    });
+                </script>
         
                 <?php tilm_form_postfields(); ?>
                 <?php render_next_button("general_next_page");?>
