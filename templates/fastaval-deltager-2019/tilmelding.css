@@ -196,6 +196,9 @@ span.link-previous:hover {
 }
 /* AKTIVITETER TABLE */
 #tilmelding-info #aktiviteter table {
+  width: 100%;
+  width: -webkit-fill-available;
+  width: -moz-available;
   padding: 0;
   z-index: 2;
 }

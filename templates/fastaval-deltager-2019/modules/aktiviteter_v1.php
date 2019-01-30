@@ -331,7 +331,7 @@
              	<tr class='row-with-game row-type-<?php echo $type;?>'>
         			<td class='caption'><?php echo utf8_encode($name)?></a><?php echo $image; ?></td>
         			<?php for ($i=0;$i<$start*2;$i++){?><td colspan='1' class='noevent'>&nbsp;</td><?php }?>
-        			<td colspan='<?php echo $length*2?>'>
+        			<td colspan='<?php echo $length*2?>' class='has-event'>
         				<div class='event priority0 event_size_<?php echo ($length/2)?>' onMouseDown='nextPriority(event,"<?php echo $id;?>",<?php echo $start*2;?>,<?php echo $end*2;?>,<?php echo $day;?>);' id='<?php echo $id;?>_m<?php echo $multi;?>'>
         				     <span id='<?php echo $id?>_m<?php echo $multi?>_caption'>&nbsp;</span>
         					<?php 
@@ -400,7 +400,7 @@
          		{
     	     		foreach($afviklinger as $afvikling)
     	     		{
-    	          		$timestamp_start = $afvikling['start'];
+	   	          		$timestamp_start = $afvikling['start'];
     	          		$timestamp_end = $afvikling['end'];
     	          		$aktivitet = $afvikling['aktivitet'];
     	          		
@@ -419,7 +419,8 @@
                         	          			$start,
                         	          			$end,
                         	          			"event_".$afvikling["linked"],
-                        	          			$day,$aktivitet['info']["price"],
+												$day,
+												$aktivitet['info']["price"],
                         	          			$afvikling["aktivitet_id"],
                         	          			$afvikling["afvikling_id"],
                         	          			$aktivitet['info']['type'],
