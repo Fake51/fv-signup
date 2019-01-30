@@ -63,11 +63,25 @@ class VCSys_Tilmelding
 				add_action('wp_enqueue_scripts', array(&$this,'add_stylesheet'));
 				add_action('wp' , array(&$this,'handle_template'));
 				
+				// correcting language selector references to the current page
+				$this->page_url = $url_prefix;
+				add_filter('wpml_ls_language_url', array(&$this,'url_filter'));
+
 				// this is to avoid a 404 error
 				$request->query_vars = array();		
 				return $request;
 			}
 		}
+	}
+
+	/**
+	 * Function to correctly format the url for the language picker
+	 */
+	function url_filter($url){
+		$split = preg_split("/\/?\?/", $url, 2); // matches "/?" or just "?"
+		$split[1] = isset($split[1]) ? "?".$split[1] : ""; // add the qeustionmark back to the querry or add an empty string
+		$url = $split[0].$this->page_url.$split[1]; //insert the current page url
+		return $url;
 	}
 
 	function handle_template(){
