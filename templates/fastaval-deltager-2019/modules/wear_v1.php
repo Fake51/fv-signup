@@ -1,8 +1,38 @@
 <?php
     
 if (!class_exists("wear_v1")){
-     class wear_v1
-     {
+	class wear_v1
+	{
+		function exclusives_groups(){
+			$exclusive_sets = array(
+				array(	// crew shirts
+					23, // crew herre rabat
+					24  // crew dame rabat
+				),
+				array( // junior shirts
+					3, 	// junior barn
+					21,	// junior herre
+					22	// junior dame
+				),
+				array(30) // sild
+			);
+
+			return $exclusive_sets;
+		}
+
+		function exclusives_list(){
+			$groups = $this->exclusives_groups();
+			$list = array();
+			foreach($groups as $group){
+				$list = array_merge($list, $group);
+			}
+			return $list;
+		}
+
+		function name_list(){
+			return json_encode($this->names);		
+		}
+
             function ft_renderWearJSON($json, $show_only_required=false)
             {
                 $language = "da";
@@ -44,21 +74,15 @@ if (!class_exists("wear_v1")){
             	  $navn = $wear["title_".$language];
             	  $id = $wear["wear_id"];
             	  $sizerange = $wear["size_range"];
-            	  $pris = $wear['price']['price'];
+								$pris = $wear['price']['price'];
+								$this->names[$id] = $navn." ".$pris;
             	     
             	  $max = 8;
             	  $min = 0;
             	  $required_wear = true; // dunno if this is in use
             	     
-								switch ($id){
-									case 23: // crew herre rabat
-									case 24: // crew dame rabat
-									case 3: // junior barn
-									case 21: // junior herre
-									case 22: // junior dame
-									case 30: // sild
-										$min = 0;
-										$max = 1;
+								if (in_array($id, $this->exclusives_list())){ //set maximum for limited items
+									$max = 1;
 								}
     
             	     if ($show_only_required && !$required_wear)
