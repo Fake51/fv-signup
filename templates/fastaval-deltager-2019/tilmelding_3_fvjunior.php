@@ -44,6 +44,20 @@
                 <h2><?php __etm('fastaval_junior_headline_3');?></h2>
                 <p><?php __etm('fastaval_junior_text_3');?></p>
                 
+                <h2><?php __etm('fastaval_junior_headline_4');?></h2>
+                <p><?php __etm('fastaval_junior_text_4');?></p>
+
+                <div id='tilmelding-info'>
+                    <?php
+            			renderFieldByType(array(
+                			'id'=>'other_comments',
+                			'input-type'=>'textarea',
+                			'input-name'=>'other_comments',
+                			'text'=>'',
+            			));
+                    ?>
+                </div>
+
                 <?php tilm_form_postfields(); ?>
                 <?php render_next_button("general_next_page");?>
         	</form>
