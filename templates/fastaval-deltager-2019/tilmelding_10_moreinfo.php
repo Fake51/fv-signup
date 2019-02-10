@@ -160,6 +160,7 @@
                     
                     
                     <h3><?php __etm('nocat_207');?></h3>
+					<p><?php __etm('nocat_207_1');?></p>
                     <?php
         			renderFieldByType(array(
             			'id'=>'ready_mandag',
