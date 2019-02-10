@@ -108,12 +108,13 @@
                     {
                         ?>
                         <h2><?php __etm('page4_text2');?></h2>
-                        <?php
+						<?php
+						$discount = isset($_SESSION['customer']['new_alea']) && $_SESSION['customer']['new_alea'] == 1;
             			renderFieldByType(array(
                 			'id'=>'field_days_all',
                 			'input-type'=>'checkbox',
                 			'input-name'=>'days_all',
-                			'text'=>'page4_text3',
+                			'text'=> $discount ? 'page4_text3_alea' : 'page4_text3',
             			));
             			?>
             			<script>
@@ -166,19 +167,10 @@
                         </script>
                         <?php
                             
-                        if (!isset($_SESSION['customer']['new_alea']))
+                        if (!$discount)
                         {
-                            ?><p class='indent'><?php 
-                            __etm('page4_text4');
-                            ?></p><?php
-                        }
-                        
-                        if (isset($_SESSION['customer']['new_alea']))
-                        {
-                            ?><p class='indent'><?php 
-                            __etm('nocat_145');
-                            ?></p><?php 
-                        }
+                            echo "<p>".__etm('page4_text4')."</p>";
+                        } 
                         
                         ?><div class='grouped'><?php
             			renderFieldByType(array(
