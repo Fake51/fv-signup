@@ -361,7 +361,8 @@
 					} else {
 						// co-organizer - have to be a member of Alea due to inssurance
 						echo "<p class='field1_17 field-type-checkbox'>";
-						echo "<input class='tilmelding-input tilmelding-input-checkbox' id='field1_17' name='new_alea' type='checkbox' disabled='true' value='1' checked='true'>";
+						echo "<input class='tilmelding-input tilmelding-input-checkbox' id='field1_17' type='checkbox' disabled='true' value='1' checked='true'>";
+						echo "<input hidden='true' value='1' name='new_alea'>";
 						echo "<label for='field1_17'>";
 						__etm('page3_text4');
 						echo "</label>";
