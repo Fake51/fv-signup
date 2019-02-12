@@ -61,6 +61,7 @@ class VCSys_Tilmelding
 				add_filter('body_class',array(&$this,'add_body_class_filter'));	
 				add_filter('wp_title', array(&$this,'set_title_filter'));
 				add_action('wp_enqueue_scripts', array(&$this,'add_stylesheet'));
+				add_action('wp_enqueue_scripts', array(&$this,'add_scripts'));
 				add_action('wp' , array(&$this,'handle_template'));
 				
 				// correcting language selector references to the current page
@@ -115,18 +116,19 @@ class VCSys_Tilmelding
 	
 	function add_stylesheet() 
 	{
-        // $url = plugins_url($this->get_template_folder().'tilmelding.less', __FILE__);
-        // $url = str_replace("https://www.fastaval.dk","",$url);
-
-        //todo change function name
-		// load lightbox
-		
-        wp_enqueue_script( 'vcsys-lightbox-js', plugins_url('lightbox/js/lightbox.min.js', __FILE__));
 	    wp_enqueue_style( 'vcsys-lightbox', plugins_url('lightbox/css/lightbox.css', __FILE__) );
-	    //wp_enqueue_style( 'prefix-style', plugins_url($this->get_template_folder().'tilmelding.less', __FILE__) );
 		wp_enqueue_style( 'prefix-style', plugins_url($this->get_template_folder().'tilmelding.css', __FILE__) );
 		wp_enqueue_style( 'fusion-dynamic-css-css', plugins_url($this->get_template_folder().'copy_of_fusion_dynamic.min.css ', __FILE__) );
 	    wp_enqueue_style( 'signup-responsive', plugins_url($this->get_template_folder().'responsive.css', __FILE__) );
+	}
+
+	function add_scripts(){
+		// load lightbox
+		wp_enqueue_script( 'vcsys-lightbox-js', plugins_url('lightbox/js/lightbox.min.js', __FILE__));
+		
+		if (is_callable('add_template_scripts')){
+			add_template_scripts();
+		}
 	}
 	
 	function set_title_filter($content)
