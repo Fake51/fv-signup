@@ -319,11 +319,13 @@
                         // hide all activities and show junior activities
                         jQuery('#aktiviteter tr.row-with-game').addClass('hidden');
                         jQuery('#aktiviteter tr.row-type-junior').removeClass('hidden');
-                    } else if (selectFilterType!=""){
+                    } else {
                         // hide junior activities for normal participants
                         jQuery('#aktiviteter tr.row-type-junior').addClass('hidden');
-                        // activate any filter set on a previous page
-                        jQuery('#filter-'+selectFilterType).click();
+                        if (selectFilterType!=""){
+                            // activate any filter set on a previous page
+                            jQuery('#filter-'+selectFilterType).click();
+                        }
                     }
                 });
             </script>
