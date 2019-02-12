@@ -18,6 +18,12 @@
         public function init()
         {
         }
+
+        public function get_scripts(){
+            return array(
+                array('name' => 'activities-layout', 'file' => 'activities_layout.js')
+            );
+        }
         
         public function validate()
         {
