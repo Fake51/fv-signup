@@ -306,19 +306,26 @@
             <script>
                 jQuery(document).ready(function(){
                     
-                    jQuery('#aktiviteter tr.row-type-junior').addClass('hidden');
                     if (selectFilterType === "junior"){
-                        // do the  junior thing
+                        //Hide everything that isn't related to junior activities
+                        // hide type selector
                         jQuery(".type-selector").hide();
+                        // hide tables for days without junior activities
                         jQuery(".table-day").each( function (){
                             if(jQuery(this).find("tr.row-type-junior").length === 0){
                                 jQuery(this).hide();
                             }
                         });
+                        // hide all activities and show junior activities
                         jQuery('#aktiviteter tr.row-with-game').addClass('hidden');
                         jQuery('#aktiviteter tr.row-type-junior').removeClass('hidden');
-                    } else if (selectFilterType!=""){
-                        jQuery('#filter-'+selectFilterType).click();
+                    } else {
+                        // hide junior activities for normal participants
+                        jQuery('#aktiviteter tr.row-type-junior').addClass('hidden');
+                        if (selectFilterType!=""){
+                            // activate any filter set on a previous page
+                            jQuery('#filter-'+selectFilterType).click();
+                        }
                     }
                 });
             </script>
