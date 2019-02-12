@@ -113,7 +113,7 @@ class VCSys_Tilmelding
 		wp_enqueue_script( 'vcsys-lightbox-js', plugins_url('lightbox/js/lightbox.min.js', __FILE__));
 		
 		if (is_callable('add_template_scripts')){
-			add_template_scripts($this->current_template_folder);
+			add_template_scripts();
 		}
 	}
 	

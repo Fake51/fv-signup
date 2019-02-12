@@ -162,7 +162,7 @@ function get_previous_step_name(){
 
 }
 
-function add_template_scripts($folder){
+function add_template_scripts(){
     // add scripts for all pages here
     
     // add page specific scripts
@@ -171,7 +171,7 @@ function add_template_scripts($folder){
     {
         $scripts = $page->get_scripts();
         foreach($scripts as $script){
-            wp_enqueue_script( $script['name'], plugins_url("$folder/scripts/$script[file]", __FILE__));
+            wp_enqueue_script( $script['name'], plugins_url("scripts/$script[file]", __FILE__));
         }
     }
 }
