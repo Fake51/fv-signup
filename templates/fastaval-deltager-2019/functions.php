@@ -162,4 +162,18 @@ function get_previous_step_name(){
 
 }
 
+function add_template_scripts($folder){
+    // add scripts for all pages here
+    
+    // add page specific scripts
+    $page = SH()->signuppage_to_show();
+    if (is_callable(array($page, 'get_scripts')))
+    {
+        $scripts = $page->get_scripts();
+        foreach($scripts as $script){
+            wp_enqueue_script( $script['name'], plugins_url("$folder/scripts/$script[file]", __FILE__));
+        }
+    }
+}
+
 
