@@ -13,7 +13,7 @@
                     return true;
             
             if (isset($_SESSION['customer']['participant']) == 'deltagerjunior')
-                if ($numday==3)
+                if ($numday==4)
                     return true;
             
             return false;
