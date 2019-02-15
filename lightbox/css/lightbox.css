@@ -23,6 +23,7 @@ body:after {
   text-align: center;
   line-height: 0;
   font-weight: normal;
+  margin-top: 38px;
 }
 
 .lightbox .lb-image {
