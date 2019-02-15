@@ -260,14 +260,14 @@
         	if ($type=="ottoviteter")	$explain = __tm('Events');
         	if ($type=="junior")	$explain = __tm('Junior');
         	
-        	$image = "<img style='float:left;padding-right:12px;height:12px;width:auto;' src='" . plugin_dir_url( __FILE__ ).'../images/flag-'.$arr['language'].'.jpg' . "' />";
+        	$image = "<img style='float:left;padding-right:12px;height:16px;width:auto;' src='" . plugin_dir_url( __FILE__ ).'../images/flag-'.$arr['language'].'.jpg' . "' />";
         	
         	if (!$multi)
         	{	
              	?>
              	<tr class='row-with-game row-type-<?php echo $type;?>'>
         			<td class='caption'>
-        				<div class='box_<?php echo $type?>' title='<?php echo $explain?>' style='top:0px;'>&nbsp;</div>
+        				<!--<div class='box_<?php echo $type?>' title='<?php echo $explain?>' style='top:0px;'>&nbsp;</div>-->
         				<!-- <a href="javascript:void(0)" onclick="popup('/tilmelding/templates/2012/explain.php?id=<?php echo $ak_id?>')"><?php echo utf8_encode($name)?></a>-->
         				<?php 
                         if ($wp_id!=0)

@@ -263,10 +263,10 @@ span.link-previous:hover {
   margin: 0;
   padding: 0 0 0 10px;
   display: table-cell;
-  font-size: 10px;
+  font-size: 16px;
   line-height: 1rem;
   min-height: 3rem;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   border: none;
   min-width: 300px;
   text-decoration: none;
