@@ -25,7 +25,32 @@
         
         public function render()
         {
+            $my_errorHandler = array(
+                'other_comments' => array(
+                    'rules'=>"nonempty"
+                )
+            )
             ?>
+
+            <script>
+                function validate_required(field,alerttxt) {
+                    var value = jQuery('#'+field).val();
+                    if ((value==null)||(value=="")) {
+                        alert(alerttxt);
+                        return false;
+                    } else 
+                        return true;
+                }
+
+
+                function validate_form(thisform)
+                {
+                    jQuery('input.has-error').removeClass('has-error');
+                    <?php renderErrorHandlerAsJavascript($my_errorHandler); ?>
+                    return true;
+                }
+            </script>
+
         	<form method="post" action="<?php echo get_previous_step_name();?>" class='prev-form'>
                 <?php tilm_form_prev_fields(); ?>
                 <?php render_previous_button("general_previous_page");?>
