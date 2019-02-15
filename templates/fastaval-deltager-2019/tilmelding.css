@@ -101,7 +101,7 @@ span.link-previous:hover {
   float: left;
   width: 2%;
   position: relative;
-  top: 4px;
+  top: -4px;
 }
 #tilmelding-info .field-type-checkbox label {
   width: 48%;
