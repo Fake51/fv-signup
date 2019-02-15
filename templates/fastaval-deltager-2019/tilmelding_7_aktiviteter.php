@@ -98,9 +98,9 @@
                 <div id='tilmelding-info'>
                     
                     <?php
-                       if(!$junior) __etm('nocat_8');
+                       if($junior) __etm('nocat_8_junior');
+                       else __etm('nocat_8');
                     ?>
-                    
                     
                     <?php if(!$junior) { ?>
                     <h2>Filtrering</h2>
@@ -126,7 +126,10 @@
                         ?><script>selectFilterType = 'junior';</script><?php
                     } ?>
                     
-                    <?php __etm('nocat_9');?>
+                    <?php
+                       if($junior) __etm('nocat_9_junior');
+                       else __etm('nocat_9');
+                    ?>
                     
                     <?php 
                         if (!$junior) __etm('nocat_9_2'); // no game masters for Junior
@@ -235,30 +238,38 @@
                     ?>
                     
 
-
-                    <p><?php __etm('nocat_24');?></p>
-                    <?php
-        			renderFieldByType(array(
-            			'id'=>'max_games',
-            			'input-type'=>'select',
-            			'input-name'=>'max_games',
-            			'text'=>'nocat_25',
-            			'value' => array(
-                			'0' =>  'nocat_113',
-                			'1' =>  'nocat_114',
-                			'2' =>  'nocat_115',
-                			'3' =>  'nocat_116',
-                			'4' =>  'nocat_117',
-                			'5' =>  'nocat_118',
-                			'6' =>  'nocat_119',
-                			'7' =>  'nocat_120',
-                			'8' =>  'nocat_121',
-                			'9' =>  'nocat_122',
-                			'10' => 'nocat_123',
-            			),
-            			'class'=> array('fullsize-label'),
-        			));
-                    ?>
+                    <?php if (!$junior) {
+                        echo "<p>".__tm('nocat_24')."</p>";
+                        renderFieldByType(array(
+                            'id'=>'max_games',
+                            'input-type'=>'select',
+                            'input-name'=>'max_games',
+                            'text'=>'nocat_25',
+                            'value' => array(
+                                '0' =>  'nocat_113',
+                                '1' =>  'nocat_114',
+                                '2' =>  'nocat_115',
+                                '3' =>  'nocat_116',
+                                '4' =>  'nocat_117',
+                                '5' =>  'nocat_118',
+                                '6' =>  'nocat_119',
+                                '7' =>  'nocat_120',
+                                '8' =>  'nocat_121',
+                                '9' =>  'nocat_122',
+                                '10' => 'nocat_123',
+                            ),
+                            'class'=> array('fullsize-label'),
+                        ));
+                    } else {
+                        echo "<p>".__tm('nocat_24_junior')."</p>";
+            			renderFieldByType(array(
+                			'id'=>'special_skills',
+                			'input-type'=>'textarea',
+                			'input-name'=>'special_skills',
+                			'text'=>'',
+            			));
+                        echo "<p>".__tm('nocat_25_junior')."</p>";
+                    }?>
                     
                     <?php if (!$junior){ // No GM or Scenario competition for junior
                         if ($this->get_age()>=13){?>
