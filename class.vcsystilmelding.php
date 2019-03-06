@@ -63,6 +63,7 @@ class VCSys_Tilmelding
 				add_action('wp_enqueue_scripts', array(&$this,'add_stylesheet'));
 				add_action('wp_enqueue_scripts', array(&$this,'add_scripts'));
 				add_action('wp' , array(&$this,'handle_template'));
+				add_action('wp_head' , array(&$this,'extra_headers'));
 				
 				// correcting language selector references to the current page
 				$this->page_url = $url_prefix;
@@ -83,6 +84,10 @@ class VCSys_Tilmelding
 		$split[1] = isset($split[1]) ? "?".$split[1] : ""; // add the qeustionmark back to the querry or add an empty string
 		$url = $split[0].$this->page_url.$split[1]; //insert the current page url
 		return $url;
+	}
+	
+	function extra_headers(){
+		?> <meta name="robots" content="noindex" /> <?php
 	}
 
 	function handle_template(){
