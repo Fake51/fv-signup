@@ -62,12 +62,17 @@ class VCSys_Tilmelding
 				add_filter('wp_title', array(&$this,'set_title_filter'));
 				add_action('wp_enqueue_scripts', array(&$this,'add_stylesheet'));
 				add_action('wp' , array(&$this,'handle_template'));
+				add_action('wp_head' , array(&$this,'extra_headers'));
 				
 				// this is to avoid a 404 error
 				$request->query_vars = array();		
 				return $request;
 			}
 		}
+	}
+
+	function extra_headers(){
+		?> <meta name="robots" content="noindex" /> <?php
 	}
 
 	function handle_template(){
