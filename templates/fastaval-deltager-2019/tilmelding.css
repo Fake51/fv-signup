@@ -216,25 +216,25 @@ span.link-previous:hover {
   display: block;
 }
 #tilmelding-info #aktiviteter table tr.row-type-rolle .event {
-  background: #ecdda0;
+  background: #a4e686;
 }
 #tilmelding-info #aktiviteter table tr.row-type-braet .event {
   background: #a0b2ec;
 }
 #tilmelding-info #aktiviteter table tr.row-type-live .event {
-  background: #ddeebd;
+  background: #9f87b3;
 }
 #tilmelding-info #aktiviteter table tr.row-type-workshop .event {
   background: #eebdde;
 }
 #tilmelding-info #aktiviteter table tr.row-type-figur .event {
-  background: #eebdde;
+  background: #ff9494;
 }
 #tilmelding-info #aktiviteter table tr.row-type-magic .event {
-  background: #bbac83;
+  background: #537452;
 }
 #tilmelding-info #aktiviteter table tr.row-type-ottoviteter .event {
-  background: #dbdad7;
+  background: #f3ff8a;
 }
 #tilmelding-info #aktiviteter table tr.row-type-junior .event {
   background: #beefc4;
