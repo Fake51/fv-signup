@@ -12,7 +12,7 @@ class SignupHandler
         
         $this->signuppages = array();
         if (function_exists("myfunc_get_pages"))
-            $this->signuppages = myfunc_get_pages();
+            $this->signuppages = myfunc_get_pages(array());
     }
 
     public function init_signuppages()
