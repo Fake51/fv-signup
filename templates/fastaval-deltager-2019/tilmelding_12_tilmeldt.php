@@ -454,7 +454,9 @@
     			*/
     				
     			if ($customer['scenarieskrivningskonkurrence']==1)
-    				$signup_data['activity'][] = array('schedule_id' => 2,'priority' => 1,'type' => "spiller");
+    				$signup_data['activity'][] = array('schedule_id' => 205,'priority' => 1,'type' => "spiller");
+    				$signup_data['activity'][] = array('schedule_id' => 206,'priority' => 1,'type' => "spiller");
+    				$signup_data['activity'][] = array('schedule_id' => 207,'priority' => 1,'type' => "spiller");
     				
     			if ($customer['boardgame_competition']==1)
     				$signup_data['activity'][] = array('schedule_id' => 170,'priority' => 1,'type' => "spiller");
