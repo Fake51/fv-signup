@@ -17,11 +17,11 @@
         
         public function canShow()
         {
-            if ($_SESSION['customer']['participant']=='deltagerjunior')return false;
-
-            if (!in_array($_SESSION['customer']['participant'], array('deltagerjunior', 'deltager')))
+            if (isset($_SESSION['customer']['participant'])
+                    && !in_array($_SESSION['customer']['participant'], array('deltagerjunior', 'deltager')))
                 return true;
-            return false;
+            
+                return false;
         }
         
         public function render()

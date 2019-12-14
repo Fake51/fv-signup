@@ -17,7 +17,8 @@
         
         public function canShow()
         {
-            if ($_SESSION['customer']['participant']=='deltagerjunior')
+            if (isset($_SESSION['customer']['participant']) && 
+                    $_SESSION['customer']['participant']=='deltagerjunior')
                 return true;
             
             return false;
