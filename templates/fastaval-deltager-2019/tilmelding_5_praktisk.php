@@ -17,11 +17,15 @@
         
         public function canShow()
         {
-            if ($_SESSION['customer']['participant']=='deltagerjunior')return false;
+					if (isset($_SESSION['customer']['participant']) 
+								&& $_SESSION['customer']['participant']=='deltagerjunior')
+							return false;
 
-            if (isset($_SESSION['customer']['is_package']) && ($_SESSION['customer']['is_package']==1))
-                return false;
-            return true;
+						if (isset($_SESSION['customer']['is_package']) 
+								&& ($_SESSION['customer']['is_package']==1))
+              return false;
+
+						return true;
         }
         
         public function get_age(){
