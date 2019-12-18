@@ -30,23 +30,6 @@ class VCSys_Tilmelding
         	$this->add_template(get_field('tilmelding_test_url', 'option'), "templates/".get_field('tilmelding_test_template_navn','option')."/");
             $this->include_all_ajax($this->templates);
     	}
-		
-		/*
-        if (strtotime("03-02-2018 20:00:00") - strtotime("now") < 0)
-		{
-            if (strtotime("09-03-2017 01:00:01") - strtotime("now") < 0)
-        		{
-            		// the server is an hour behind. So.. thats why 04
-            		$this->add_template("/tilmelding/", "templates/fastaval-deltager-2018/");
-        		}
-        		else
-        		{
-            		$this->add_template("/tilmelding/", "templates/fastaval-deltager-2018/");
-        		}
-		} 
-    		$this->add_template("/tilmelding-giga-mega-secret/", "templates/fastaval-deltager-2018/");
-		*/
-     	// $this->include_all_ajax($this->templates);
 	}
 
 	function url_handler($request) 
@@ -66,7 +49,7 @@ class VCSys_Tilmelding
 				add_action('wp_head' , array(&$this,'extra_headers'));
 				
 				// correcting language selector references to the current page
-				$this->page_url = $url_prefix;
+				$this->page_url = explode("?", $_SERVER['REQUEST_URI'])[0];
 				add_filter('wpml_ls_language_url', array(&$this,'url_filter'));
 
 				// this is to avoid a 404 error
