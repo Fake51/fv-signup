@@ -199,7 +199,11 @@
     			$sprog = array();
     			if ($customer['other_dansk'])$sprog[]='dansk';
     			if ($customer['other_scandinavisk'])$sprog[]='skandinavisk';
-    			if ($customer['other_engelsk'])$sprog[]='engelsk';
+					if ($customer['other_engelsk'])$sprog[]='engelsk';
+					
+					$notes = [];
+					$notes['comment'] 	= $customer['other_comments'];
+					$notes['gds'] 			= $customer['gds_additional_notes'];
         		
     			$signup_data = array(
     			    'id'          => $user_id,
@@ -256,7 +260,7 @@
     			        'ready_mandag'                  => $customer['ready_mandag']?"ja":"nej",
     			        'ready_tirsdag'                 => $customer['ready_tirsdag']?"ja":"nej",
     			        'skills'                        => $customer['special_skills'],
-			        'deltager_note'                 => implode(array($customer['other_comments'],$customer['gds_additional_notes']),"\n\n"),
+			        		'deltager_note'                 => json_encode($notes),
     			        'original_price'                => $customer['__original_price'],
     			        
     			    ),
