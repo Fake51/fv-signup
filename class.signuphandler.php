@@ -98,21 +98,16 @@ class SignupHandler
             return $this->signuppage_to_load_saved;
         
         $actual_page = null;
-        foreach($this->signuppages as $page)
-        {
+        foreach($this->signuppages as $page) {
             $page->init();
-            if ($page->canShow())
-            {
-                if (tm_is_path($page->getSlug() ))
-                {
-                    $this->signuppage_to_load_saved = $page;
-                    $this->page_obj_to_show = $page;
-                    $actual_page = $page;
-                }
+            if ($page->canShow()) {
+                if (tm_is_path($page->getSlug() )) $actual_page = $page;
             }
         }
-
         
+        if($actual_page == null) $actual_page = $this->signuppages[0];
+        $this->signuppage_to_load_saved = $actual_page;
+        $this->page_obj_to_show = $actual_page;
 
         // first, validate the one we came from
         $posting_step = $this->get_posting_step_signuppage();

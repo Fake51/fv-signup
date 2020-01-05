@@ -547,10 +547,10 @@
                         $t = __tm('du_er_tilmeldt_tekst');
                         echo str_replace("[BETALINGSURL]", $_SESSION['betalings_url'], $t);
 												
-												if ($customer['participant']!="deltagerjunior") {
+												if ($customer['participant']=="deltagerjunior") {
 													echo '<p>'.__tm('fastaval_junior_tilbage').'</p>';
-													$url = "https://udv.fastaval.dk/tilmelding/";
-													$text = "Start";
+													$url = SH()->signuppages[0]->getSlug();
+													$text = __tm('fastaval_junior_tilbage_link');
 													echo "<a class='button' href='$url'>$text</a>";
 												}
                     ?>

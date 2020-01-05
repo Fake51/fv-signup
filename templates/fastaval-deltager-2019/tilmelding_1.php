@@ -8,7 +8,7 @@
     {
         public function getSlug()
         {
-            return '';
+            return './';
         }
         
         public function getTitle(){
