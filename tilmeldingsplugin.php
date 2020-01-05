@@ -73,6 +73,7 @@ function gf($name)
 
 
 function tm_is_path($what, $compare=null){
+    if ($compare === $what) return true;
     
     if ($compare===null)
         $compare = $_SERVER['REQUEST_URI'];
