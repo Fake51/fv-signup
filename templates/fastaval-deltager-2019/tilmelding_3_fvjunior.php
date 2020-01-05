@@ -27,8 +27,14 @@
         public function render()
         {
             $my_errorHandler = array(
-                'other_comments' => array(
+                'ward_name' => array(
                     'rules'=>"nonempty"
+                ),
+                'ward_phone' => array(
+                    'rules'=>array(
+                        array('digits'),
+                        array('length-above',7)
+                    )
                 )
             )
             ?>
@@ -76,10 +82,17 @@
                 <div id='tilmelding-info'>
                     <?php
             			renderFieldByType(array(
-                			'id'=>'other_comments',
-                			'input-type'=>'textarea',
-                			'input-name'=>'other_comments',
-                			'text'=>'',
+                			'id'=>'ward_name',
+                			'input-type'=>'text',
+                			'input-name'=>'ward_name',
+                			'text'=>'fastaval_junior_felt_1',
+            			));
+
+                        renderFieldByType(array(
+                			'id'=>'ward_phone',
+                			'input-type'=>'text',
+                			'input-name'=>'ward_phone',
+                			'text'=>'fastaval_junior_felt_2',
             			));
                     ?>
                 </div>

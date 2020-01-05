@@ -277,8 +277,14 @@
 			if ($customer['other_engelsk'])$sprog[]='engelsk';
 
 			$notes = [];
-			$notes['comment'] 	= $customer['other_comments'];
-			$notes['gds'] 			= $customer['gds_additional_notes'];
+			if ($customer['participant']!="deltagerjunior") {
+				$notes['comment'] 	= isset($customer['other_comments']) ? $customer['other_comments'] : "";
+				$notes['gds'] 			= isset($customer['gds_additional_notes']) ? $customer['gds_additional_notes'] : "";
+			} else {
+				$notes['junior_ward'] 	= "$customer[ward_name]\n$customer[ward_phone]";
+				$notes['comment'] 	= isset($customer['junior_comment']) ? $customer['junior_comment'] : "";
+			}
+
     		
 			$signup_data = array(
 //			    'id'          => $user_id,
