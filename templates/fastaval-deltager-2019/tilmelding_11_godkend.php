@@ -317,6 +317,7 @@
 			        // side 4 alea
 			        
 			        // side 5 indgang
+							'sober_sleeping'                => $customer['sober_sleeping']?'ja':'nej',
 			        
 			        // side 6 mad
 			        
