@@ -123,11 +123,7 @@
                 
                 <h1 class='entry-title'><?php __etm('nocat_174');?></h1>
                 <div id='tilmelding-info'>
-                    
-                    <p><?php __etm('nocat_175');?></p>
-                    
                     <?php
-                        
                     if (! in_array($_SESSION['customer']['participant'], array('deltager', 'deltagerjunior')))
                     {
                         ?><p><?php __etm('nocat_176');?></p><?php 
@@ -141,7 +137,6 @@
                     if (count($single_days)==1){
                         ?><p><?php __etm('nocat_176_4');?></p><?php 
                     }
-
                     
                     if ($_SESSION['customer']['aktiviteter_is_spilleder'] > 0)
                     {
@@ -149,6 +144,7 @@
                     } 
                     ?>
 
+                    <p><?php __etm('nocat_175');?></p>
                     <h3><?php __etm('gds_headline_ligeglad');?></h3>
                     <?php
         			renderFieldByType(array(
