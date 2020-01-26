@@ -516,20 +516,20 @@
 			
 			<div id='aktiviteter'>
 				<?php //TODO Add this to wp admin in some way
-        		 if ($this->attends_con_at_numday(1) && isset($afviklinger_daysplit[17])){
-    	    	     $this->ft_aktiviteterByDayJSON(17, "Onsdag (17. april 2019)", $afviklinger_daysplit[17] );
+        		 if ($this->attends_con_at_numday(1) && isset($afviklinger_daysplit[8])){
+    	    	     $this->ft_aktiviteterByDayJSON(8, "Onsdag (8. april 2020)", $afviklinger_daysplit[8] );
         		 }
-        		 if ($this->attends_con_at_numday(2) && isset($afviklinger_daysplit[18])){
-        		     $this->ft_aktiviteterByDayJSON(18, "Torsdag (18. april 2019)", $afviklinger_daysplit[18] );
+        		 if ($this->attends_con_at_numday(2) && isset($afviklinger_daysplit[9])){
+        		     $this->ft_aktiviteterByDayJSON(9, "Torsdag (9. april 2020)", $afviklinger_daysplit[9] );
         		 }
-        		 if ($this->attends_con_at_numday(3) && isset($afviklinger_daysplit[19])){
-        		     $this->ft_aktiviteterByDayJSON(19, "Fredag (19. april 2019)", $afviklinger_daysplit[19] );
+        		 if ($this->attends_con_at_numday(3) && isset($afviklinger_daysplit[10])){
+        		     $this->ft_aktiviteterByDayJSON(10, "Fredag (10. april 2020)", $afviklinger_daysplit[10] );
         		 }
-        		 if ($this->attends_con_at_numday(4) && isset($afviklinger_daysplit[20])){
-        		     $this->ft_aktiviteterByDayJSON(20, "Lørdag (20. april 2019)", $afviklinger_daysplit[20] );
+        		 if ($this->attends_con_at_numday(4) && isset($afviklinger_daysplit[11])){
+        		     $this->ft_aktiviteterByDayJSON(11, "Lørdag (11. april 2020)", $afviklinger_daysplit[11] );
         		 }
-        		 if ($this->attends_con_at_numday(5) && isset($afviklinger_daysplit[21])){
-        		     $this->ft_aktiviteterByDayJSON(21, "Søndag (21. april 2019)", $afviklinger_daysplit[21] );
+        		 if ($this->attends_con_at_numday(5) && isset($afviklinger_daysplit[12])){
+        		     $this->ft_aktiviteterByDayJSON(12, "Søndag (12. april 2020)", $afviklinger_daysplit[12] );
         		 }
         		 
 			 ?>
