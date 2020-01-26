@@ -558,7 +558,7 @@
 				   {
 					$type = "spiller";
 					$prio = gf('event_'.$i);
-					if ($prio==5)
+					if ($prio==6)
 					{
 						$prio = 1;
 						$type = "spilleder";
