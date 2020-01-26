@@ -298,12 +298,13 @@
         					<label for='<?=$id?>_1'><?php __etm('nocat_13')?></label><input type='radio' value='1' name='<?=$id?>' id='<?=$id?>_1' <?=$this->ft_getCheckedEvent($id,1)?>/>
         					<label for='<?=$id?>_2'><?php __etm('nocat_14')?></label><input type='radio' value='2' name='<?=$id?>' id='<?=$id?>_2' <?=$this->ft_getCheckedEvent($id,2)?>/>
         					<label for='<?=$id?>_3'><?php __etm('nocat_15')?></label><input type='radio' value='3' name='<?=$id?>' id='<?=$id?>_3' <?=$this->ft_getCheckedEvent($id,3)?>/>
+									<label for='<?=$id?>_4'><?php __etm('nocat_15_1')?></label><input type='radio' value='4' name='<?=$id?>' id='<?=$id?>_4' <?=$this->ft_getCheckedEvent($id,4)?>/>
         					<?php 
             				if ($antal_spilledere != -1000)
             				{
                 				?>
-                                <label for='<?=$id?>_4'><?php __etm('nocat_16')?></label><input type='radio' value='4' name='<?=$id?>' id='<?=$id?>_4' <?=$this->ft_getCheckedEvent($id,4)?>/>
-                                <label for='<?=$id?>_5'><?php __etm('nocat_17')?></label><input type='radio' value='5' name='<?=$id?>' id='<?=$id?>_5' <?=$this->ft_getCheckedEvent($id,5)?>/>
+                                <label for='<?=$id?>_5'><?php __etm('nocat_16')?></label><input type='radio' value='5' name='<?=$id?>' id='<?=$id?>_5' <?=$this->ft_getCheckedEvent($id,5)?>/>
+                                <label for='<?=$id?>_6'><?php __etm('nocat_17')?></label><input type='radio' value='6' name='<?=$id?>' id='<?=$id?>_6' <?=$this->ft_getCheckedEvent($id,6)?>/>
         					    <?php 
             				} 
             				?>
@@ -535,7 +536,7 @@
 			 </div>
 			
 			<script type="text/javascript">
-                var caption = ["&nbsp;", "<?php __etm("nocat_19")?>", "<?php __etm("nocat_20")?>", "<?php __etm("nocat_21")?>", "<?php __etm("nocat_22")?>", "<?php __etm("nocat_23")?>"];
+                var caption = ["&nbsp;", "<?php __etm("nocat_19")?>", "<?php __etm("nocat_20")?>", "<?php __etm("nocat_21")?>", "<?php __etm("nocat_21_1")?>", "<?php __etm("nocat_22")?>", "<?php __etm("nocat_23")?>"];
 			</script>
             <?php include('aktiviteter_v1.js.php'); ?>
 			

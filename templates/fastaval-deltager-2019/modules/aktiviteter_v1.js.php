@@ -80,7 +80,7 @@ function nextPriority(e,name,start,end,day)
 {
 	var radio = document.getElementsByName(name);
 	var radiolength = radio.length;
-	var radiovalue = -1;
+	var radiovalue = 0;
 	for (var i=0;i<radiolength;i++)
 	{
 		if (radio[i].checked)
@@ -92,13 +92,13 @@ function nextPriority(e,name,start,end,day)
 	// subtract
 	
 
-	var remainers = new Array(0,1,2,3,4,5);
+	var remainers = new Array(0,1,2,3,4,5,6);
 	var foes = new Array();
 
-	var max_prio = 5;
+	var max_prio = 6;
 	if (event_has_gms[name]*1==0){
-	    max_prio = 3;
-        remainers = new Array(0,1,2,3);
+	    max_prio = 4;
+        remainers = new Array(0,1,2,3,4);
 	}
 	
 	for (var d=1;d<=31;d++)
@@ -145,7 +145,7 @@ function nextPriority(e,name,start,end,day)
 function fixDisplay(name,radiovalue)
 {
     
-	jQuery('#'+name).removeClass('priority0 priority1 priority2 priority3 priority4 priority5');
+	jQuery('#'+name).removeClass('priority0 priority1 priority2 priority3 priority4 priority5 priority6');
 	jQuery('#'+name).addClass('priority'+radiovalue);
 	jQuery("#"+name+"_caption").html(caption[radiovalue]);
 	
