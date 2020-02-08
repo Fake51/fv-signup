@@ -406,8 +406,8 @@
     	          		$aktivitet = $afvikling['aktivitet'];
     	          		
     	     			$start = $timestamp_start['h']+2 + ($timestamp_start['m'] / 30 / 2);
-    	     			$length = $aktivitet['info']['play_hours'];
-    	          		$end = $start+$length;
+								$end = $timestamp_end['h']+2 + ($timestamp_end['m'] / 30 / 2);
+								$length = $end-$start; 
     	          		
     	          		if ($length==0) // events with 0 time => nope..
         	          		continue;
