@@ -268,16 +268,16 @@
              	<tr class='row-with-game row-type-<?php echo $type;?>'>
         			<td class='caption'>
         				<!--<div class='box_<?php echo $type?>' title='<?php echo $explain?>' style='top:0px;'>&nbsp;</div>-->
-        				<!-- <a href="javascript:void(0)" onclick="popup('/tilmelding/templates/2012/explain.php?id=<?php echo $ak_id?>')"><?php echo utf8_encode($name)?></a>-->
+        				<!-- <a href="javascript:void(0)" onclick="popup('/tilmelding/templates/2012/explain.php?id=<?php echo $ak_id?>')"><?php echo $name?></a>-->
         				<?php 
                         if ($wp_id!=0)
             			{
-            				?><a class='event-link' href="/?page_id=<?php echo $wp_id?>" data-id='<?php echo $id;?>'><?php echo utf8_encode($name)?></a><?php 
+            				?><a class='event-link' href="/?page_id=<?php echo $wp_id?>" data-id='<?php echo $id;?>'><?php echo $name?></a><?php 
             				echo $image;
                         }
                         else
                         {
-            				?><a class='event-link' href="#" data-id='<?php echo $id;?>'><?php echo utf8_encode($name)?></a><?php 
+            				?><a class='event-link' href="#" data-id='<?php echo $id;?>'><?php echo $name?></a><?php 
             				echo $image;
         				}
         				
@@ -321,7 +321,7 @@
         			<?php for ($i=0;$i<$remainder*2;$i++){?><td colspan='1' class='noevent'>&nbsp;</td><?php }?>
              	</tr>
              	<tr class='row-with-game row-has-explain row-type-<?php echo $type;?>' id='explain_<?php echo $id;?>' style='display:none;'>
-                 	<td colspan='39'><div style='padding:1em;'><p><strong><?php echo utf8_encode($name);?></strong></p><?php echo str_replace("\n","<br>",$text);?></div></td>
+                 	<td colspan='39'><div style='padding:1em;'><p><strong><?php echo $name;?></strong></p><?php echo str_replace("\n","<br>",$text);?></div></td>
              	</tr>
              	
              	<?php
@@ -330,7 +330,7 @@
              {
              	?>
              	<tr class='row-with-game row-type-<?php echo $type;?>'>
-        			<td class='caption'><?php echo utf8_encode($name)?></a><?php echo $image; ?></td>
+        			<td class='caption'><?php echo $name?></a><?php echo $image; ?></td>
         			<?php for ($i=0;$i<$start*2;$i++){?><td colspan='1' class='noevent'>&nbsp;</td><?php }?>
         			<td colspan='<?php echo $length*2?>' class='has-event'>
         				<div class='event priority0 event_size_<?php echo ($length/2)?>' onMouseDown='nextPriority(event,"<?php echo $id;?>",<?php echo $start*2;?>,<?php echo $end*2;?>,<?php echo $day;?>);' id='<?php echo $id;?>_m<?php echo $multi;?>'>
@@ -412,11 +412,11 @@
     	          		if ($length==0) // events with 0 time => nope..
         	          		continue;
         	          	
-    	          		$name = $aktivitet['info']['title_'.get_language()];
+										$name = $aktivitet['info']['title_'.get_language()];
     	          		$text = $aktivitet['info']['text_'.get_language()];
     	          		if ($afvikling['linked']!=0)
     	          		{
-    	          			$this->ft_renderEvent_add_array(utf8_decode($name),
+    	          			$this->ft_renderEvent_add_array($name,
                         	          			$start,
                         	          			$end,
                         	          			"event_".$afvikling["linked"],
@@ -437,7 +437,7 @@
     	          		}
     	          		else
     	          		{
-    	          			$this->ft_renderEvent_add_array(utf8_decode($name),
+    	          			$this->ft_renderEvent_add_array($name,
     	          			                      $start,
     	          			                      $end,
     	          			                      "event_".$afvikling["afvikling_id"],
