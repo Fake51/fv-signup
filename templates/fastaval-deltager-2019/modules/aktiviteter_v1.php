@@ -268,16 +268,16 @@
              	<tr class='row-with-game row-type-<?php echo $type;?>'>
         			<td class='caption'>
         				<!--<div class='box_<?php echo $type?>' title='<?php echo $explain?>' style='top:0px;'>&nbsp;</div>-->
-        				<!-- <a href="javascript:void(0)" onclick="popup('/tilmelding/templates/2012/explain.php?id=<?php echo $ak_id?>')"><?php echo utf8_encode($name)?></a>-->
+        				<!-- <a href="javascript:void(0)" onclick="popup('/tilmelding/templates/2012/explain.php?id=<?php echo $ak_id?>')"><?php echo $name?></a>-->
         				<?php 
                         if ($wp_id!=0)
             			{
-            				?><a class='event-link' href="/?page_id=<?php echo $wp_id?>" data-id='<?php echo $id;?>'><?php echo utf8_encode($name)?></a><?php 
+            				?><a class='event-link' href="/?page_id=<?php echo $wp_id?>" data-id='<?php echo $id;?>'><?php echo $name?></a><?php 
             				echo $image;
                         }
                         else
                         {
-            				?><a class='event-link' href="#" data-id='<?php echo $id;?>'><?php echo utf8_encode($name)?></a><?php 
+            				?><a class='event-link' href="#" data-id='<?php echo $id;?>'><?php echo $name?></a><?php 
             				echo $image;
         				}
         				
@@ -298,12 +298,13 @@
         					<label for='<?=$id?>_1'><?php __etm('nocat_13')?></label><input type='radio' value='1' name='<?=$id?>' id='<?=$id?>_1' <?=$this->ft_getCheckedEvent($id,1)?>/>
         					<label for='<?=$id?>_2'><?php __etm('nocat_14')?></label><input type='radio' value='2' name='<?=$id?>' id='<?=$id?>_2' <?=$this->ft_getCheckedEvent($id,2)?>/>
         					<label for='<?=$id?>_3'><?php __etm('nocat_15')?></label><input type='radio' value='3' name='<?=$id?>' id='<?=$id?>_3' <?=$this->ft_getCheckedEvent($id,3)?>/>
+									<label for='<?=$id?>_4'><?php __etm('nocat_15_1')?></label><input type='radio' value='4' name='<?=$id?>' id='<?=$id?>_4' <?=$this->ft_getCheckedEvent($id,4)?>/>
         					<?php 
             				if ($antal_spilledere != -1000)
             				{
                 				?>
-                                <label for='<?=$id?>_4'><?php __etm('nocat_16')?></label><input type='radio' value='4' name='<?=$id?>' id='<?=$id?>_4' <?=$this->ft_getCheckedEvent($id,4)?>/>
-                                <label for='<?=$id?>_5'><?php __etm('nocat_17')?></label><input type='radio' value='5' name='<?=$id?>' id='<?=$id?>_5' <?=$this->ft_getCheckedEvent($id,5)?>/>
+                                <label for='<?=$id?>_5'><?php __etm('nocat_16')?></label><input type='radio' value='5' name='<?=$id?>' id='<?=$id?>_5' <?=$this->ft_getCheckedEvent($id,5)?>/>
+                                <label for='<?=$id?>_6'><?php __etm('nocat_17')?></label><input type='radio' value='6' name='<?=$id?>' id='<?=$id?>_6' <?=$this->ft_getCheckedEvent($id,6)?>/>
         					    <?php 
             				} 
             				?>
@@ -320,7 +321,7 @@
         			<?php for ($i=0;$i<$remainder*2;$i++){?><td colspan='1' class='noevent'>&nbsp;</td><?php }?>
              	</tr>
              	<tr class='row-with-game row-has-explain row-type-<?php echo $type;?>' id='explain_<?php echo $id;?>' style='display:none;'>
-                 	<td colspan='39'><div style='padding:1em;'><p><strong><?php echo utf8_encode($name);?></strong></p><?php echo str_replace("\n","<br>",$text);?></div></td>
+                 	<td colspan='39'><div style='padding:1em;'><p><strong><?php echo $name;?></strong></p><?php echo str_replace("\n","<br>",$text);?></div></td>
              	</tr>
              	
              	<?php
@@ -329,7 +330,7 @@
              {
              	?>
              	<tr class='row-with-game row-type-<?php echo $type;?>'>
-        			<td class='caption'><?php echo utf8_encode($name)?></a><?php echo $image; ?></td>
+        			<td class='caption'><?php echo $name?></a><?php echo $image; ?></td>
         			<?php for ($i=0;$i<$start*2;$i++){?><td colspan='1' class='noevent'>&nbsp;</td><?php }?>
         			<td colspan='<?php echo $length*2?>' class='has-event'>
         				<div class='event priority0 event_size_<?php echo ($length/2)?>' onMouseDown='nextPriority(event,"<?php echo $id;?>",<?php echo $start*2;?>,<?php echo $end*2;?>,<?php echo $day;?>);' id='<?php echo $id;?>_m<?php echo $multi;?>'>
@@ -405,17 +406,17 @@
     	          		$aktivitet = $afvikling['aktivitet'];
     	          		
     	     			$start = $timestamp_start['h']+2 + ($timestamp_start['m'] / 30 / 2);
-    	     			$length = $aktivitet['info']['play_hours'];
-    	          		$end = $start+$length;
+								$end = $timestamp_end['h']+2 + ($timestamp_end['m'] / 30 / 2);
+								$length = $end-$start; 
     	          		
     	          		if ($length==0) // events with 0 time => nope..
         	          		continue;
         	          	
-    	          		$name = $aktivitet['info']['title_'.get_language()];
+										$name = $aktivitet['info']['title_'.get_language()];
     	          		$text = $aktivitet['info']['text_'.get_language()];
     	          		if ($afvikling['linked']!=0)
     	          		{
-    	          			$this->ft_renderEvent_add_array(utf8_decode($name),
+    	          			$this->ft_renderEvent_add_array($name,
                         	          			$start,
                         	          			$end,
                         	          			"event_".$afvikling["linked"],
@@ -436,7 +437,7 @@
     	          		}
     	          		else
     	          		{
-    	          			$this->ft_renderEvent_add_array(utf8_decode($name),
+    	          			$this->ft_renderEvent_add_array($name,
     	          			                      $start,
     	          			                      $end,
     	          			                      "event_".$afvikling["afvikling_id"],
@@ -515,27 +516,27 @@
 			
 			<div id='aktiviteter'>
 				<?php //TODO Add this to wp admin in some way
-        		 if ($this->attends_con_at_numday(1) && isset($afviklinger_daysplit[17])){
-    	    	     $this->ft_aktiviteterByDayJSON(17, "Onsdag (17. april 2019)", $afviklinger_daysplit[17] );
+        		 if ($this->attends_con_at_numday(1) && isset($afviklinger_daysplit[8])){
+    	    	     $this->ft_aktiviteterByDayJSON(8, "Onsdag (8. april 2020)", $afviklinger_daysplit[8] );
         		 }
-        		 if ($this->attends_con_at_numday(2) && isset($afviklinger_daysplit[18])){
-        		     $this->ft_aktiviteterByDayJSON(18, "Torsdag (18. april 2019)", $afviklinger_daysplit[18] );
+        		 if ($this->attends_con_at_numday(2) && isset($afviklinger_daysplit[9])){
+        		     $this->ft_aktiviteterByDayJSON(9, "Torsdag (9. april 2020)", $afviklinger_daysplit[9] );
         		 }
-        		 if ($this->attends_con_at_numday(3) && isset($afviklinger_daysplit[19])){
-        		     $this->ft_aktiviteterByDayJSON(19, "Fredag (19. april 2019)", $afviklinger_daysplit[19] );
+        		 if ($this->attends_con_at_numday(3) && isset($afviklinger_daysplit[10])){
+        		     $this->ft_aktiviteterByDayJSON(10, "Fredag (10. april 2020)", $afviklinger_daysplit[10] );
         		 }
-        		 if ($this->attends_con_at_numday(4) && isset($afviklinger_daysplit[20])){
-        		     $this->ft_aktiviteterByDayJSON(20, "Lørdag (20. april 2019)", $afviklinger_daysplit[20] );
+        		 if ($this->attends_con_at_numday(4) && isset($afviklinger_daysplit[11])){
+        		     $this->ft_aktiviteterByDayJSON(11, "Lørdag (11. april 2020)", $afviklinger_daysplit[11] );
         		 }
-        		 if ($this->attends_con_at_numday(5) && isset($afviklinger_daysplit[21])){
-        		     $this->ft_aktiviteterByDayJSON(21, "Søndag (21. april 2019)", $afviklinger_daysplit[21] );
+        		 if ($this->attends_con_at_numday(5) && isset($afviklinger_daysplit[12])){
+        		     $this->ft_aktiviteterByDayJSON(12, "Søndag (12. april 2020)", $afviklinger_daysplit[12] );
         		 }
         		 
 			 ?>
 			 </div>
 			
 			<script type="text/javascript">
-                var caption = ["&nbsp;", "<?php __etm("nocat_19")?>", "<?php __etm("nocat_20")?>", "<?php __etm("nocat_21")?>", "<?php __etm("nocat_22")?>", "<?php __etm("nocat_23")?>"];
+                var caption = ["&nbsp;", "<?php __etm("nocat_19")?>", "<?php __etm("nocat_20")?>", "<?php __etm("nocat_21")?>", "<?php __etm("nocat_21_1")?>", "<?php __etm("nocat_22")?>", "<?php __etm("nocat_23")?>"];
 			</script>
             <?php include('aktiviteter_v1.js.php'); ?>
 			

@@ -199,7 +199,16 @@
     			$sprog = array();
     			if ($customer['other_dansk'])$sprog[]='dansk';
     			if ($customer['other_scandinavisk'])$sprog[]='skandinavisk';
-    			if ($customer['other_engelsk'])$sprog[]='engelsk';
+					if ($customer['other_engelsk'])$sprog[]='engelsk';
+					
+					$notes = [];
+					if ($customer['participant']!="deltagerjunior") {
+						$notes['comment'] 	= isset($customer['other_comments']) ? $customer['other_comments'] : "";
+						$notes['gds'] 			= isset($customer['gds_additional_notes']) ? $customer['gds_additional_notes'] : "";
+					} else {
+						$notes['junior_ward'] 	= "$customer[ward_name]\n$customer[ward_phone]";
+						$notes['comment'] 	= isset($customer['junior_comment']) ? $customer['junior_comment'] : "";
+					}
         		
     			$signup_data = array(
     			    'id'          => $user_id,
@@ -232,6 +241,7 @@
     			        // side 4 alea
     			        
     			        // side 5 indgang
+									'sober_sleeping'                => $customer['sober_sleeping']?'ja':'nej',
     			        
     			        // side 6 mad
     			        
@@ -256,7 +266,7 @@
     			        'ready_mandag'                  => $customer['ready_mandag']?"ja":"nej",
     			        'ready_tirsdag'                 => $customer['ready_tirsdag']?"ja":"nej",
     			        'skills'                        => $customer['special_skills'],
-			        'deltager_note'                 => implode(array($customer['other_comments'],$customer['gds_additional_notes']),"\n\n"),
+			        		'deltager_note'                 => json_encode($notes),
     			        'original_price'                => $customer['__original_price'],
     			        
     			    ),
@@ -454,9 +464,7 @@
     			*/
     				
     			if ($customer['scenarieskrivningskonkurrence']==1) {
-    				$signup_data['activity'][] = array('schedule_id' => 205,'priority' => 1,'type' => "spiller");
-    				$signup_data['activity'][] = array('schedule_id' => 206,'priority' => 1,'type' => "spiller");
-    				$signup_data['activity'][] = array('schedule_id' => 207,'priority' => 1,'type' => "spiller");
+    				$signup_data['activity'][] = array('schedule_id' => 190,'priority' => 1,'type' => "spiller");
     			}
     				
     			if ($customer['boardgame_competition']==1)
@@ -471,7 +479,7 @@
     				   {
     					$type = "spiller";
     					$prio = gf('event_'.$i);
-    					if ($prio==5)
+    					if ($prio==6)
     					{
     						$prio = 1;
     						$type = "spilleder";
@@ -537,6 +545,13 @@
                     <?php 
                         $t = __tm('du_er_tilmeldt_tekst');
                         echo str_replace("[BETALINGSURL]", $_SESSION['betalings_url'], $t);
+												
+												if ($customer['participant']=="deltagerjunior") {
+													echo '<p>'.__tm('fastaval_junior_tilbage').'</p>';
+													$url = SH()->signuppages[0]->getSlug();
+													$text = __tm('fastaval_junior_tilbage_link');
+													echo "<a class='button' href='$url'>$text</a>";
+												}
                     ?>
                 </div>
                 <?php

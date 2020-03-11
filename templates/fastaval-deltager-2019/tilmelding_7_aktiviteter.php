@@ -263,9 +263,9 @@
                     } else {
                         echo "<p>".__tm('nocat_24_junior')."</p>";
             			renderFieldByType(array(
-                			'id'=>'special_skills',
+                			'id'=>'junior_comment',
                 			'input-type'=>'textarea',
-                			'input-name'=>'special_skills',
+                			'input-name'=>'junior_comment',
                 			'text'=>'',
             			));
                         echo "<p>".__tm('nocat_25_junior')."</p>";

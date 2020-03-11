@@ -21,45 +21,24 @@
         
         public function canShow()
         {
-            if ($_SESSION['customer']['participant']=='deltagerjunior') return false;
+            if (isset($_SESSION['customer']['participant']) 
+                    && $_SESSION['customer']['participant']=='deltagerjunior')
+                return false;
 
             $numdays = 0;
-            
-            if (isset($_SESSION['customer']['days_1']) && ($_SESSION['customer']['days_1']>0))
+            for($i = 1; $i <= 5; $i++){
+                if (isset($_SESSION['customer']["days_$i"]) && ($_SESSION['customer']["days_$i"]>0))
                 $numdays++;
-                
-            if (isset($_SESSION['customer']['days_2']) && ($_SESSION['customer']['days_2']>0))
-                $numdays++;
-                
-            if (isset($_SESSION['customer']['days_3']) && ($_SESSION['customer']['days_3']>0))
-                $numdays++;
-                
-            if (isset($_SESSION['customer']['days_4']) && ($_SESSION['customer']['days_4']>0))
-                $numdays++;
-                
-            if (isset($_SESSION['customer']['days_5']) && ($_SESSION['customer']['days_5']>0))
-                $numdays++;
+            }
 
             if (isset($_SESSION['customer']['days_all']) && ($_SESSION['customer']['days_all']>0))
                 $numdays=5;
-                
 
             if ($numdays<=1) return false;
             
             if (isset($_SESSION['customer']['is_package']) && ($_SESSION['customer']['is_package']==1))
                 return false;
                 
-            if ($_SESSION['customer']['participant']=='deltagerjunior')
-                return false;
-
-            if ( $_SESSION['customer']['participant'] == 'deltagerjunior' )
-                if ( $numday == 3 )
-                    return true;
-            
-            //if (in_array($_SESSION['customer']['participant'], array('deltagerjunior', 'deltager')))
-            //    return true;
-            // return false;
-            
             return true;
         }
 
@@ -144,11 +123,7 @@
                 
                 <h1 class='entry-title'><?php __etm('nocat_174');?></h1>
                 <div id='tilmelding-info'>
-                    
-                    <p><?php __etm('nocat_175');?></p>
-                    
                     <?php
-                        
                     if (! in_array($_SESSION['customer']['participant'], array('deltager', 'deltagerjunior')))
                     {
                         ?><p><?php __etm('nocat_176');?></p><?php 
@@ -162,7 +137,6 @@
                     if (count($single_days)==1){
                         ?><p><?php __etm('nocat_176_4');?></p><?php 
                     }
-
                     
                     if ($_SESSION['customer']['aktiviteter_is_spilleder'] > 0)
                     {
@@ -170,6 +144,7 @@
                     } 
                     ?>
 
+                    <p><?php __etm('nocat_175');?></p>
                     <h3><?php __etm('gds_headline_ligeglad');?></h3>
                     <?php
         			renderFieldByType(array(

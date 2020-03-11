@@ -17,11 +17,15 @@
         
         public function canShow()
         {
-            if ($_SESSION['customer']['participant']=='deltagerjunior')return false;
+					if (isset($_SESSION['customer']['participant']) 
+								&& $_SESSION['customer']['participant']=='deltagerjunior')
+							return false;
 
-            if (isset($_SESSION['customer']['is_package']) && ($_SESSION['customer']['is_package']==1))
-                return false;
-            return true;
+						if (isset($_SESSION['customer']['is_package']) 
+								&& ($_SESSION['customer']['is_package']==1))
+              return false;
+
+						return true;
         }
         
         public function get_age(){
@@ -310,33 +314,21 @@
             			'text'=>'page4_text19',
         			));
         			?>
+            <p><?php __etm('page4_text20');?></p>
+						<?php
+        			renderFieldByType(array(
+            			'id'=>'field_sober_sleeping',
+            			'input-type'=>'checkbox',
+            			'input-name'=>'sober_sleeping',
+            			'text'=>'page4_text21',
+        			));
+        			?>
 
-<!--
-                    <h2><?php __etm('page4_headline_camping');?></h2>
-                    <p><?php __etm('page4_text_camping');?></p>
-                    <?php
-            			renderFieldByType(array(
-                			'id'=>'days_camping',
-                			'input-type'=>'checkbox',
-                			'input-name'=>'days_camping',
-                			'text'=>'page4_checkbox_camping',
-            			));
-                    ?>
--->                    
-                    
+
+
                     <h2><?php __etm('page3_text5');?></h2>
                     <p><?php __etm('page3_text2');?></p>
                     <?php
-                        /*
-        			renderFieldByType(array(
-            			'id'=>'field1_17',
-            			'input-type'=>'checkbox',
-            			'input-name'=>'new_alea',
-            			'text'=>'page3_text3',
-            			'class'=>array('fullwidth-checkbox'),
-            			'default-checked' => true,
-        			));
-					*/
 					if (in_array($_SESSION['customer']['participant'], array('deltagerjunior', 'deltager'))){
 						// regular antendee
 						renderFieldByType(array(
